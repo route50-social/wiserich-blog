@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" width="1000" height="780" font-family="'Noto Sans CJK KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <!-- 그림 1: 내 돈 500만 원 + 신용융자 500만 원으로 산 주식이 30% 떨어질 때 내 돈과 담보비율의 변화 (가상의 계산 예시) -->
+  <rect width="1000" height="780" fill="#fafafa"/>
+  <text x="500" y="78" text-anchor="middle" font-size="44" font-weight="700" fill="#18181b">주가 −30% <tspan fill="#71717a">→</tspan> <tspan fill="#1d4ed8">내 돈 −60%</tspan></text>
+  <path d="M60 620H940" stroke="#71717a" stroke-width="3"/>
+  <rect x="110" y="395" width="280" height="225" fill="#3f3f46"/>
+  <rect x="110" y="170" width="280" height="225" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="250" y="497" text-anchor="middle" font-size="32" font-weight="700" fill="#ffffff">증권사 융자</text>
+  <text x="250" y="540" text-anchor="middle" font-size="32" fill="#ffffff">500만 원</text>
+  <text x="250" y="272" text-anchor="middle" font-size="32" font-weight="700" fill="#1e3a8a">내 돈</text>
+  <text x="250" y="315" text-anchor="middle" font-size="32" fill="#1e3a8a">500만 원</text>
+  <rect x="610" y="170" width="280" height="135" fill="none" stroke="#a1a1aa" stroke-width="3" stroke-dasharray="12 9"/>
+  <text x="750" y="250" text-anchor="middle" font-size="34" font-weight="700" fill="#1d4ed8">−300만 원</text>
+  <rect x="610" y="395" width="280" height="225" fill="#3f3f46"/>
+  <rect x="610" y="305" width="280" height="90" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="750" y="497" text-anchor="middle" font-size="32" font-weight="700" fill="#ffffff">증권사 융자</text>
+  <text x="750" y="540" text-anchor="middle" font-size="32" fill="#ffffff">500만 원</text>
+  <text x="750" y="362" text-anchor="middle" font-size="32" font-weight="700" fill="#1e3a8a">내 돈 200만 원</text>
+  <text x="250" y="675" text-anchor="middle" font-size="32" font-weight="700" fill="#18181b">매수 직후 1,000만 원</text>
+  <text x="250" y="725" text-anchor="middle" font-size="32" fill="#3f3f46">담보비율 200%</text>
+  <text x="750" y="675" text-anchor="middle" font-size="32" font-weight="700" fill="#18181b">30% 하락 후 700만 원</text>
+  <text x="750" y="725" text-anchor="middle" font-size="32" fill="#3f3f46">담보비율 140%</text>
+</svg>

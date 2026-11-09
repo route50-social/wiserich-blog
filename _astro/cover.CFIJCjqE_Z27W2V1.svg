@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="'Noto Sans CJK KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <!-- 표지: 산 가격(점선) 아래로 내려간 주가 선과 손실 구간, 옆의 점검표. 주식에 물렸을 때 차분히 점검하는 상황을 나타냅니다. -->
+  <rect width="1600" height="900" fill="#f4f4f5"/>
+  <rect x="230" y="170" width="860" height="560" rx="28" fill="#ffffff" stroke="#d4d4d8" stroke-width="3"/>
+  <g stroke="#e4e4e7" stroke-width="2">
+    <path d="M270 250H1050M270 360H1050M270 470H1050M270 580H1050M270 690H1050"/>
+  </g>
+  <path d="M665 330L680 340L740 420L800 400L860 500L920 480L980 590L1040 570V330Z" fill="#2563eb" fill-opacity="0.14"/>
+  <path d="M270 330H1050" stroke="#27272a" stroke-width="4" stroke-dasharray="16 12"/>
+  <text x="275" y="312" font-size="32" font-weight="700" fill="#3f3f46">매수가</text>
+  <path d="M290 480L360 430L420 450L490 380L560 330L620 300L665 330" fill="none" stroke="#27272a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M665 330L680 340L740 420L800 400L860 500L920 480L980 590L1040 570" fill="none" stroke="#1d4ed8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="560" cy="330" r="13" fill="#ffffff" stroke="#27272a" stroke-width="6"/>
+  <circle cx="1040" cy="570" r="14" fill="#1d4ed8"/>
+  <rect x="1150" y="250" width="240" height="430" rx="24" fill="#ffffff" stroke="#27272a" stroke-width="6"/>
+  <rect x="1220" y="222" width="100" height="52" rx="14" fill="#27272a"/>
+  <g stroke="#27272a" stroke-width="5" fill="#ffffff">
+    <rect x="1185" y="320" width="40" height="40" rx="8"/>
+    <rect x="1185" y="415" width="40" height="40" rx="8"/>
+    <rect x="1185" y="510" width="40" height="40" rx="8"/>
+    <rect x="1185" y="605" width="40" height="40" rx="8"/>
+  </g>
+  <path d="M1193 340L1203 351L1220 328M1193 435L1203 446L1220 423" fill="none" stroke="#1d4ed8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke="#a1a1aa" stroke-width="12" stroke-linecap="round">
+    <path d="M1250 340H1355M1250 435H1335M1250 530H1355M1250 625H1325"/>
+  </g>
+</svg>
