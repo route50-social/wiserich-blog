@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="'Noto Sans CJK KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+  <!-- 그림 3: 1,000만 원을 연 5%로 30년 굴릴 때 단리와 복리 비교. 세금·수수료 제외 계산값 -->
+  <rect width="1000" height="640" fill="#fafafa"/>
+  <path d="M150 446.0H760M150 352.0H760M150 258.0H760M150 164.0H760M150 70.0H760M353.3 70V540M556.7 70V540M760.0 70V540" stroke="#e4e4e7" stroke-width="2"/>
+  <text x="136" y="549.0" text-anchor="end" font-size="25" fill="#52525b">0</text>
+  <text x="136" y="455.0" text-anchor="end" font-size="25" fill="#52525b">1,000</text>
+  <text x="136" y="361.0" text-anchor="end" font-size="25" fill="#52525b">2,000</text>
+  <text x="136" y="267.0" text-anchor="end" font-size="25" fill="#52525b">3,000</text>
+  <text x="136" y="173.0" text-anchor="end" font-size="25" fill="#52525b">4,000</text>
+  <text x="136" y="79.0" text-anchor="end" font-size="25" fill="#52525b">5,000</text>
+  <text x="150.0" y="580" text-anchor="middle" font-size="26" fill="#3f3f46">0년</text>
+  <text x="353.3" y="580" text-anchor="middle" font-size="26" fill="#3f3f46">10년</text>
+  <text x="556.7" y="580" text-anchor="middle" font-size="26" fill="#3f3f46">20년</text>
+  <text x="760.0" y="580" text-anchor="middle" font-size="26" fill="#3f3f46">30년</text>
+  <path d="M150 70V540H760" fill="none" stroke="#71717a" stroke-width="3"/>
+  <polyline points="150.0 446.0 170.3 441.3 190.7 436.4 211.0 431.2 231.3 425.7 251.7 420.0 272.0 414.0 292.3 407.7 312.7 401.1 333.0 394.2 353.3 386.9 373.7 379.2 394.0 371.2 414.3 362.7 434.7 353.9 455.0 344.6 475.3 334.8 495.7 324.6 516.0 313.8 536.3 302.5 556.7 290.6 577.0 278.1 597.3 265.0 617.7 251.3 638.0 236.8 658.3 221.7 678.7 205.8 699.0 189.1 719.3 171.5 739.7 153.1 760.0 133.7" fill="none" stroke="#1d4ed8" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="760" cy="133.7" r="9" fill="#1d4ed8"/>
+  <text x="782" y="151.7" font-size="28" font-weight="700" fill="#1d4ed8">복리</text>
+  <text x="782" y="187.7" font-size="28" font-weight="700" fill="#18181b">약 4,322만 원</text>
+  <polyline points="150.0 446.0 170.3 441.3 190.7 436.6 211.0 431.9 231.3 427.2 251.7 422.5 272.0 417.8 292.3 413.1 312.7 408.4 333.0 403.7 353.3 399.0 373.7 394.3 394.0 389.6 414.3 384.9 434.7 380.2 455.0 375.5 475.3 370.8 495.7 366.1 516.0 361.4 536.3 356.7 556.7 352.0 577.0 347.3 597.3 342.6 617.7 337.9 638.0 333.2 658.3 328.5 678.7 323.8 699.0 319.1 719.3 314.4 739.7 309.7 760.0 305.0" fill="none" stroke="#27272a" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="16 10"/>
+  <circle cx="760" cy="305.0" r="9" fill="#27272a"/>
+  <text x="782" y="319.0" font-size="28" font-weight="700" fill="#27272a">단리</text>
+  <text x="782" y="355.0" font-size="28" font-weight="700" fill="#18181b">2,500만 원</text>
+  <text x="150" y="40" text-anchor="middle" font-size="25" fill="#52525b">단위: 만 원</text>
+</svg>
