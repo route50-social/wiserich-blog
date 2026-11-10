@@ -1,0 +1,45 @@
+<!-- 본문 그림 3: 1,000만 원을 연 5%로 30년 굴릴 때 단리와 복리 비교 (세금·수수료 제외 계산값) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 696" role="img" aria-labelledby="fig3-title fig3-desc">
+  <title id="fig3-title">단리와 복리, 30년 뒤의 차이</title>
+  <desc id="fig3-desc">1,000만 원을 연 5%로 굴리면 단리는 매년 50만 원씩 늘어 30년 뒤 2,500만 원이 되고, 복리는 처음엔 단리와 비슷하다가 갈수록 가파르게 늘어 약 4,322만 원이 된다. 30년 뒤 차이는 약 1,822만 원이다.</desc>
+
+  <rect width="1200" height="696" rx="16" fill="#fcf8f8"/>
+  <rect x="1" y="1" width="1198" height="694" rx="16" fill="none" stroke="#eedcdc" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#191f28">단리와 복리, 30년 뒤의 차이</text>
+    <text x="64" y="140" font-size="25" fill="#4e5968">원금 1,000만 원을 연 5%로 굴릴 때 (세금·수수료 제외)</text>
+    <text x="160" y="200" font-size="23" fill="#4e5968" text-anchor="middle">단위: 만 원</text>
+
+    <path d="M160 496H880M160 432H880M160 368H880M160 304H880M160 240H880M400 240V560M640 240V560M880 240V560" stroke="#efe4e4" stroke-width="2"/>
+    <g font-size="23" fill="#4e5968" text-anchor="end">
+      <text x="144" y="568">0</text>
+      <text x="144" y="504">1,000</text>
+      <text x="144" y="440">2,000</text>
+      <text x="144" y="376">3,000</text>
+      <text x="144" y="312">4,000</text>
+      <text x="144" y="248">5,000</text>
+    </g>
+    <g font-size="23" fill="#333d4b" text-anchor="middle">
+      <text x="160" y="600">0년</text>
+      <text x="400" y="600">10년</text>
+      <text x="640" y="600">20년</text>
+      <text x="880" y="600">30년</text>
+    </g>
+    <path d="M160 232V560H880" fill="none" stroke="#8b95a1" stroke-width="3"/>
+
+    <!-- 복리와 단리 사이 = 이자에 붙은 이자 -->
+    <polygon points="160 496 184 492.8 208 489.4 232 485.9 256 482.2 280 478.3 304 474.2 328 469.9 352 465.4 376 460.7 400 455.8 424 450.5 448 445.1 472 439.3 496 433.3 520 426.9 544 420.3 568 413.3 592 406 616 398.3 640 390.2 664 381.7 688 372.8 712 363.4 736 353.6 760 343.3 784 332.4 808 321.1 832 309.1 856 296.6 880 283.4 880 400 856 403.2 832 406.4 808 409.6 784 412.8 760 416 736 419.2 712 422.4 688 425.6 664 428.8 640 432 616 435.2 592 438.4 568 441.6 544 444.8 520 448 496 451.2 472 454.4 448 457.6 424 460.8 400 464 376 467.2 352 470.4 328 473.6 304 476.8 280 480 256 483.2 232 486.4 208 489.6 184 492.8 160 496" fill="#f04452" fill-opacity="0.12"/>
+    <polyline points="160 496 184 492.8 208 489.6 232 486.4 256 483.2 280 480 304 476.8 328 473.6 352 470.4 376 467.2 400 464 424 460.8 448 457.6 472 454.4 496 451.2 520 448 544 444.8 568 441.6 592 438.4 616 435.2 640 432 664 428.8 688 425.6 712 422.4 736 419.2 760 416 784 412.8 808 409.6 832 406.4 856 403.2 880 400" fill="none" stroke="#8b95a1" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="18 10"/>
+    <polyline points="160 496 184 492.8 208 489.4 232 485.9 256 482.2 280 478.3 304 474.2 328 469.9 352 465.4 376 460.7 400 455.8 424 450.5 448 445.1 472 439.3 496 433.3 520 426.9 544 420.3 568 413.3 592 406 616 398.3 640 390.2 664 381.7 688 372.8 712 363.4 736 353.6 760 343.3 784 332.4 808 321.1 832 309.1 856 296.6 880 283.4" fill="none" stroke="#f04452" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="880" cy="283.4" r="9" fill="#f04452"/>
+    <circle cx="880" cy="400" r="9" fill="#8b95a1"/>
+
+    <text x="904" y="291.4" font-size="24" font-weight="700" fill="#d22030">복리 · 약 4,322만 원</text>
+    <path d="M912 307.4V376" stroke="#d22030" stroke-width="2" stroke-dasharray="4 6"/>
+    <text x="928" y="349.7" font-size="23" fill="#333d4b">차이 약 1,822만 원</text>
+    <text x="904" y="408" font-size="24" font-weight="700" fill="#4e5968">단리 · 2,500만 원</text>
+
+    <text x="64" y="656" font-size="22" fill="#4e5968">가정: 수익률이 매년 일정. 실선은 복리, 점선은 단리, 색칠한 부분은 이자에 다시 붙은 이자</text>
+  </g>
+</svg>

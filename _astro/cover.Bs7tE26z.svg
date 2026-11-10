@@ -1,0 +1,145 @@
+<!-- 표지: 주방 조리대 위 장보기 봉투, 2015년과 2025년 소비자물가지수를 적은 영수증, 동전 위로 싹이 자라는 유리병 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">장바구니와 물가 영수증, 싹이 자라는 동전 병</title>
+  <desc id="cover-desc">세이지빛 벽 앞 조리대 위에 대파와 바게트, 사과가 담긴 종이 장보기 봉투가 있고, 가운데 영수증에는 소비자물가지수가 2015년 94.9에서 2025년 116.6으로 22.9% 올랐다고 적혀 있다. 오른쪽 유리병에는 동전이 쌓여 있고 그 위로 잎이 점점 커지는 싹이 자란다.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3ebe5"/>
+      <stop offset="1" stop-color="#c3d3c8"/>
+    </linearGradient>
+    <linearGradient id="counter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1eee9"/>
+      <stop offset="1" stop-color="#d8d2c8"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.45" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bag" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c79a62"/>
+      <stop offset="0.55" stop-color="#d9b07a"/>
+      <stop offset="1" stop-color="#b8864d"/>
+    </linearGradient>
+    <linearGradient id="bread" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d48a3c"/>
+      <stop offset="1" stop-color="#e9b26a"/>
+    </linearGradient>
+    <radialGradient id="apple" cx="0.35" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#ff7a85"/>
+      <stop offset="1" stop-color="#d22030"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="0.3" stop-color="#e6f0ec" stop-opacity="0.25"/>
+      <stop offset="0.85" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9ca3af"/>
+      <stop offset="0.5" stop-color="#e5e7eb"/>
+      <stop offset="1" stop-color="#8b929c"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f8f4e"/>
+      <stop offset="1" stop-color="#6cc785"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="190%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#3d4a40" flood-opacity="0.28"/>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="190%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#3d4a40" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- 배경: 벽, 타일 줄눈, 조리대 -->
+  <rect width="1600" height="900" fill="url(#wall)"/>
+  <g stroke="#b6c7bb" stroke-opacity="0.6" stroke-width="2">
+    <path d="M0 160H1600M0 320H1600M0 480H1600"/>
+    <path d="M200 0V160M520 0V160M840 0V160M1160 0V160M1480 0V160M360 160V320M680 160V320M1000 160V320M1320 160V320M200 320V480M520 320V480M840 320V480M1160 320V480M1480 320V480M360 480V640M680 480V640M1000 480V640M1320 480V640"/>
+  </g>
+  <ellipse cx="820" cy="430" rx="620" ry="380" fill="url(#light)"/>
+  <rect y="696" width="1600" height="204" fill="url(#counter)"/>
+  <rect y="696" width="1600" height="10" fill="#ffffff" fill-opacity="0.7"/>
+
+  <!-- 사물 전체를 조리대 위로 조금 내려 아래쪽 빈 공간을 줄임 -->
+  <g transform="translate(0 56)">
+
+  <!-- 왼쪽: 종이 장보기 봉투와 식료품 -->
+  <g filter="url(#shadow)">
+    <!-- 대파 -->
+    <g stroke-linecap="round">
+      <path d="M470 420 C455 330 430 260 400 200" stroke="#3f9a5a" stroke-width="22" fill="none"/>
+      <path d="M492 420 C490 320 500 240 520 170" stroke="#55b06f" stroke-width="22" fill="none"/>
+      <path d="M480 420 C470 340 462 290 452 236" stroke="#2f8048" stroke-width="16" fill="none"/>
+    </g>
+    <!-- 바게트 -->
+    <g transform="rotate(14 600 330)">
+      <rect x="566" y="180" width="72" height="300" rx="36" fill="url(#bread)"/>
+      <g stroke="#f6d9a6" stroke-width="7" stroke-linecap="round">
+        <path d="M584 226 L620 210M584 276 L620 260M584 326 L620 310"/>
+      </g>
+    </g>
+    <!-- 봉투 -->
+    <path d="M380 400 H720 L700 690 H400 Z" fill="url(#bag)"/>
+    <path d="M380 400 H720 L716 432 H384 Z" fill="#b07f48"/>
+    <path d="M440 470 V660M660 470 V660" stroke="#b07f48" stroke-opacity="0.45" stroke-width="3"/>
+    <!-- 사과 -->
+    <circle cx="452" cy="404" r="46" fill="url(#apple)"/>
+    <circle cx="534" cy="414" r="40" fill="url(#apple)"/>
+    <path d="M452 360 q4 -18 16 -26" stroke="#6b4b2a" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M534 376 q2 -14 12 -20" stroke="#6b4b2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- 가운데: 소비자물가지수 영수증 -->
+  <g transform="translate(728 168) rotate(3)" filter="url(#shadow)">
+    <path d="M0 0 H360 V500 l-18 16 l-18 -16 l-18 16 l-18 -16 l-18 16 l-18 -16 l-18 16 l-18 -16 l-18 16 l-18 -16 l-18 16 l-18 -16 l-18 16 l-18 -16 l-18 16 l-18 -16 l-18 16 l-18 -16 l-18 16 l-18 -16 Z" fill="#ffffff"/>
+    <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif" fill="#292524">
+      <text x="180" y="68" font-size="30" font-weight="700" text-anchor="middle">같은 장바구니</text>
+      <text x="180" y="104" font-size="22" fill="#57534e" text-anchor="middle">소비자물가지수 (2020=100)</text>
+      <path d="M32 132 H328" stroke="#a8a29e" stroke-width="2.5" stroke-dasharray="3 8" stroke-linecap="round"/>
+      <text x="32" y="196" font-size="28">2015년</text>
+      <text x="32" y="260" font-size="28">2025년</text>
+      <g font-family="'JetBrains Mono', Menlo, Consolas, monospace" font-size="30" text-anchor="end">
+        <text x="328" y="196">94.9</text>
+        <text x="328" y="260" font-weight="700" fill="#d22030">116.6</text>
+      </g>
+      <path d="M32 300 H328" stroke="#292524" stroke-width="2.5"/>
+      <text x="32" y="356" font-size="28" font-weight="700">상승</text>
+      <text x="328" y="356" font-size="32" font-weight="700" fill="#d22030" text-anchor="end" font-family="'JetBrains Mono', Menlo, Consolas, monospace">+22.9%</text>
+      <g fill="#44403c">
+        <rect x="72" y="408" width="5" height="48"/><rect x="84" y="408" width="3" height="48"/><rect x="94" y="408" width="8" height="48"/>
+        <rect x="110" y="408" width="3" height="48"/><rect x="120" y="408" width="5" height="48"/><rect x="133" y="408" width="3" height="48"/>
+        <rect x="144" y="408" width="8" height="48"/><rect x="160" y="408" width="5" height="48"/><rect x="172" y="408" width="3" height="48"/>
+        <rect x="183" y="408" width="8" height="48"/><rect x="198" y="408" width="3" height="48"/><rect x="208" y="408" width="5" height="48"/>
+        <rect x="221" y="408" width="8" height="48"/><rect x="236" y="408" width="3" height="48"/><rect x="246" y="408" width="5" height="48"/>
+        <rect x="259" y="408" width="3" height="48"/><rect x="270" y="408" width="8" height="48"/><rect x="284" y="408" width="5" height="48"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- 오른쪽: 동전이 쌓인 유리병과 점점 커지는 잎 -->
+  <g filter="url(#shadow)">
+    <ellipse cx="1260" cy="706" rx="140" ry="22" fill="#3d4a40" fill-opacity="0.12"/>
+    <!-- 병 안 동전 -->
+    <g stroke="#6b7280" stroke-width="2">
+      <path d="M1150 650 v18 a110 26 0 0 0 220 0 v-18" fill="url(#coin)"/>
+      <ellipse cx="1260" cy="650" rx="110" ry="26" fill="#d1d5db"/>
+      <path d="M1150 618 v18 a110 26 0 0 0 220 0 v-18" fill="url(#coin)"/>
+      <ellipse cx="1260" cy="618" rx="110" ry="26" fill="#d1d5db"/>
+      <path d="M1150 586 v18 a110 26 0 0 0 220 0 v-18" fill="url(#coin)"/>
+      <ellipse cx="1260" cy="586" rx="110" ry="26" fill="#d1d5db"/>
+    </g>
+    <!-- 흙과 싹: 위로 갈수록 잎이 커짐 -->
+    <ellipse cx="1260" cy="566" rx="104" ry="22" fill="#6b4b2a"/>
+    <path d="M1260 566 C1258 500 1268 440 1262 330" stroke="#2f8f4e" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M1262 530 C1230 520 1214 504 1210 488 C1232 488 1252 504 1262 530 Z" fill="url(#leaf)"/>
+    <path d="M1264 478 C1300 470 1324 446 1330 420 C1296 422 1270 444 1264 478 Z" fill="url(#leaf)"/>
+    <path d="M1263 412 C1212 404 1176 368 1166 328 C1218 332 1254 366 1263 412 Z" fill="url(#leaf)"/>
+    <path d="M1262 340 C1316 330 1360 280 1372 226 C1312 232 1268 278 1262 340 Z" fill="url(#leaf)"/>
+    <!-- 유리병 -->
+    <path d="M1136 470 Q1136 448 1158 444 H1362 Q1384 448 1384 470 V680 Q1384 708 1356 708 H1164 Q1136 708 1136 680 Z" fill="url(#glass)" stroke="#9fb5a8" stroke-width="4"/>
+    <rect x="1150" y="430" width="220" height="22" rx="8" fill="#ffffff" fill-opacity="0.35" stroke="#9fb5a8" stroke-width="4"/>
+    <path d="M1160 490 V670" stroke="#ffffff" stroke-opacity="0.8" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  </g>
+</svg>

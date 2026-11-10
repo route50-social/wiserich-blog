@@ -1,0 +1,84 @@
+<!-- 본문 그림 1: 2016~2025년 연간 소비자물가 상승률 막대그래프와 한국은행 물가안정목표 2% 선 (자료: 국가지표체계, 국가데이터처 소비자물가조사) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="fig1-title fig1-desc">
+  <title id="fig1-title">연간 소비자물가 상승률, 2016~2025년</title>
+  <desc id="fig1-desc">전년 대비 소비자물가 상승률은 2016년 1.0%, 2017년 1.9%, 2018년 1.5%, 2019년 0.4%, 2020년 0.5%, 2021년 2.5%, 2022년 5.1%, 2023년 3.6%, 2024년 2.3%, 2025년 2.1%였다. 2019~2020년에는 물가안정목표 2%를 크게 밑돌았고 2022년에 가장 높았다.</desc>
+
+  <rect width="1200" height="680" rx="16" fill="#fbf8f6"/>
+  <rect x="1" y="1" width="1198" height="678" rx="16" fill="none" stroke="#e5ddd6" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#191f28">10년 동안의 연간 소비자물가 상승률</text>
+    <text x="64" y="140" font-size="25" fill="#4e5968">전년 대비 상승률, 2020년=100 기준 소비자물가지수</text>
+
+    <!-- 범례 -->
+    <rect x="64" y="176" width="24" height="24" rx="4" fill="#f04452"/>
+    <text x="100" y="197" font-size="23" fill="#333d4b">연간 상승률</text>
+    <path d="M272 188H328" stroke="#4e5968" stroke-width="4" stroke-dasharray="12 8"/>
+    <text x="340" y="197" font-size="23" fill="#333d4b">한국은행 물가안정목표 2%</text>
+    <text x="1136" y="197" font-size="23" fill="#4e5968" text-anchor="end">단위: %</text>
+
+    <!-- 눈금: 1%p = 52px, 0% = y 544 -->
+    <path d="M160 440H1136M160 336H1136M160 232H1136" stroke="#ebe5df" stroke-width="2"/>
+    <g font-size="23" fill="#4e5968" text-anchor="end">
+      <text x="144" y="552">0%</text>
+      <text x="144" y="448">2%</text>
+      <text x="144" y="344">4%</text>
+      <text x="144" y="240">6%</text>
+    </g>
+
+    <g fill="#f04452">
+      <rect x="180.8" y="492" width="56" height="52" rx="4"/>
+      <rect x="278.4" y="445.2" width="56" height="98.8" rx="4"/>
+      <rect x="376" y="466" width="56" height="78" rx="4"/>
+      <rect x="473.6" y="523.2" width="56" height="20.8" rx="4"/>
+      <rect x="571.2" y="518" width="56" height="26" rx="4"/>
+      <rect x="668.8" y="414" width="56" height="130" rx="4"/>
+      <rect x="766.4" y="278.8" width="56" height="265.2" rx="4"/>
+      <rect x="864" y="356.8" width="56" height="187.2" rx="4"/>
+      <rect x="961.6" y="424.4" width="56" height="119.6" rx="4"/>
+      <rect x="1059.2" y="434.8" width="56" height="109.2" rx="4"/>
+    </g>
+    <path d="M160 440H1136" stroke="#4e5968" stroke-width="4" stroke-dasharray="12 8"/>
+    <path d="M160 544H1136" stroke="#8b95a1" stroke-width="3"/>
+
+    <!-- 목표선과 겹치는 값 글자가 읽히도록 글자 뒤에 배경색 상자를 깔아 둠 -->
+    <g fill="#fbf8f6">
+      <rect x="182.8" y="452" width="52" height="32" rx="4"/>
+      <rect x="280.4" y="405.2" width="52" height="32" rx="4"/>
+      <rect x="378" y="426" width="52" height="32" rx="4"/>
+      <rect x="475.6" y="483.2" width="52" height="32" rx="4"/>
+      <rect x="573.2" y="478" width="52" height="32" rx="4"/>
+      <rect x="670.8" y="374" width="52" height="32" rx="4"/>
+      <rect x="768.4" y="238.8" width="52" height="32" rx="4"/>
+      <rect x="866" y="316.8" width="52" height="32" rx="4"/>
+      <rect x="963.6" y="384.4" width="52" height="32" rx="4"/>
+      <rect x="1061.2" y="394.8" width="52" height="32" rx="4"/>
+    </g>
+    <g font-size="25" font-weight="700" fill="#d22030" text-anchor="middle">
+      <text x="208.8" y="480">1.0</text>
+      <text x="306.4" y="433.2">1.9</text>
+      <text x="404" y="454">1.5</text>
+      <text x="501.6" y="511.2">0.4</text>
+      <text x="599.2" y="506">0.5</text>
+      <text x="696.8" y="402">2.5</text>
+      <text x="794.4" y="266.8">5.1</text>
+      <text x="892" y="344.8">3.6</text>
+      <text x="989.6" y="412.4">2.3</text>
+      <text x="1087.2" y="422.8">2.1</text>
+    </g>
+    <g font-size="23" fill="#333d4b" text-anchor="middle">
+      <text x="208.8" y="584">2016</text>
+      <text x="306.4" y="584">2017</text>
+      <text x="404" y="584">2018</text>
+      <text x="501.6" y="584">2019</text>
+      <text x="599.2" y="584">2020</text>
+      <text x="696.8" y="584">2021</text>
+      <text x="794.4" y="584">2022</text>
+      <text x="892" y="584">2023</text>
+      <text x="989.6" y="584">2024</text>
+      <text x="1087.2" y="584">2025</text>
+    </g>
+
+    <text x="64" y="640" font-size="22" fill="#4e5968">자료: 국가지표체계(국가데이터처 소비자물가조사)</text>
+  </g>
+</svg>

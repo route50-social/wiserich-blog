@@ -1,0 +1,43 @@
+<!-- 본문 그림 2: 물가 연 2%·3% 가정에서 현금 1,000만 원의 구매력이 30년 동안 줄어드는 곡선 (계산값) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 696" role="img" aria-labelledby="fig2-title fig2-desc">
+  <title id="fig2-title">물가 상승률에 따른 현금 1,000만 원의 구매력</title>
+  <desc id="fig2-desc">통장 잔고는 1,000만 원 그대로지만, 지금 물가 기준 구매력은 물가가 연 2%씩 오르면 10년 뒤 약 820만 원, 20년 뒤 약 673만 원, 30년 뒤 약 552만 원으로, 연 3%씩 오르면 약 744만 원, 554만 원, 412만 원으로 줄어든다. 30년 뒤 두 경우의 차이는 약 140만 원이다.</desc>
+
+  <rect width="1200" height="696" rx="16" fill="#f7f9fc"/>
+  <rect x="1" y="1" width="1198" height="694" rx="16" fill="none" stroke="#d9e2ee" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#191f28">잔고는 그대로, 구매력은 줄어듭니다</text>
+    <text x="64" y="140" font-size="25" fill="#4e5968">현금 1,000만 원을 이자 없이 둘 때 지금 물가 기준 구매력</text>
+    <text x="160" y="200" font-size="23" fill="#4e5968" text-anchor="middle">단위: 만 원</text>
+
+    <path d="M160 480H880M160 400H880M160 320H880M160 240H880M400 240V560M640 240V560M880 240V560" stroke="#e3e9f1" stroke-width="2"/>
+    <g font-size="23" fill="#4e5968" text-anchor="end">
+      <text x="144" y="568">0</text>
+      <text x="144" y="488">250</text>
+      <text x="144" y="408">500</text>
+      <text x="144" y="328">750</text>
+      <text x="144" y="248">1,000</text>
+    </g>
+    <g font-size="23" fill="#333d4b" text-anchor="middle">
+      <text x="160" y="600">0년</text>
+      <text x="400" y="600">10년</text>
+      <text x="640" y="600">20년</text>
+      <text x="880" y="600">30년</text>
+    </g>
+    <path d="M160 232V560H880" fill="none" stroke="#8b95a1" stroke-width="3"/>
+
+    <!-- 통장 잔고(명목 금액)는 변하지 않음 -->
+    <path d="M160 240H880" stroke="#8b95a1" stroke-width="5" stroke-dasharray="14 10"/>
+    <text x="904" y="248" font-size="24" font-weight="700" fill="#4e5968">잔고 1,000만 원</text>
+
+    <polyline points="160 240 184 246.3 208 252.4 232 258.5 256 264.4 280 270.2 304 275.8 328 281.4 352 286.9 376 292.2 400 297.5 424 302.6 448 307.7 472 312.6 496 317.5 520 322.2 544 326.9 568 331.5 592 335.9 616 340.3 640 344.6 664 348.9 688 353 712 357.1 736 361 760 365 784 368.8 808 372.5 832 376.2 856 379.8 880 383.3" fill="none" stroke="#3182f6" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="160 240 184 249.3 208 258.4 232 267.2 256 275.7 280 284 304 292 328 299.8 352 307.4 376 314.7 400 321.9 424 328.8 448 335.6 472 342.1 496 348.4 520 354.6 544 360.6 568 366.4 592 372 616 377.5 640 382.8 664 388 688 393 712 397.9 736 402.6 760 407.2 784 411.6 808 415.9 832 420.1 856 424.2 880 428.2" fill="none" stroke="#1b64da" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="18 10"/>
+    <circle cx="880" cy="383.3" r="9" fill="#3182f6"/>
+    <circle cx="880" cy="428.2" r="9" fill="#1b64da"/>
+    <text x="904" y="391.3" font-size="24" font-weight="700" fill="#1b64da">물가 연 2% · 약 552만 원</text>
+    <text x="904" y="436.2" font-size="24" font-weight="700" fill="#1b64da">물가 연 3% · 약 412만 원</text>
+
+    <text x="64" y="656" font-size="22" fill="#4e5968">가정: 물가가 매년 같은 비율로 상승, 이자·세금 없음. 실선은 연 2%, 점선은 연 3%</text>
+  </g>
+</svg>
