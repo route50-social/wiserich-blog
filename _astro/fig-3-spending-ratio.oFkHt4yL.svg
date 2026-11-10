@@ -1,0 +1,48 @@
+<!-- 본문 그림 3: 2026년 2분기 소득분위별 평균소비성향 비교 막대그래프 (자료: 국가데이터처 가계동향조사) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="fig3-title fig3-desc">
+  <title id="fig3-title">소득에 따라 다른 평균소비성향</title>
+  <desc id="fig3-desc">2026년 2분기 가계동향조사에서 처분가능소득 가운데 소비지출로 쓴 비율인 평균소비성향은 소득 상위 20% 가구 60.3%, 전체 가구 69.2%, 소득 하위 20% 가구 125.3%였다. 하위 20% 가구는 100%를 넘어 처분가능소득보다 더 많이 썼다.</desc>
+
+  <rect width="1200" height="600" rx="16" fill="#f8f7fc"/>
+  <rect x="1" y="1" width="1198" height="598" rx="16" fill="none" stroke="#d6d2ea" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#211d33">소득에 따라 다른 평균소비성향</text>
+    <text x="64" y="140" font-size="25" fill="#4a4560">처분가능소득 가운데 소비지출로 쓴 비율, 2026년 2분기 월평균</text>
+
+    <!-- 눈금: 0~140%, 1%p = 5.714px, 0% = x 300 -->
+    <g stroke="#e2dfee" stroke-width="2">
+      <path d="M300 184V472M414.3 184V472M528.6 184V472M642.9 184V472M757.1 184V472M985.7 184V472M1100 184V472"/>
+    </g>
+    <g font-size="22" fill="#4a4560" text-anchor="middle">
+      <text x="300" y="508">0%</text>
+      <text x="528.6" y="508">40%</text>
+      <text x="757.1" y="508">80%</text>
+      <text x="1100" y="508">140%</text>
+    </g>
+
+    <!-- 막대 -->
+    <rect x="300" y="208" width="344.6" height="56" rx="8" fill="#b9b3d8"/>
+    <rect x="300" y="300" width="395.4" height="56" rx="8" fill="#8a80c4"/>
+    <rect x="300" y="392" width="716" height="56" rx="8" fill="#4b3fa6"/>
+
+    <!-- 100% 기준선 -->
+    <path d="M871.4 176V472" stroke="#211d33" stroke-width="3" stroke-dasharray="10 8"/>
+    <text x="871.4" y="508" font-size="22" font-weight="700" fill="#211d33" text-anchor="middle">100%</text>
+    <text x="871.4" y="552" font-size="22" fill="#4a4560" text-anchor="middle">처분가능소득을 모두 쓰는 선</text>
+
+    <!-- 항목 이름 -->
+    <g font-size="25" fill="#211d33" text-anchor="end">
+      <text x="276" y="245">소득 상위 20%</text>
+      <text x="276" y="337">전체 가구</text>
+      <text x="276" y="429">소득 하위 20%</text>
+    </g>
+
+    <!-- 값 -->
+    <g font-size="26" font-weight="700" fill="#211d33">
+      <text x="660.6" y="245">60.3%</text>
+      <text x="711.4" y="337">69.2%</text>
+    </g>
+    <text x="1000" y="429" font-size="26" font-weight="700" fill="#ffffff" text-anchor="end">125.3%</text>
+  </g>
+</svg>

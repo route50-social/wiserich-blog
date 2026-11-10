@@ -1,0 +1,55 @@
+<!-- 본문 그림 1: 월급이 급여 통장에 들어온 뒤 저축·상환, 고정지출, 생활비 통장 순서로 나뉘는 흐름 (가상 예시) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="fig1-title fig1-desc">
+  <title id="fig1-title">월급이 나가는 순서 정하기</title>
+  <desc id="fig1-desc">실수령 230만 원이 급여 통장에 들어오면 첫째 저축과 대출 상환 50만 원을 월급 다음 날 자동이체하고, 둘째 월세·통신비·보험료 같은 고정지출 76만 원을 자동 납부하고, 셋째 남은 104만 원을 생활비 통장으로 옮겨 그 안에서 쓰는 흐름. 가상 예시.</desc>
+  <defs>
+    <marker id="fig1-arrow" viewBox="0 0 14 14" refX="12" refY="7" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M4 2L12 7L4 12" fill="none" stroke="#4c4470" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="680" rx="16" fill="#f8f7fc"/>
+  <rect x="1" y="1" width="1198" height="678" rx="16" fill="none" stroke="#d6d2ea" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#211d33">월급이 나가는 순서 정하기</text>
+    <text x="64" y="140" font-size="25" fill="#4a4560">쓰고 남은 돈을 모으는 대신, 모을 돈을 먼저 떼어 둡니다 (가상 예시)</text>
+
+    <!-- 급여 통장 -->
+    <rect x="64" y="304" width="296" height="200" rx="20" fill="#ffffff" stroke="#8a80c4" stroke-width="3"/>
+    <text x="212" y="370" font-size="28" font-weight="700" fill="#211d33" text-anchor="middle">급여 통장</text>
+    <text x="212" y="424" font-size="40" font-weight="700" fill="#4b3fa6" text-anchor="middle">230만 원</text>
+    <text x="212" y="468" font-size="23" fill="#4a4560" text-anchor="middle">한 달 실수령액</text>
+
+    <!-- 연결선 -->
+    <g fill="none" stroke="#4c4470" stroke-width="3" marker-end="url(#fig1-arrow)">
+      <path d="M360 404H408C432 404 432 256 456 256H536"/>
+      <path d="M360 404H536"/>
+      <path d="M360 404H408C432 404 432 552 456 552H536"/>
+    </g>
+
+    <!-- 1. 저축·상환 -->
+    <rect x="544" y="184" width="592" height="144" rx="20" fill="#ece9fb" stroke="#8a80c4" stroke-width="2"/>
+    <circle cx="596" cy="236" r="24" fill="#4b3fa6"/>
+    <text x="596" y="245" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="640" y="246" font-size="28" font-weight="700" fill="#211d33">저축·대출 상환</text>
+    <text x="1104" y="246" font-size="30" font-weight="700" fill="#4b3fa6" text-anchor="end">50만 원</text>
+    <text x="640" y="296" font-size="23" fill="#3b3650">월급 다음 날 자동이체: 적금 30만 + 학자금 20만</text>
+
+    <!-- 2. 고정지출 -->
+    <rect x="544" y="336" width="592" height="144" rx="20" fill="#ffffff" stroke="#b9b3d8" stroke-width="2"/>
+    <circle cx="596" cy="388" r="24" fill="#6d64a3"/>
+    <text x="596" y="397" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="640" y="398" font-size="28" font-weight="700" fill="#211d33">고정지출</text>
+    <text x="1104" y="398" font-size="30" font-weight="700" fill="#4a4560" text-anchor="end">76만 원</text>
+    <text x="640" y="448" font-size="23" fill="#3b3650">월세·관리비·통신비·보험료·교통비 자동 납부</text>
+
+    <!-- 3. 생활비 -->
+    <rect x="544" y="488" width="592" height="144" rx="20" fill="#fff4e6" stroke="#e3b97a" stroke-width="2"/>
+    <circle cx="596" cy="540" r="24" fill="#a8641a"/>
+    <text x="596" y="549" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="640" y="550" font-size="28" font-weight="700" fill="#211d33">생활비 통장</text>
+    <text x="1104" y="550" font-size="30" font-weight="700" fill="#8a4f10" text-anchor="end">104만 원</text>
+    <text x="640" y="600" font-size="23" fill="#3b3650">식비·생활용품·여가는 이 안에서, 남으면 비상금으로</text>
+  </g>
+</svg>
