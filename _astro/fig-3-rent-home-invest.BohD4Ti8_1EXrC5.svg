@@ -1,0 +1,75 @@
+<!-- 본문 그림 3: 전월세로 살기, 실거주 내 집, 투자용 부동산의 목적·얻는 것·먼저 볼 것·큰 위험 비교표 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="fig3-title fig3-desc">
+  <title id="fig3-title">같은 집, 다른 질문</title>
+  <desc id="fig3-desc">전월세로 살기는 살 곳을 빌리는 것으로 이사가 자유롭고 목돈 부담이 작지만 보증금을 돌려받지 못할 위험이 있어 등기부와 반환보증을 먼저 본다. 실거주 내 집은 내가 살 집을 사는 것으로 주거가 안정되지만 집값 변동을 떠안고, 대출 상환 여력과 생활 입지를 먼저 보며 빚 부담과 이사의 어려움이 위험이다. 투자용 부동산은 수익을 노리고 사는 것으로 임대수입과 시세차익을 기대하지만 보장되지 않고, 세금·금리·공실과 팔 때의 수요를 먼저 보며 가격 하락과 규제 변화가 위험이다.</desc>
+
+  <rect width="1200" height="760" rx="16" fill="#faf7f2"/>
+  <rect x="1" y="1" width="1198" height="758" rx="16" fill="none" stroke="#e5dccf" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#2a211b">같은 집, 다른 질문</text>
+    <text x="64" y="140" font-size="25" fill="#5b4f45">어떤 목적으로 집과 관계를 맺느냐에 따라 따질 것이 달라집니다</text>
+
+    <!-- 열 머리 -->
+    <rect x="256" y="176" width="280" height="64" rx="12" fill="#35707a"/>
+    <rect x="552" y="176" width="280" height="64" rx="12" fill="#a64b25"/>
+    <rect x="848" y="176" width="280" height="64" rx="12" fill="#5a5f7d"/>
+    <g font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">
+      <text x="396" y="218">전월세로 살기</text>
+      <text x="692" y="218">실거주 내 집</text>
+      <text x="988" y="218">투자용 부동산</text>
+    </g>
+
+    <!-- 칸 배경 -->
+    <g fill="#ffffff" stroke="#e5dccf" stroke-width="2">
+      <rect x="256" y="256" width="280" height="72" rx="10"/>
+      <rect x="552" y="256" width="280" height="72" rx="10"/>
+      <rect x="848" y="256" width="280" height="72" rx="10"/>
+      <rect x="256" y="344" width="280" height="104" rx="10"/>
+      <rect x="552" y="344" width="280" height="104" rx="10"/>
+      <rect x="848" y="344" width="280" height="104" rx="10"/>
+      <rect x="256" y="464" width="280" height="104" rx="10"/>
+      <rect x="552" y="464" width="280" height="104" rx="10"/>
+      <rect x="848" y="464" width="280" height="104" rx="10"/>
+      <rect x="256" y="584" width="280" height="104" rx="10"/>
+      <rect x="552" y="584" width="280" height="104" rx="10"/>
+      <rect x="848" y="584" width="280" height="104" rx="10"/>
+    </g>
+
+    <!-- 행 이름 -->
+    <g font-size="25" font-weight="700" fill="#2a211b">
+      <text x="64" y="301">목적</text>
+      <text x="64" y="405">얻는 것</text>
+      <text x="64" y="525">먼저 볼 것</text>
+      <text x="64" y="645">큰 위험</text>
+    </g>
+
+    <!-- 내용 -->
+    <g font-size="24" fill="#2a211b" text-anchor="middle">
+      <text x="396" y="301">살 곳을 빌림</text>
+      <text x="692" y="301">내가 살 집을 삼</text>
+      <text x="988" y="301">수익을 노리고 삼</text>
+
+      <text x="396" y="388">이사가 자유롭고</text>
+      <text x="396" y="424">목돈 부담이 작음</text>
+      <text x="692" y="388">쫓겨날 걱정 없음</text>
+      <text x="692" y="424">집값 변동을 떠안음</text>
+      <text x="988" y="388">임대수입·시세차익</text>
+      <text x="988" y="424">(보장되지 않음)</text>
+
+      <text x="396" y="508">보증금이 안전한지</text>
+      <text x="396" y="544">(등기부·반환보증)</text>
+      <text x="692" y="508">대출 갚을 여력</text>
+      <text x="692" y="544">직장·학교와 거리</text>
+      <text x="988" y="508">세금·금리·공실</text>
+      <text x="988" y="544">팔 때 살 사람</text>
+
+      <text x="396" y="645">보증금 미반환</text>
+      <text x="692" y="628">빚 부담,</text>
+      <text x="692" y="664">이사하기 어려움</text>
+      <text x="988" y="628">가격 하락,</text>
+      <text x="988" y="664">규제·세금 변화</text>
+    </g>
+    <text x="64" y="728" font-size="22" fill="#5b4f45">한 사람이 시기마다 다른 칸에 설 수 있고, 한 집이 두 목적을 겸하기도 합니다</text>
+  </g>
+</svg>

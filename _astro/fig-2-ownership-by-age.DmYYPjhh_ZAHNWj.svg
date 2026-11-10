@@ -1,0 +1,62 @@
+<!-- 본문 그림 2: 2024년 11월 1일 기준 가구주 연령대별 주택 소유율 막대그래프 (자료: 국가데이터처 2024년 주택소유통계) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="fig2-title fig2-desc">
+  <title id="fig2-title">나이가 들수록 높아지는 주택 소유율</title>
+  <desc id="fig2-desc">2024년 11월 1일 기준 가구주 연령대별로 주택을 소유한 가구의 비율은 30세 미만 9.4%, 30대 36.0%, 40대 60.3%, 50대 65.1%, 60대 67.9%, 70대 71.0%, 80세 이상 64.3%다. 전체 가구의 주택 소유율은 56.9%다.</desc>
+
+  <rect width="1200" height="600" rx="16" fill="#f6f8f8"/>
+  <rect x="1" y="1" width="1198" height="598" rx="16" fill="none" stroke="#d3dfe0" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#1c2b2d">나이가 들수록 높아지는 주택 소유율</text>
+    <text x="64" y="140" font-size="25" fill="#46585a">가구주 연령대별로 주택을 가진 가구의 비율, 2024년 11월 1일 기준</text>
+
+    <!-- 눈금: 0~80%, 1%p = 3.5px, 0% = y 470 -->
+    <g stroke="#dde6e7" stroke-width="2">
+      <path d="M120 400H1136M120 330H1136M120 260H1136M120 190H1136"/>
+    </g>
+    <path d="M120 470H1136" stroke="#46585a" stroke-width="2"/>
+    <g font-size="22" fill="#46585a" text-anchor="end">
+      <text x="104" y="478">0%</text>
+      <text x="104" y="338">40%</text>
+      <text x="104" y="198">80%</text>
+    </g>
+
+    <!-- 막대 -->
+    <g fill="#35707a">
+      <rect x="144" y="437.1" width="96" height="32.9"/>
+      <rect x="288" y="344" width="96" height="126"/>
+      <rect x="432" y="258.95" width="96" height="211.05"/>
+      <rect x="576" y="242.15" width="96" height="227.85"/>
+      <rect x="720" y="232.35" width="96" height="237.65"/>
+      <rect x="864" y="221.5" width="96" height="248.5"/>
+      <rect x="1008" y="244.95" width="96" height="225.05"/>
+    </g>
+
+    <!-- 전체 평균선 56.9% -->
+    <path d="M120 270.85H1136" stroke="#a64b25" stroke-width="3" stroke-dasharray="10 8"/>
+    <text x="128" y="258" font-size="22" font-weight="700" fill="#8a3a1a">전체 가구 56.9%</text>
+
+    <!-- 값 -->
+    <g font-size="23" font-weight="700" fill="#1c2b2d" text-anchor="middle">
+      <text x="192" y="425">9.4%</text>
+      <text x="336" y="332">36.0%</text>
+      <text x="480" y="246">60.3%</text>
+      <text x="624" y="230">65.1%</text>
+      <text x="768" y="220">67.9%</text>
+      <text x="912" y="209">71.0%</text>
+      <text x="1056" y="232">64.3%</text>
+    </g>
+
+    <!-- 연령대 -->
+    <g font-size="23" fill="#1c2b2d" text-anchor="middle">
+      <text x="192" y="508">30세 미만</text>
+      <text x="336" y="508">30대</text>
+      <text x="480" y="508">40대</text>
+      <text x="624" y="508">50대</text>
+      <text x="768" y="508">60대</text>
+      <text x="912" y="508">70대</text>
+      <text x="1056" y="508">80세 이상</text>
+    </g>
+    <text x="64" y="560" font-size="22" fill="#46585a">일반가구 2,229만 4천 가구 가운데 주택 소유 1,268만 4천 가구, 무주택 961만 가구</text>
+  </g>
+</svg>

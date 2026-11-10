@@ -1,0 +1,57 @@
+<!-- 본문 그림 1: 2025년 3월 말 가구 평균 자산의 유형별 구성비 (자료: 2025년 가계금융복지조사) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="fig1-title fig1-desc">
+  <title id="fig1-title">가구 자산 열에 일곱은 부동산</title>
+  <desc id="fig1-desc">2025년 3월 말 가구 평균 자산 5억 6,678만 원 가운데 거주주택이 41.9%, 거주주택 이외 부동산이 29.2%로 부동산이 71.1%를 차지한다. 기타 실물자산은 4.7%, 저축액은 17.6%, 전·월세보증금은 6.6%다.</desc>
+
+  <rect width="1200" height="640" rx="16" fill="#faf7f2"/>
+  <rect x="1" y="1" width="1198" height="638" rx="16" fill="none" stroke="#e5dccf" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#2a211b">가구 자산 열에 일곱은 부동산</text>
+    <text x="64" y="140" font-size="25" fill="#5b4f45">가구 평균 자산 5억 6,678만 원의 구성비, 2025년 3월 말 기준</text>
+
+    <!-- 위쪽 묶음: 실물자산 / 금융자산 (1% = 10.72px, 0% = x 64) -->
+    <g fill="none" stroke="#5b4f45" stroke-width="2">
+      <path d="M66 236V220H874.6V236"/>
+      <path d="M878.6 236V220H1134V236"/>
+    </g>
+    <g font-size="23" fill="#2a211b" text-anchor="middle">
+      <text x="470" y="208">실물자산 75.8%</text>
+      <text x="1006" y="208">금융자산 24.2%</text>
+    </g>
+
+    <!-- 막대 -->
+    <rect x="64" y="248" width="449.2" height="88" fill="#a64b25"/>
+    <rect x="513.2" y="248" width="313" height="88" fill="#e08a5a"/>
+    <rect x="826.2" y="248" width="50.4" height="88" fill="#f3c9a8"/>
+    <rect x="876.6" y="248" width="188.7" height="88" fill="#35707a"/>
+    <rect x="1065.3" y="248" width="70.7" height="88" fill="#9ccfcf"/>
+    <g fill="none" stroke="#faf7f2" stroke-width="2">
+      <path d="M513.2 248V336M826.2 248V336M876.6 248V336M1065.3 248V336"/>
+    </g>
+    <g font-size="25" font-weight="700">
+      <text x="88" y="301" fill="#ffffff">거주주택 41.9%</text>
+      <text x="537" y="301" fill="#2a211b">그 밖의 부동산 29.2%</text>
+    </g>
+
+    <!-- 아래쪽 묶음: 부동산 합계 -->
+    <path d="M66 348V364H824.2V348" fill="none" stroke="#a64b25" stroke-width="3"/>
+    <text x="445" y="400" font-size="26" font-weight="700" fill="#8a3a1a" text-anchor="middle">부동산 합계 71.1%</text>
+
+    <!-- 범례 -->
+    <g font-size="23" fill="#2a211b">
+      <rect x="64" y="452" width="28" height="28" rx="4" fill="#a64b25"/>
+      <text x="108" y="474">거주주택 2억 3,750만 원 (41.9%)</text>
+      <rect x="64" y="500" width="28" height="28" rx="4" fill="#e08a5a"/>
+      <text x="108" y="522">그 밖의 부동산 1억 6,548만 원 (29.2%)</text>
+      <rect x="64" y="548" width="28" height="28" rx="4" fill="#f3c9a8" stroke="#c9a78a" stroke-width="1"/>
+      <text x="108" y="570">기타 실물자산(자동차 등) 2,689만 원 (4.7%)</text>
+
+      <rect x="648" y="452" width="28" height="28" rx="4" fill="#35707a"/>
+      <text x="692" y="474">저축액 9,960만 원 (17.6%)</text>
+      <rect x="648" y="500" width="28" height="28" rx="4" fill="#9ccfcf"/>
+      <text x="692" y="522">전·월세보증금 3,730만 원 (6.6%)</text>
+      <text x="648" y="570" fill="#5b4f45">그 밖의 부동산: 다른 주택·토지·상가 등</text>
+    </g>
+  </g>
+</svg>
