@@ -1,0 +1,101 @@
+<!-- 그림 1: 건축법·주택법에 따른 주택 유형 구분(단독주택, 공동주택, 준주택 오피스텔) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 856" role="img" aria-labelledby="fig1-title fig1-desc">
+  <title id="fig1-title">법에서 나누는 주택 유형</title>
+  <desc id="fig1-desc">주택은 단독주택과 공동주택으로 나뉜다. 단독주택에는 한 가구가 사는 단독주택, 취사시설 없는 방 여러 개를 둔 3개 층·660제곱미터 이하 다중주택, 3개 층·660제곱미터 이하이고 19세대 이하가 사는 다가구주택이 있으며 건물 전체가 집 한 채다. 공동주택에는 주택으로 쓰는 층수 5개 층 이상인 아파트, 4개 층 이하이면서 동 바닥면적 660제곱미터 초과인 연립주택, 660제곱미터 이하인 다세대주택이 있고 호마다 따로 등기해 거래한다. 연립과 다세대를 흔히 빌라라고 부른다. 오피스텔은 건축법상 업무시설, 주택법상 준주택이며 세금은 실제 용도로 판단한다.</desc>
+
+  <rect width="1200" height="856" rx="16" fill="#fbfaf7"/>
+  <rect x="1" y="1" width="1198" height="854" rx="16" fill="none" stroke="#d6d3d1" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="88" font-size="36" font-weight="700" fill="#1c1917">법에서 나누는 주택 유형</text>
+    <text x="64" y="132" font-size="24" fill="#57534e">'빌라'는 법령 용어가 아니라 연립·다세대를 함께 부르는 말입니다</text>
+
+    <!-- 큰 묶음 띠 -->
+    <rect x="64" y="168" width="736" height="48" rx="10" fill="#e7e5e4"/>
+    <rect x="832" y="168" width="304" height="48" rx="10" fill="#e7e5e4"/>
+    <g font-size="24" font-weight="700" fill="#292524" text-anchor="middle">
+      <text x="432" y="200">주택</text>
+      <text x="984" y="200">준주택</text>
+    </g>
+
+    <!-- 열 머리글 -->
+    <rect x="64" y="232" width="360" height="64" rx="12" fill="#fde7c2"/>
+    <rect x="440" y="232" width="360" height="64" rx="12" fill="#d9e4f2"/>
+    <rect x="832" y="232" width="304" height="64" rx="12" fill="#e6defa"/>
+    <g font-size="28" font-weight="700" text-anchor="middle">
+      <text x="244" y="274" fill="#7a3e0a">단독주택</text>
+      <text x="620" y="274" fill="#1e3a5f">공동주택</text>
+      <text x="984" y="274" fill="#3b1d78">오피스텔</text>
+    </g>
+
+    <!-- 카드 -->
+    <g fill="#ffffff" stroke="#d6d3d1" stroke-width="2">
+      <rect x="80" y="312" width="328" height="128" rx="12"/>
+      <rect x="80" y="456" width="328" height="128" rx="12"/>
+      <rect x="80" y="600" width="328" height="128" rx="12"/>
+      <rect x="456" y="312" width="328" height="128" rx="12"/>
+      <rect x="456" y="456" width="328" height="128" rx="12"/>
+      <rect x="456" y="600" width="328" height="128" rx="12"/>
+      <rect x="848" y="312" width="272" height="416" rx="12"/>
+    </g>
+
+    <!-- 빌라 표시 -->
+    <rect x="648" y="474" width="120" height="36" rx="18" fill="#f2b84b"/>
+    <rect x="648" y="618" width="120" height="36" rx="18" fill="#f2b84b"/>
+    <g font-size="22" font-weight="700" fill="#3b2a05" text-anchor="middle">
+      <text x="708" y="500">흔히 빌라</text>
+      <text x="708" y="644">흔히 빌라</text>
+    </g>
+
+    <g font-size="26" font-weight="700" fill="#1c1917">
+      <text x="104" y="356">단독주택</text>
+      <text x="104" y="500">다중주택</text>
+      <text x="104" y="644">다가구주택</text>
+      <text x="480" y="356">아파트</text>
+      <text x="480" y="500">연립주택</text>
+      <text x="480" y="644">다세대주택</text>
+    </g>
+    <g font-size="22" fill="#44403c">
+      <text x="104" y="396">한 가구가 사는 집</text>
+      <text x="104" y="536">취사시설 없는 방 여러 개</text>
+      <text x="104" y="568">3개 층·660㎡ 이하</text>
+      <text x="104" y="680">3개 층·660㎡ 이하</text>
+      <text x="104" y="712">19세대 이하가 거주</text>
+      <text x="480" y="392">주택으로 쓰는 층수</text>
+      <text x="480" y="424">5개 층 이상</text>
+      <text x="480" y="536">4개 층 이하</text>
+      <text x="480" y="568">동 바닥면적 660㎡ 초과</text>
+      <text x="480" y="680">4개 층 이하</text>
+      <text x="480" y="712">동 바닥면적 660㎡ 이하</text>
+    </g>
+
+    <!-- 오피스텔 카드 내용 -->
+    <g font-size="22" font-weight="700" fill="#57534e">
+      <text x="872" y="360">건축법</text>
+      <text x="872" y="464">주택법</text>
+    </g>
+    <g font-size="26" font-weight="700" fill="#1c1917">
+      <text x="872" y="400">업무시설</text>
+      <text x="872" y="504">준주택</text>
+    </g>
+    <line x1="872" y1="544" x2="1096" y2="544" stroke="#e7e5e4" stroke-width="2"/>
+    <g font-size="22" fill="#44403c">
+      <text x="872" y="592">업무를 주로 하되</text>
+      <text x="872" y="624">일부 구획에서</text>
+      <text x="872" y="656">숙식할 수 있는</text>
+      <text x="872" y="688">건축물</text>
+    </g>
+
+    <!-- 아래 요약 -->
+    <g fill="#f5f5f4" stroke="#a8a29e" stroke-width="2">
+      <rect x="64" y="752" width="360" height="56" rx="28"/>
+      <rect x="440" y="752" width="360" height="56" rx="28"/>
+      <rect x="832" y="752" width="304" height="56" rx="28"/>
+    </g>
+    <g font-size="22" font-weight="700" fill="#292524" text-anchor="middle">
+      <text x="244" y="788">건물 전체가 집 한 채</text>
+      <text x="620" y="788">호마다 따로 등기·거래</text>
+      <text x="984" y="788">세금은 실제 용도로 판단</text>
+    </g>
+  </g>
+</svg>

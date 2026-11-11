@@ -1,0 +1,57 @@
+<!-- 그림 2: 지역별 주택 유형 구성 100% 막대그래프 (2025 인구주택총조사) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 888" role="img" aria-labelledby="fig2-title fig2-desc">
+  <title id="fig2-title">지역별 주택 유형 구성</title>
+  <desc id="fig2-desc">2025년 11월 1일 기준 주택 수 비중. 전국은 아파트 65.8%, 연립·다세대 14.1%, 단독주택 19.0%, 비주거용 건물 내 주택 1.0%. 서울은 아파트 60.7%, 연립·다세대 29.6%, 단독 8.8%, 비주거 0.8%. 수도권은 아파트 68.1%, 연립·다세대 21.8%, 단독 9.3%, 비주거 0.7%. 비수도권은 아파트 63.8%, 연립·다세대 7.3%, 단독 27.5%, 비주거 1.3%.</desc>
+  <rect width="1200" height="888" rx="16" fill="#fbfaf7"/>
+  <rect x="1" y="1" width="1198" height="886" rx="16" fill="none" stroke="#d6d3d1" stroke-width="2"/>
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="88" font-size="36" font-weight="700" fill="#1c1917">지역별 주택 유형 구성</text>
+    <text x="64" y="132" font-size="24" fill="#57534e">서울은 연립·다세대가, 수도권 밖은 단독주택이 많습니다 (2025.11.1 기준, 주택 수)</text>
+    <text x="64" y="245" font-size="26" font-weight="700" fill="#292524">전국</text>
+    <rect x="232.0" y="200" width="594.8" height="72" fill="#3f4a5a"/>
+    <text x="529.4" y="244" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">65.8%</text>
+    <rect x="826.8" y="200" width="127.5" height="72" fill="#f2b84b"/>
+    <text x="890.6" y="244" font-size="24" font-weight="700" fill="#3b2a05" text-anchor="middle">14.1%</text>
+    <rect x="954.3" y="200" width="171.8" height="72" fill="#9ccf9a"/>
+    <text x="1040.2" y="244" font-size="24" font-weight="700" fill="#1f3d1d" text-anchor="middle">19.0%</text>
+    <rect x="1126.1" y="200" width="9.0" height="72" fill="#d6d3d1"/>
+    <rect x="232" y="200" width="903.1" height="72" fill="none" stroke="#ffffff" stroke-width="0"/>
+    <text x="64" y="357" font-size="26" font-weight="700" fill="#292524">서울</text>
+    <rect x="232.0" y="312" width="548.7" height="72" fill="#3f4a5a"/>
+    <text x="506.4" y="356" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">60.7%</text>
+    <rect x="780.7" y="312" width="267.6" height="72" fill="#f2b84b"/>
+    <text x="914.5" y="356" font-size="24" font-weight="700" fill="#3b2a05" text-anchor="middle">29.6%</text>
+    <rect x="1048.3" y="312" width="79.6" height="72" fill="#9ccf9a"/>
+    <text x="1088.1" y="356" font-size="22" font-weight="700" fill="#1f3d1d" text-anchor="middle">8.8%</text>
+    <rect x="1127.9" y="312" width="7.2" height="72" fill="#d6d3d1"/>
+    <rect x="232" y="312" width="903.1" height="72" fill="none" stroke="#ffffff" stroke-width="0"/>
+    <text x="64" y="469" font-size="26" font-weight="700" fill="#292524">수도권</text>
+    <rect x="232.0" y="424" width="615.6" height="72" fill="#3f4a5a"/>
+    <text x="539.8" y="468" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">68.1%</text>
+    <rect x="847.6" y="424" width="197.1" height="72" fill="#f2b84b"/>
+    <text x="946.2" y="468" font-size="24" font-weight="700" fill="#3b2a05" text-anchor="middle">21.8%</text>
+    <rect x="1044.7" y="424" width="84.1" height="72" fill="#9ccf9a"/>
+    <text x="1086.7" y="468" font-size="22" font-weight="700" fill="#1f3d1d" text-anchor="middle">9.3%</text>
+    <rect x="1128.8" y="424" width="6.3" height="72" fill="#d6d3d1"/>
+    <rect x="232" y="424" width="903.1" height="72" fill="none" stroke="#ffffff" stroke-width="0"/>
+    <text x="64" y="581" font-size="26" font-weight="700" fill="#292524">비수도권</text>
+    <rect x="232.0" y="536" width="576.8" height="72" fill="#3f4a5a"/>
+    <text x="520.4" y="580" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">63.8%</text>
+    <rect x="808.8" y="536" width="66.0" height="72" fill="#f2b84b"/>
+    <text x="841.7" y="580" font-size="22" font-weight="700" fill="#3b2a05" text-anchor="middle">7.3%</text>
+    <rect x="874.7" y="536" width="248.6" height="72" fill="#9ccf9a"/>
+    <text x="999.0" y="580" font-size="24" font-weight="700" fill="#1f3d1d" text-anchor="middle">27.5%</text>
+    <rect x="1123.3" y="536" width="11.8" height="72" fill="#d6d3d1"/>
+    <rect x="232" y="536" width="903.1" height="72" fill="none" stroke="#ffffff" stroke-width="0"/>
+    <rect x="64" y="634" width="28" height="28" rx="6" fill="#3f4a5a" stroke="#a8a29e" stroke-width="1"/>
+    <text x="104" y="656" font-size="22" fill="#292524">아파트</text>
+    <rect x="440" y="634" width="28" height="28" rx="6" fill="#f2b84b" stroke="#a8a29e" stroke-width="1"/>
+    <text x="480" y="656" font-size="22" fill="#292524">연립·다세대</text>
+    <rect x="816" y="634" width="28" height="28" rx="6" fill="#9ccf9a" stroke="#a8a29e" stroke-width="1"/>
+    <text x="856" y="656" font-size="22" fill="#292524">단독주택(다가구 포함)</text>
+    <rect x="64" y="682" width="28" height="28" rx="6" fill="#d6d3d1" stroke="#a8a29e" stroke-width="1"/>
+    <text x="104" y="704" font-size="22" fill="#292524">비주거용 건물 내 주택</text>
+    <text x="64" y="760" font-size="22" fill="#57534e">수도권 = 서울·인천·경기. 오피스텔은 주택이 아니어서 빠집니다.</text>
+    <text x="64" y="800" font-size="22" fill="#57534e">자료: 국가데이터처 2025년 인구주택총조사 (수도권·비수도권은 시도별 합산)</text>
+  </g>
+</svg>

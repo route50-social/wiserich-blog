@@ -1,0 +1,44 @@
+<!-- 그림 3: 전체 일반가구와 1인 가구의 거처 종류 비교 (2025 인구주택총조사) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 664" role="img" aria-labelledby="fig3-title fig3-desc">
+  <title id="fig3-title">전체 가구와 1인 가구가 사는 곳</title>
+  <desc id="fig3-desc">2025년 11월 1일 기준 가구 비중. 전체 일반가구는 아파트 54.5%, 연립·다세대 10.8%, 단독주택 27.2%, 비주거용 건물 내 주택 1.4%, 오피스텔 등 주택 이외의 거처 6.1%. 1인 가구는 아파트 36.5%, 연립·다세대 11.6%, 단독주택 38.4%(이 중 다가구 19.9%), 비주거용 건물 내 주택 1.7%, 주택 이외의 거처 11.8%.</desc>
+  <rect width="1200" height="664" rx="16" fill="#fbfaf7"/>
+  <rect x="1" y="1" width="1198" height="662" rx="16" fill="none" stroke="#d6d3d1" stroke-width="2"/>
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="88" font-size="36" font-weight="700" fill="#1c1917">전체 가구와 1인 가구가 사는 곳</text>
+    <text x="64" y="132" font-size="24" fill="#57534e">1인 가구는 아파트보다 다가구 원룸과 오피스텔 비중이 높습니다 (2025.11.1 기준, 가구 수)</text>
+    <text x="64" y="245" font-size="26" font-weight="700" fill="#292524">전체 가구</text>
+    <rect x="232.0" y="200" width="492.7" height="72" fill="#3f4a5a"/>
+    <text x="478.3" y="244" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">54.5%</text>
+    <rect x="724.7" y="200" width="97.6" height="72" fill="#f2b84b"/>
+    <text x="773.5" y="244" font-size="24" font-weight="700" fill="#3b2a05" text-anchor="middle">10.8%</text>
+    <rect x="822.3" y="200" width="245.9" height="72" fill="#9ccf9a"/>
+    <text x="945.3" y="244" font-size="24" font-weight="700" fill="#1f3d1d" text-anchor="middle">27.2%</text>
+    <rect x="1068.2" y="200" width="12.7" height="72" fill="#d6d3d1"/>
+    <rect x="1080.9" y="200" width="55.1" height="72" fill="#c9b8f0"/>
+    <rect x="232" y="200" width="904.0" height="72" fill="none" stroke="#ffffff" stroke-width="0"/>
+    <text x="64" y="357" font-size="26" font-weight="700" fill="#292524">1인 가구</text>
+    <rect x="232.0" y="312" width="330.0" height="72" fill="#3f4a5a"/>
+    <text x="397.0" y="356" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">36.5%</text>
+    <rect x="562.0" y="312" width="104.9" height="72" fill="#f2b84b"/>
+    <text x="614.4" y="356" font-size="24" font-weight="700" fill="#3b2a05" text-anchor="middle">11.6%</text>
+    <rect x="666.8" y="312" width="347.1" height="72" fill="#9ccf9a"/>
+    <text x="840.4" y="356" font-size="24" font-weight="700" fill="#1f3d1d" text-anchor="middle">38.4% (다가구 19.9%)</text>
+    <rect x="1014.0" y="312" width="15.4" height="72" fill="#d6d3d1"/>
+    <rect x="1029.3" y="312" width="106.7" height="72" fill="#c9b8f0"/>
+    <text x="1082.7" y="356" font-size="24" font-weight="700" fill="#2e1065" text-anchor="middle">11.8%</text>
+    <rect x="232" y="312" width="904.0" height="72" fill="none" stroke="#ffffff" stroke-width="0"/>
+    <rect x="64" y="410" width="28" height="28" rx="6" fill="#3f4a5a" stroke="#a8a29e" stroke-width="1"/>
+    <text x="104" y="432" font-size="22" fill="#292524">아파트</text>
+    <rect x="440" y="410" width="28" height="28" rx="6" fill="#f2b84b" stroke="#a8a29e" stroke-width="1"/>
+    <text x="480" y="432" font-size="22" fill="#292524">연립·다세대</text>
+    <rect x="816" y="410" width="28" height="28" rx="6" fill="#9ccf9a" stroke="#a8a29e" stroke-width="1"/>
+    <text x="856" y="432" font-size="22" fill="#292524">단독주택(다가구 포함)</text>
+    <rect x="64" y="458" width="28" height="28" rx="6" fill="#d6d3d1" stroke="#a8a29e" stroke-width="1"/>
+    <text x="104" y="480" font-size="22" fill="#292524">비주거용 건물 내 주택</text>
+    <rect x="440" y="458" width="28" height="28" rx="6" fill="#c9b8f0" stroke="#a8a29e" stroke-width="1"/>
+    <text x="480" y="480" font-size="22" fill="#292524">주택 이외의 거처(오피스텔 등)</text>
+    <text x="64" y="536" font-size="22" fill="#57534e">비주거용 건물 내 주택: 전체 1.4%, 1인 가구 1.7%</text>
+    <text x="64" y="576" font-size="22" fill="#57534e">자료: 국가데이터처 2025년 인구주택총조사</text>
+  </g>
+</svg>
