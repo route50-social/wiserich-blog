@@ -1,0 +1,249 @@
+<!-- 표지: 위에서 내려다본 책상 위의 예금 통장, 채권 증서, 주가 그래프가 뜬 스마트폰, 집 모양 열쇠고리와 열쇠, 가운데 원그래프를 그린 노트 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">네 가지 자산과 자산 배분 노트가 놓인 책상</title>
+  <desc id="cover-desc">짙은 청록색 책상 매트 위를 위에서 내려다본 장면이다. 왼쪽 위에는 펼친 예금 통장, 오른쪽 위에는 아래쪽에 이자 쿠폰이 달린 채권 증서, 왼쪽 아래에는 빨간 양봉 위주의 주가 그래프가 뜬 스마트폰, 오른쪽 아래에는 집 모양 나무 열쇠고리에 달린 열쇠 두 개가 놓여 있다. 가운데 스프링 노트에는 돈을 네 몫으로 나눈 원그래프가 그려져 있고 옆에 연필이 놓여 있다.</desc>
+  <defs>
+    <radialGradient id="mat" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0" stop-color="#2f5d66"/>
+      <stop offset="0.6" stop-color="#21454e"/>
+      <stop offset="1" stop-color="#14303a"/>
+    </radialGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#efe9dc"/>
+    </linearGradient>
+    <linearGradient id="bondPaper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3dd"/>
+      <stop offset="1" stop-color="#ead9ae"/>
+    </linearGradient>
+    <linearGradient id="passCover" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b5797"/>
+      <stop offset="1" stop-color="#1b3a6b"/>
+    </linearGradient>
+    <linearGradient id="phoneBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a3f47"/>
+      <stop offset="1" stop-color="#16191e"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2f6"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9a066"/>
+      <stop offset="1" stop-color="#a86b34"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b8892f"/>
+      <stop offset="0.5" stop-color="#f0d27a"/>
+      <stop offset="1" stop-color="#a87a25"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8d96a3"/>
+      <stop offset="0.5" stop-color="#e4e8ee"/>
+      <stop offset="1" stop-color="#7c8592"/>
+    </linearGradient>
+    <linearGradient id="pencil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#e0a82e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="10" dy="16" stdDeviation="14" flood-color="#06141a" flood-opacity="0.55"/>
+    </filter>
+    <filter id="shadowSmall" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="5" dy="8" stdDeviation="6" flood-color="#06141a" flood-opacity="0.5"/>
+    </filter>
+    <pattern id="weave" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 6 H12 M6 0 V12" stroke="#ffffff" stroke-opacity="0.025" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <!-- 책상 매트 -->
+  <rect width="1600" height="900" fill="url(#mat)"/>
+  <rect width="1600" height="900" fill="url(#weave)"/>
+  <ellipse cx="800" cy="430" rx="700" ry="420" fill="url(#glow)"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+
+    <!-- 왼쪽 위: 펼친 예금 통장 -->
+    <g transform="translate(420 250) rotate(-9)" filter="url(#shadow)">
+      <rect x="-200" y="-125" width="400" height="250" rx="10" fill="url(#passCover)"/>
+      <rect x="-192" y="-117" width="188" height="234" rx="6" fill="url(#paper)"/>
+      <rect x="4" y="-117" width="188" height="234" rx="6" fill="url(#paper)"/>
+      <path d="M0 -117 V117" stroke="#c9c1b0" stroke-width="3"/>
+      <!-- 왼쪽 면: 통장 표지 안쪽 -->
+      <rect x="-170" y="-92" width="144" height="40" rx="6" fill="#dbe6f5"/>
+      <text x="-98" y="-64" font-size="24" font-weight="700" fill="#1b3a6b" text-anchor="middle">예금</text>
+      <g stroke="#c8d3e3" stroke-width="3">
+        <path d="M-170 -24 H-26"/>
+        <path d="M-170 8 H-60"/>
+        <path d="M-170 40 H-40"/>
+        <path d="M-170 72 H-80"/>
+      </g>
+      <!-- 오른쪽 면: 거래 내역 줄 -->
+      <g stroke="#d8d0bf" stroke-width="2">
+        <path d="M20 -84 H176"/>
+        <path d="M20 -48 H176"/>
+        <path d="M20 -12 H176"/>
+        <path d="M20 24 H176"/>
+        <path d="M20 60 H176"/>
+        <path d="M20 96 H176"/>
+      </g>
+      <g font-size="17" fill="#3b4656" font-family="'JetBrains Mono', Menlo, Consolas, monospace">
+        <text x="28" y="-56">+100,000</text>
+        <text x="28" y="-20">+100,000</text>
+        <text x="28" y="16">+100,000</text>
+        <text x="28" y="52">+2,920</text>
+      </g>
+      <text x="168" y="52" font-size="16" fill="#1b64da" text-anchor="end">이자</text>
+    </g>
+
+    <!-- 오른쪽 위: 채권 증서와 이자 쿠폰 -->
+    <g transform="translate(1215 230) rotate(7) scale(0.92)" filter="url(#shadow)">
+      <rect x="-210" y="-150" width="420" height="300" rx="6" fill="url(#bondPaper)"/>
+      <rect x="-192" y="-132" width="384" height="180" rx="4" fill="none" stroke="#b8893a" stroke-width="3"/>
+      <rect x="-184" y="-124" width="368" height="164" rx="3" fill="none" stroke="#b8893a" stroke-width="1.5" stroke-dasharray="2 5"/>
+      <text x="0" y="-80" font-size="30" font-weight="700" fill="#5c3d12" text-anchor="middle">채권 증서</text>
+      <g stroke="#c9a96a" stroke-width="2.5">
+        <path d="M-140 -46 H140"/>
+        <path d="M-140 -18 H100"/>
+      </g>
+      <circle cx="132" cy="10" r="24" fill="#d22030" fill-opacity="0.85"/>
+      <circle cx="132" cy="10" r="16" fill="none" stroke="#fbe3e5" stroke-width="2"/>
+      <!-- 쿠폰 절취선과 쿠폰 -->
+      <path d="M-210 64 H210" stroke="#9b7a3c" stroke-width="2" stroke-dasharray="8 7"/>
+      <g fill="#f6e7c1" stroke="#b8893a" stroke-width="2">
+        <rect x="-194" y="78" width="118" height="58" rx="4"/>
+        <rect x="-59" y="78" width="118" height="58" rx="4"/>
+        <rect x="76" y="78" width="118" height="58" rx="4"/>
+      </g>
+      <g font-size="20" font-weight="700" fill="#5c3d12" text-anchor="middle">
+        <text x="-135" y="114">이자 1</text>
+        <text x="0" y="114">이자 2</text>
+        <text x="135" y="114">이자 3</text>
+      </g>
+    </g>
+
+    <!-- 왼쪽 아래: 주가 그래프가 뜬 스마트폰 -->
+    <g transform="translate(420 640) rotate(12)" filter="url(#shadow)">
+      <rect x="-96" y="-180" width="192" height="360" rx="28" fill="url(#phoneBody)"/>
+      <rect x="-84" y="-166" width="168" height="332" rx="18" fill="url(#screen)"/>
+      <rect x="-24" y="-158" width="48" height="10" rx="5" fill="#16191e"/>
+      <text x="-66" y="-112" font-size="20" font-weight="700" fill="#1e293b">주식</text>
+      <text x="-66" y="-84" font-size="17" fill="#d22030">▲ 상승</text>
+      <!-- 격자 -->
+      <g stroke="#dbe2ea" stroke-width="1.5">
+        <path d="M-70 -50 H70"/>
+        <path d="M-70 0 H70"/>
+        <path d="M-70 50 H70"/>
+        <path d="M-70 100 H70"/>
+      </g>
+      <!-- 캔들: 상승 빨강, 하락 파랑 -->
+      <g stroke-width="2.5">
+        <path d="M-56 80 V128" stroke="#f04452"/>
+        <rect x="-62" y="92" width="12" height="26" fill="#f04452"/>
+        <path d="M-36 60 V110" stroke="#f04452"/>
+        <rect x="-42" y="70" width="12" height="30" fill="#f04452"/>
+        <path d="M-16 66 V106" stroke="#3182f6"/>
+        <rect x="-22" y="74" width="12" height="20" fill="#3182f6"/>
+        <path d="M4 22 V84" stroke="#f04452"/>
+        <rect x="-2" y="34" width="12" height="40" fill="#f04452"/>
+        <path d="M24 -6 V52" stroke="#f04452"/>
+        <rect x="18" y="4" width="12" height="36" fill="#f04452"/>
+        <path d="M44 -10 V44" stroke="#3182f6"/>
+        <rect x="38" y="2" width="12" height="30" fill="#3182f6"/>
+        <path d="M64 -40 V20" stroke="#f04452"/>
+        <rect x="58" y="-30" width="12" height="40" fill="#f04452"/>
+      </g>
+      <rect x="-66" y="128" width="132" height="24" rx="12" fill="#e8eef6"/>
+    </g>
+
+    <!-- 오른쪽 아래: 집 모양 열쇠고리와 열쇠 -->
+    <g transform="translate(1170 650) rotate(-14)" filter="url(#shadow)">
+      <!-- 열쇠고리 링 -->
+      <circle cx="0" cy="-40" r="34" fill="none" stroke="url(#steel)" stroke-width="7"/>
+      <!-- 집 모양 나무 고리 -->
+      <path d="M-72 -150 L-6 -212 L60 -150 V-74 H-72 Z" fill="url(#wood)"/>
+      <path d="M-72 -150 L-6 -212 L60 -150" fill="none" stroke="#8a5424" stroke-width="5" stroke-linejoin="round"/>
+      <rect x="-22" y="-124" width="32" height="50" rx="4" fill="#8a5424"/>
+      <rect x="-56" y="-136" width="24" height="24" rx="3" fill="#f3d9b5"/>
+      <rect x="22" y="-136" width="24" height="24" rx="3" fill="#f3d9b5"/>
+      <path d="M-6 -74 V-72" stroke="#cfd5dd" stroke-width="5"/>
+      <circle cx="-6" cy="-80" r="6" fill="#cfd5dd"/>
+      <path d="M-6 -80 L-2 -70" stroke="#cfd5dd" stroke-width="4"/>
+      <!-- 열쇠 1: 황동 -->
+      <g transform="rotate(-24 0 -6)">
+        <circle cx="0" cy="-6" r="26" fill="url(#brass)"/>
+        <circle cx="0" cy="-10" r="8" fill="#21454e"/>
+        <rect x="-8" y="14" width="16" height="132" rx="4" fill="url(#brass)"/>
+        <path d="M8 96 H24 V108 H16 V118 H26 V132 H8 Z" fill="url(#brass)"/>
+      </g>
+      <!-- 열쇠 2: 은색 -->
+      <g transform="rotate(30 0 -6)">
+        <rect x="-24" y="-30" width="48" height="44" rx="14" fill="url(#steel)"/>
+        <circle cx="0" cy="-16" r="7" fill="#21454e"/>
+        <rect x="-7" y="12" width="14" height="118" rx="4" fill="url(#steel)"/>
+        <path d="M-7 84 H-22 V96 H-14 V108 H-24 V122 H-7 Z" fill="url(#steel)"/>
+      </g>
+    </g>
+
+    <!-- 가운데: 원그래프를 그린 스프링 노트 -->
+    <g transform="translate(800 470) rotate(-3)" filter="url(#shadow)">
+      <rect x="-210" y="-190" width="420" height="380" rx="12" fill="url(#paper)"/>
+      <g stroke="#e3dccd" stroke-width="2">
+        <path d="M-180 -110 H180"/>
+        <path d="M-180 160 H180"/>
+      </g>
+      <g fill="#14303a">
+        <circle cx="-160" cy="-170" r="7"/>
+        <circle cx="-110" cy="-170" r="7"/>
+        <circle cx="-60" cy="-170" r="7"/>
+        <circle cx="-10" cy="-170" r="7"/>
+        <circle cx="40" cy="-170" r="7"/>
+        <circle cx="90" cy="-170" r="7"/>
+        <circle cx="140" cy="-170" r="7"/>
+      </g>
+      <g fill="none" stroke="#9aa4b1" stroke-width="5" stroke-linecap="round">
+        <path d="M-160 -182 V-160"/>
+        <path d="M-110 -182 V-160"/>
+        <path d="M-60 -182 V-160"/>
+        <path d="M-10 -182 V-160"/>
+        <path d="M40 -182 V-160"/>
+        <path d="M90 -182 V-160"/>
+        <path d="M140 -182 V-160"/>
+      </g>
+      <text x="0" y="-126" font-size="26" font-weight="700" fill="#2b3442" text-anchor="middle">내 돈 나누기</text>
+      <!-- 원그래프: 중심 (0, 20), 반지름 110 -->
+      <g stroke="#fffdf7" stroke-width="4" stroke-linejoin="round">
+        <path d="M0 20 L0 -90 A110 110 0 0 1 104.6 -14 Z" fill="#3182f6"/>
+        <path d="M0 20 L104.6 -14 A110 110 0 0 1 64.7 109 Z" fill="#e0a82e"/>
+        <path d="M0 20 L64.7 109 A110 110 0 0 1 -104.6 54 Z" fill="#f04452"/>
+        <path d="M0 20 L-104.6 54 A110 110 0 0 1 0 -90 Z" fill="#c07a3c"/>
+      </g>
+      <circle cx="0" cy="20" r="34" fill="#fffdf7"/>
+      <!-- 범례 -->
+      <g font-size="18" fill="#2b3442">
+        <rect x="-170" y="146" width="16" height="16" rx="3" fill="#3182f6"/>
+        <text x="-148" y="160">예금</text>
+        <rect x="-86" y="146" width="16" height="16" rx="3" fill="#e0a82e"/>
+        <text x="-64" y="160">채권</text>
+        <rect x="-2" y="146" width="16" height="16" rx="3" fill="#f04452"/>
+        <text x="20" y="160">주식</text>
+        <rect x="82" y="146" width="16" height="16" rx="3" fill="#c07a3c"/>
+        <text x="104" y="160">부동산</text>
+      </g>
+    </g>
+
+    <!-- 노트 옆 연필 -->
+    <g transform="translate(760 750) rotate(-6)" filter="url(#shadowSmall)">
+      <rect x="-150" y="-11" width="260" height="22" rx="3" fill="url(#pencil)"/>
+      <path d="M-150 -11 H-124 V11 H-150 Z" fill="#f2a7b3"/>
+      <rect x="-128" y="-11" width="10" height="22" fill="#c4c9d1"/>
+      <path d="M110 -11 L150 0 L110 11 Z" fill="#f1d3a8"/>
+      <path d="M138 -3.5 L150 0 L138 3.5 Z" fill="#3a3a3a"/>
+    </g>
+  </g>
+</svg>

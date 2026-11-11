@@ -1,0 +1,87 @@
+<!-- 그림 1: 예금·채권·주식·부동산의 수익 원천, 원금 손실, 예금자보호, 현금화 비교표 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" role="img" aria-labelledby="fig1-title fig1-desc">
+  <title id="fig1-title">네 자산의 성격 비교</title>
+  <desc id="fig1-desc">예금과 채권은 돈을 빌려주는 쪽이라 받을 금액이 정해져 있고, 주식과 부동산은 소유하는 쪽이라 결과가 정해져 있지 않다. 예금은 약정 이자로 원금 손실이 거의 없고 1억 원까지 보호되며 바로 찾을 수 있지만 정기예금은 중도해지 시 이자 손해가 있다. 채권은 이자와 가격 변동에서 수익이 나고 발행자 부도나 만기 전 매도 시 손실이 날 수 있으며 보호 대상이 아니고 만기 전에는 시세로 판다. 주식은 배당과 주가 변동, 0원까지 손실 가능, 보호 대상 아님, 판 뒤 2영업일에 결제된다. 부동산은 임대료와 가격 변동, 손실 가능하며 대출을 쓰면 커지고, 보호 대상 아님, 파는 데 수개월과 거래 비용이 든다.</desc>
+
+  <rect width="1200" height="840" rx="16" fill="#f8fafc"/>
+  <rect x="1" y="1" width="1198" height="838" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="88" font-size="36" font-weight="700" fill="#1e293b">네 자산의 성격 비교</text>
+    <text x="64" y="132" font-size="24" fill="#475569">빌려준 돈은 받을 금액이 정해져 있고, 소유한 자산은 결과의 폭이 넓습니다</text>
+
+    <!-- 묶음 띠 -->
+    <rect x="256" y="168" width="436" height="44" rx="10" fill="#e2e8f0"/>
+    <rect x="700" y="168" width="436" height="44" rx="10" fill="#e2e8f0"/>
+    <g font-size="22" font-weight="700" fill="#334155" text-anchor="middle">
+      <text x="474" y="198">돈을 빌려줌 · 받을 금액이 정해짐</text>
+      <text x="918" y="198">소유함 · 결과가 정해지지 않음</text>
+    </g>
+
+    <!-- 머리글 -->
+    <rect x="256" y="224" width="214" height="64" rx="12" fill="#dbeafe"/>
+    <rect x="478" y="224" width="214" height="64" rx="12" fill="#fef3c7"/>
+    <rect x="700" y="224" width="214" height="64" rx="12" fill="#fee2e2"/>
+    <rect x="922" y="224" width="214" height="64" rx="12" fill="#ffedd5"/>
+    <g font-size="28" font-weight="700" text-anchor="middle">
+      <text x="363" y="266" fill="#1e3a8a">예금</text>
+      <text x="585" y="266" fill="#78350f">채권</text>
+      <text x="807" y="266" fill="#991b1b">주식</text>
+      <text x="1029" y="266" fill="#7c2d12">부동산</text>
+    </g>
+
+    <!-- 행 배경 -->
+    <rect x="64" y="296" width="1072" height="112" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="64" y="416" width="1072" height="112" rx="10" fill="#f1f5f9"/>
+    <rect x="64" y="536" width="1072" height="112" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="64" y="656" width="1072" height="112" rx="10" fill="#f1f5f9"/>
+
+    <!-- 행 이름 -->
+    <g font-size="24" font-weight="700" fill="#1e293b">
+      <text x="88" y="344">돈을 버는</text>
+      <text x="88" y="376">방식</text>
+      <text x="88" y="480">원금 손실</text>
+      <text x="88" y="600">예금자보호</text>
+      <text x="88" y="720">현금화</text>
+    </g>
+
+    <g font-size="23" fill="#334155" text-anchor="middle">
+      <!-- 1행: 돈을 버는 방식 -->
+      <text x="363" y="360">약정 이자</text>
+      <text x="585" y="344">이자 +</text>
+      <text x="585" y="376">가격 변동</text>
+      <text x="807" y="344">배당 +</text>
+      <text x="807" y="376">주가 변동</text>
+      <text x="1029" y="344">임대료 +</text>
+      <text x="1029" y="376">가격 변동</text>
+
+      <!-- 2행: 원금 손실 -->
+      <text x="363" y="480">거의 없음</text>
+      <text x="585" y="464">발행자 부도,</text>
+      <text x="585" y="496">만기 전 매도 시</text>
+      <text x="807" y="464">가능</text>
+      <text x="807" y="496">(0원까지)</text>
+      <text x="1029" y="464">가능</text>
+      <text x="1029" y="496">(대출 시 커짐)</text>
+
+      <!-- 3행: 예금자보호 -->
+      <text x="363" y="584" font-weight="700" fill="#1e3a8a">1억 원까지</text>
+      <text x="363" y="616" font-weight="700" fill="#1e3a8a">보호</text>
+      <text x="585" y="600" fill="#64748b">대상 아님</text>
+      <text x="807" y="600" fill="#64748b">대상 아님</text>
+      <text x="1029" y="600" fill="#64748b">대상 아님</text>
+
+      <!-- 4행: 현금화 -->
+      <text x="363" y="704">바로 가능</text>
+      <text x="363" y="736">해지 시 이자 손해</text>
+      <text x="585" y="704">만기 전엔</text>
+      <text x="585" y="736">시세로 매도</text>
+      <text x="807" y="704">판 뒤</text>
+      <text x="807" y="736">2영업일에 결제</text>
+      <text x="1029" y="704">수개월 소요</text>
+      <text x="1029" y="736">+ 거래 비용</text>
+    </g>
+
+    <text x="64" y="808" font-size="22" fill="#475569">예금자보호 한도: 금융회사 한 곳당 1인 기준 원금과 이자 합계 (2025년 9월 1일 시행)</text>
+  </g>
+</svg>

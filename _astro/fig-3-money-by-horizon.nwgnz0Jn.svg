@@ -1,0 +1,98 @@
+<!-- 그림 3: 돈을 쓸 시기에 따라 비상금, 1~3년 안에 쓸 돈, 10년 이상 둘 돈으로 나눠 두는 방법 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 808" role="img" aria-labelledby="fig3-title fig3-desc">
+  <title id="fig3-title">돈을 쓸 시기에 따라 나눠 두는 방법</title>
+  <desc id="fig3-desc">첫째, 실직이나 병원비에 대비한 비상금은 수시입출금 예금처럼 원금이 흔들리지 않는 곳에 두고 바로 꺼낼 수 있는지를 따진다. 둘째, 전세금이나 결혼 자금처럼 1~3년 안에 쓸 돈은 정기예금이나 쓸 시점에 만기를 맞춘 국고채에 두고 쓸 날 받을 금액이 정해져 있는지를 따진다. 셋째, 노후 자금처럼 10년 이상 둘 돈은 주식과 채권에 나눠 담고 정기적으로 비율을 맞추며, 30% 하락에도 버틸 수 있는지를 따진다. 쓸 날이 멀수록 기대수익과 가격 변동이 큰 자산을 담을 수 있다.</desc>
+  <defs>
+    <marker id="fig3-arrow" viewBox="0 0 14 14" refX="12" refY="7" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M5 2 L12 7 L5 12" fill="none" stroke="#334155" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    </marker>
+    <linearGradient id="fig3-risk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#f04452"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="808" rx="16" fill="#f8fafc"/>
+  <rect x="1" y="1" width="1198" height="806" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="88" font-size="36" font-weight="700" fill="#1e293b">쓸 날에 따라 돈을 나눠 두기</text>
+    <text x="64" y="132" font-size="24" fill="#475569">쓸 날이 가까운 돈은 흔들리지 않는 곳에, 먼 돈은 기대수익이 큰 곳에</text>
+
+    <!-- 카드 -->
+    <g stroke-width="2">
+      <rect x="64" y="176" width="336" height="464" rx="16" fill="#e0f2fe" stroke="#93c5fd"/>
+      <rect x="432" y="176" width="336" height="464" rx="16" fill="#fef3c7" stroke="#fcd34d"/>
+      <rect x="800" y="176" width="336" height="464" rx="16" fill="#ffe4e6" stroke="#fda4af"/>
+    </g>
+
+    <!-- 번호 -->
+    <g fill="#ffffff" stroke="#64748b" stroke-width="2">
+      <circle cx="116" cy="228" r="24"/>
+      <circle cx="484" cy="228" r="24"/>
+      <circle cx="852" cy="228" r="24"/>
+    </g>
+    <g font-size="26" font-weight="700" fill="#334155" text-anchor="middle">
+      <text x="116" y="237">1</text>
+      <text x="484" y="237">2</text>
+      <text x="852" y="237">3</text>
+    </g>
+
+    <!-- 제목과 예시 -->
+    <g font-size="30" font-weight="700" fill="#1e293b">
+      <text x="92" y="304">비상금</text>
+      <text x="460" y="304">1~3년 안에 쓸 돈</text>
+      <text x="828" y="304">10년 이상 둘 돈</text>
+    </g>
+    <g font-size="22" fill="#475569">
+      <text x="92" y="342">실직·병원비 대비</text>
+      <text x="460" y="342">전세금·결혼 자금 등</text>
+      <text x="828" y="342">노후 자금 등</text>
+    </g>
+
+    <g stroke="#94a3b8" stroke-width="2">
+      <path d="M92 368 H372"/>
+      <path d="M460 368 H740"/>
+      <path d="M828 368 H1108"/>
+    </g>
+
+    <!-- 어디에 -->
+    <g font-size="22" font-weight="700" fill="#334155">
+      <text x="92" y="408">어디에</text>
+      <text x="460" y="408">어디에</text>
+      <text x="828" y="408">어디에</text>
+    </g>
+    <g font-size="23" fill="#1e293b">
+      <text x="92" y="446">수시입출금 예금</text>
+      <text x="92" y="480">원금이 흔들리지 않는 곳</text>
+      <text x="460" y="446">정기예금</text>
+      <text x="460" y="480">만기를 맞춘 국고채</text>
+      <text x="828" y="446">주식·채권에 나눠 담기</text>
+      <text x="828" y="480">정기적으로 비율 맞추기</text>
+    </g>
+
+    <!-- 따질 질문 -->
+    <g font-size="22" font-weight="700" fill="#334155">
+      <text x="92" y="536">따질 질문</text>
+      <text x="460" y="536">따질 질문</text>
+      <text x="828" y="536">따질 질문</text>
+    </g>
+    <g font-size="23" fill="#1e293b">
+      <text x="92" y="574">바로 꺼낼 수</text>
+      <text x="92" y="606">있는가</text>
+      <text x="460" y="574">쓸 날 받을 금액이</text>
+      <text x="460" y="606">정해져 있는가</text>
+      <text x="828" y="574">30% 하락에도</text>
+      <text x="828" y="606">버틸 수 있는가</text>
+    </g>
+
+    <!-- 아래 축: 기간과 위험 -->
+    <rect x="64" y="672" width="1072" height="16" rx="8" fill="url(#fig3-risk)"/>
+    <path d="M64 728 H1128" fill="none" stroke="#334155" stroke-width="2.5" marker-end="url(#fig3-arrow)"/>
+    <g font-size="22" fill="#334155">
+      <text x="64" y="768">지금 당장</text>
+      <text x="600" y="768" text-anchor="middle">남은 기간이 길수록 기대수익·가격 변동이 큰 자산도 가능</text>
+      <text x="1136" y="768" text-anchor="end">10년 이상</text>
+    </g>
+  </g>
+</svg>
