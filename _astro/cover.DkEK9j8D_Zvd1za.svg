@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="cover-title cover-desc">
+  <!-- 표지: 수도꼭지의 물이 홈통을 따라 네 개의 유리병으로 나뉘어 들어가는 장면 -->
+  <title id="cover-title">네 개의 병으로 나뉘어 흐르는 물</title>
+  <desc id="cover-desc">벽에 달린 수도꼭지에서 흘러나온 물이 선반 위 홈통을 따라 네 개의 유리병으로 나뉘어 들어간다. 병마다 집, 장바구니, 우산, 새싹 모양 꼬리표가 달려 있고 물이 찬 높이가 서로 다르다</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3efe9"/>
+      <stop offset="1" stop-color="#c3dbd1"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.25" r="0.65">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c99a6b"/>
+      <stop offset="1" stop-color="#9c6f45"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2e8ec"/>
+      <stop offset="0.5" stop-color="#a9b6bf"/>
+      <stop offset="1" stop-color="#7d8b95"/>
+    </linearGradient>
+    <linearGradient id="metal-h" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7d8b95"/>
+      <stop offset="0.45" stop-color="#e2e8ec"/>
+      <stop offset="1" stop-color="#8996a0"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd0f0"/>
+      <stop offset="1" stop-color="#3f9fd3"/>
+    </linearGradient>
+    <linearGradient id="stream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6fbde6"/>
+      <stop offset="0.5" stop-color="#d6f0fc"/>
+      <stop offset="1" stop-color="#6fbde6"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="0.25" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="0.8" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.35"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#2f4a40" flood-opacity="0.28"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#2f4a40" flood-opacity="0.25"/>
+    </filter>
+    <!-- 병 하나의 유리 모양 (가운데 x=0 기준) -->
+    <path id="jar" d="M-58 430 H58 V466 Q90 474 90 506 V672 Q90 700 62 700 H-62 Q-90 700 -90 672 V506 Q-90 474 -58 466 Z"/>
+  </defs>
+
+  <!-- 배경: 벽과 조명 -->
+  <rect width="1600" height="900" fill="url(#wall)"/>
+  <rect width="1600" height="900" fill="url(#light)"/>
+  <g stroke="#b5d0c4" stroke-width="2" opacity="0.6">
+    <path d="M0 760 H1600"/>
+  </g>
+
+  <!-- 수도관과 수도꼭지 -->
+  <g filter="url(#soft)">
+    <rect x="782" y="0" width="36" height="112" fill="url(#metal-h)"/>
+    <rect x="744" y="104" width="112" height="52" rx="14" fill="url(#metal)"/>
+    <rect x="790" y="78" width="20" height="30" rx="4" fill="url(#metal-h)"/>
+    <rect x="752" y="66" width="96" height="18" rx="9" fill="url(#metal)"/>
+    <path d="M780 150 H820 V190 Q820 204 806 204 H794 Q780 204 780 190 Z" fill="url(#metal-h)"/>
+  </g>
+  <!-- 꼭지에서 홈통으로 떨어지는 물줄기 -->
+  <rect x="791" y="202" width="18" height="96" rx="9" fill="url(#stream)"/>
+
+  <!-- 홈통 받침 -->
+  <g fill="#8996a0">
+    <path d="M396 300 H420 V340 L396 316 Z"/>
+    <path d="M1180 300 H1204 V316 L1180 340 Z"/>
+  </g>
+
+  <!-- 홈통과 네 개의 출수구 -->
+  <g filter="url(#soft)">
+    <rect x="340" y="284" width="920" height="42" rx="12" fill="url(#metal)"/>
+    <rect x="352" y="288" width="896" height="12" rx="6" fill="#5fb3e0" opacity="0.85"/>
+    <g fill="url(#metal-h)">
+      <rect x="426" y="322" width="28" height="26" rx="6"/>
+      <rect x="666" y="322" width="28" height="26" rx="6"/>
+      <rect x="906" y="322" width="28" height="26" rx="6"/>
+      <rect x="1146" y="322" width="28" height="26" rx="6"/>
+    </g>
+  </g>
+
+  <!-- 선반 -->
+  <g filter="url(#shadow)">
+    <rect x="220" y="700" width="1160" height="34" rx="6" fill="url(#wood)"/>
+  </g>
+  <rect x="220" y="700" width="1160" height="6" rx="3" fill="#dcb58b"/>
+  <g fill="#7c5634">
+    <path d="M320 734 H352 V800 L320 768 Z"/>
+    <path d="M1248 734 H1280 V768 L1248 800 Z"/>
+  </g>
+
+  <!-- 출수구에서 병으로 떨어지는 물줄기 (병 뒤에 그림) -->
+  <g fill="url(#stream)">
+    <rect x="434" y="346" width="12" height="208" rx="6"/>
+    <rect x="674" y="346" width="12" height="238" rx="6"/>
+    <rect x="914" y="346" width="12" height="278" rx="6"/>
+    <rect x="1154" y="346" width="12" height="253" rx="6"/>
+  </g>
+
+  <!-- 병 안의 물: 높이가 서로 다름 -->
+  <g fill="url(#water)">
+    <path d="M358 542 H522 V670 Q522 692 500 692 H380 Q358 692 358 670 Z"/>
+    <path d="M598 572 H762 V670 Q762 692 740 692 H620 Q598 692 598 670 Z"/>
+    <path d="M838 612 H1002 V670 Q1002 692 980 692 H860 Q838 692 838 670 Z"/>
+    <path d="M1078 587 H1242 V670 Q1242 692 1220 692 H1100 Q1078 692 1078 670 Z"/>
+  </g>
+  <!-- 물 표면과 물결 -->
+  <g fill="#c7e9fa">
+    <ellipse cx="440" cy="542" rx="82" ry="8"/>
+    <ellipse cx="680" cy="572" rx="82" ry="8"/>
+    <ellipse cx="920" cy="612" rx="82" ry="8"/>
+    <ellipse cx="1160" cy="587" rx="82" ry="8"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.8">
+    <ellipse cx="440" cy="543" rx="26" ry="4"/>
+    <ellipse cx="680" cy="573" rx="26" ry="4"/>
+    <ellipse cx="920" cy="613" rx="26" ry="4"/>
+    <ellipse cx="1160" cy="588" rx="26" ry="4"/>
+  </g>
+
+  <!-- 유리병 -->
+  <g fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.85" stroke-width="4">
+    <use href="#jar" x="440"/>
+    <use href="#jar" x="680"/>
+    <use href="#jar" x="920"/>
+    <use href="#jar" x="1160"/>
+  </g>
+  <g fill="#ffffff" opacity="0.55">
+    <rect x="364" y="512" width="10" height="150" rx="5"/>
+    <rect x="604" y="512" width="10" height="150" rx="5"/>
+    <rect x="844" y="512" width="10" height="150" rx="5"/>
+    <rect x="1084" y="512" width="10" height="150" rx="5"/>
+  </g>
+
+  <!-- 꼬리표 끈 -->
+  <g fill="none" stroke="#7c5634" stroke-width="3">
+    <path d="M470 466 Q500 480 506 500"/>
+    <path d="M710 466 Q740 480 746 500"/>
+    <path d="M950 466 Q980 480 986 500"/>
+    <path d="M1190 466 Q1220 480 1226 500"/>
+  </g>
+
+  <!-- 꼬리표: 집, 장바구니, 우산, 새싹 -->
+  <g filter="url(#soft)" fill="#e8835a">
+    <circle cx="508" cy="534" r="36"/>
+    <circle cx="748" cy="534" r="36"/>
+    <circle cx="988" cy="534" r="36"/>
+    <circle cx="1228" cy="534" r="36"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- 집 -->
+    <path d="M490 534 L508 518 L526 534 M494 531 V550 H522 V531 M504 550 V540 H512 V550"/>
+    <!-- 장바구니 -->
+    <path d="M728 520 H735 L741 542 H762 L767 527 H737 M745 550 h1 M759 550 h1"/>
+    <!-- 우산 -->
+    <path d="M968 534 Q988 508 1008 534 Z M988 534 V550 Q988 555 983 555 Q979 555 979 551"/>
+    <!-- 새싹 -->
+    <path d="M1228 554 V532 M1228 536 Q1214 536 1212 522 Q1226 520 1228 536 M1228 532 Q1230 518 1246 518 Q1244 532 1228 532"/>
+  </g>
+</svg>

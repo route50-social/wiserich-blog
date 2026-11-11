@@ -1,0 +1,77 @@
+<!-- 그림 2: 비상금을 둘 수 있는 단기 상품과 예금자보호 여부 비교표 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 808" role="img" aria-labelledby="fig2-title fig2-desc">
+  <title id="fig2-title">비상금을 둘 수 있는 단기 상품과 예금자보호</title>
+  <desc id="fig2-desc">은행 보통예금, 은행 MMDA, 종합금융회사 CMA는 예금자보호 대상이다. 증권회사 CMA(RP형·발행어음형)와 MMF는 예금자보호 대상이 아니며, MMF는 운용 결과에 따라 수익이 달라진다. 보호 한도는 금융회사별 1인당 원금과 이자를 합쳐 1억 원이다.</desc>
+
+  <rect width="1200" height="808" rx="16" fill="#f8fafc"/>
+  <rect x="1" y="1" width="1198" height="806" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="40" font-weight="700" fill="#1e293b">비상금을 둘 수 있는 단기 상품</text>
+    <text x="64" y="144" font-size="26" fill="#475569">모두 수시로 넣고 뺄 수 있지만, 예금자보호 여부가 다릅니다</text>
+
+    <!-- 머리행 -->
+    <rect x="64" y="192" width="1072" height="56" rx="10" fill="#e2e8f0"/>
+    <g font-size="24" font-weight="700" fill="#334155">
+      <text x="88" y="229">상품</text>
+      <text x="404" y="229">파는 곳</text>
+      <text x="628" y="229">예금자보호</text>
+      <text x="824" y="229">특징</text>
+    </g>
+
+    <!-- 행 구분선 -->
+    <g stroke="#cbd5e1" stroke-width="2">
+      <path d="M64 336 H1136"/>
+      <path d="M64 424 H1136"/>
+      <path d="M64 512 H1136"/>
+      <path d="M64 600 H1136"/>
+      <path d="M64 688 H1136"/>
+    </g>
+
+    <!-- 상품 이름 -->
+    <g font-size="26" font-weight="700" fill="#1e293b">
+      <text x="88" y="301">보통예금</text>
+      <text x="88" y="389">MMDA</text>
+      <text x="88" y="477">종금사 CMA</text>
+      <text x="88" y="553">증권사 CMA</text>
+      <text x="88" y="653">MMF</text>
+    </g>
+    <text x="88" y="585" font-size="22" fill="#475569">RP형·발행어음형</text>
+
+    <!-- 파는 곳 -->
+    <g font-size="24" fill="#334155">
+      <text x="404" y="301">은행</text>
+      <text x="404" y="389">은행</text>
+      <text x="404" y="477">종합금융회사</text>
+      <text x="404" y="565">증권회사</text>
+      <text x="404" y="653">은행·증권회사</text>
+    </g>
+
+    <!-- 예금자보호 표시 -->
+    <g stroke-width="2">
+      <rect x="628" y="268" width="112" height="44" rx="22" fill="#dcfce7" stroke="#16a34a"/>
+      <rect x="628" y="356" width="112" height="44" rx="22" fill="#dcfce7" stroke="#16a34a"/>
+      <rect x="628" y="444" width="112" height="44" rx="22" fill="#dcfce7" stroke="#16a34a"/>
+      <rect x="628" y="532" width="112" height="44" rx="22" fill="#fef3c7" stroke="#d97706"/>
+      <rect x="628" y="620" width="112" height="44" rx="22" fill="#fef3c7" stroke="#d97706"/>
+    </g>
+    <g font-size="22" font-weight="700" text-anchor="middle">
+      <text x="684" y="298" fill="#166534">보호</text>
+      <text x="684" y="386" fill="#166534">보호</text>
+      <text x="684" y="474" fill="#166534">보호</text>
+      <text x="684" y="562" fill="#92400e">비보호</text>
+      <text x="684" y="650" fill="#92400e">비보호</text>
+    </g>
+
+    <!-- 특징 -->
+    <g font-size="22" fill="#334155">
+      <text x="824" y="299">언제든 입출금</text>
+      <text x="824" y="387">수시입출식 예금</text>
+      <text x="824" y="475">입출금·이체 가능</text>
+      <text x="824" y="563">입출금·이체 가능</text>
+      <text x="824" y="651">실적배당, 수익 변동</text>
+    </g>
+
+    <text x="64" y="744" font-size="22" fill="#475569">보호 한도: 금융회사별 1인당 원금과 이자를 합쳐 1억 원 (2025년 9월 1일부터)</text>
+  </g>
+</svg>
