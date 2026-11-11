@@ -1,0 +1,79 @@
+<!-- 그림 3: 100만 원 투자 1년 뒤 주가가 오른 경우와 내린 경우의 손익 구성 막대그래프 (가상 계산 예시) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 856" role="img" aria-labelledby="fig3-title fig3-desc">
+  <title id="fig3-title">주가 방향에 따른 1년 손익 비교</title>
+  <desc id="fig3-desc">100만 원으로 1주 1만 원 주식 100주를 사서 1년 동안 주당 300원 배당을 받은 가상 예시. 주가가 1만 2,000원으로 오르면 시세차익 20만 원, 세후 배당 2만 5,380원, 증권거래세 2,400원을 합쳐 22만 2,980원 이익이다. 주가가 8,000원으로 내리면 시세차익 손실 20만 원, 세후 배당 2만 5,380원, 증권거래세 1,600원을 합쳐 17만 6,220원 손실이다.</desc>
+
+  <rect width="1200" height="856" rx="16" fill="#f8fafc" />
+  <rect x="1" y="1" width="1198" height="854" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="40" font-weight="700" fill="#1e293b">100만 원을 1년 투자했을 때의 손익</text>
+    <text x="64" y="144" font-size="26" fill="#475569">1주 1만 원 × 100주, 주당 배당 300원 가정 (매매 수수료 제외, 단위: 원)</text>
+
+    <!-- 눈금선: 1px = 1,000원 -->
+    <g stroke="#e2e8f0" stroke-width="2">
+      <path d="M112 280 H1104" />
+      <path d="M112 680 H1104" />
+    </g>
+    <g font-size="22" fill="#64748b" text-anchor="end">
+      <text x="100" y="288">+20만</text>
+      <text x="100" y="488">0</text>
+      <text x="100" y="688">−20만</text>
+    </g>
+
+    <!-- 묶음 제목 -->
+    <g text-anchor="middle">
+      <text x="332" y="200" font-size="28" font-weight="700" fill="#1e293b">주가가 오른 경우</text>
+      <text x="332" y="234" font-size="22" fill="#475569">1만 원 → 1만 2,000원</text>
+      <text x="876" y="200" font-size="28" font-weight="700" fill="#1e293b">주가가 내린 경우</text>
+      <text x="876" y="234" font-size="22" fill="#475569">1만 원 → 8,000원</text>
+    </g>
+    <path d="M604 176 V736" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6 8" />
+
+    <!-- 오른 경우 막대 -->
+    <rect x="120" y="280" width="88" height="200" fill="#f04452" />
+    <rect x="232" y="454.62" width="88" height="25.38" fill="#f04452" />
+    <rect x="344" y="480" width="88" height="2.4" fill="#3182f6" />
+    <rect x="456" y="257.02" width="88" height="222.98" fill="#f04452" stroke="#b3141f" stroke-width="3" />
+
+    <!-- 내린 경우 막대 -->
+    <rect x="664" y="480" width="88" height="200" fill="#3182f6" />
+    <rect x="776" y="454.62" width="88" height="25.38" fill="#f04452" />
+    <rect x="888" y="480" width="88" height="1.6" fill="#3182f6" />
+    <rect x="1000" y="480" width="88" height="176.22" fill="#3182f6" stroke="#1450b0" stroke-width="3" />
+
+    <!-- 0 기준선 -->
+    <path d="M112 480 H1104" stroke="#475569" stroke-width="2.5" />
+
+    <!-- 값 -->
+    <g font-size="22" font-weight="700" text-anchor="middle">
+      <text x="164" y="268" fill="#d22030">+200,000</text>
+      <text x="276" y="442" fill="#d22030">+25,380</text>
+      <text x="388" y="510" fill="#1b64da">−2,400</text>
+      <text x="500" y="245" fill="#d22030">+222,980</text>
+      <text x="708" y="708" fill="#1b64da">−200,000</text>
+      <text x="820" y="442" fill="#d22030">+25,380</text>
+      <text x="932" y="510" fill="#1b64da">−1,600</text>
+      <text x="1044" y="684" fill="#1b64da">−176,220</text>
+    </g>
+
+    <!-- 항목 이름 -->
+    <g font-size="22" fill="#334155" text-anchor="middle">
+      <text x="164" y="768">시세차익</text>
+      <text x="276" y="768">세후 배당</text>
+      <text x="388" y="768">증권거래세</text>
+      <text x="500" y="768" font-weight="700" fill="#1e293b">최종 손익</text>
+      <text x="708" y="768">시세차익</text>
+      <text x="820" y="768">세후 배당</text>
+      <text x="932" y="768">증권거래세</text>
+      <text x="1044" y="768" font-weight="700" fill="#1e293b">최종 손익</text>
+    </g>
+
+    <!-- 범례 -->
+    <rect x="64" y="800" width="24" height="24" rx="4" fill="#f04452" />
+    <text x="100" y="820" font-size="22" fill="#334155">늘어난 돈 (이익)</text>
+    <rect x="296" y="800" width="24" height="24" rx="4" fill="#3182f6" />
+    <text x="332" y="820" font-size="22" fill="#334155">줄어든 돈 (손실·세금)</text>
+    <text x="1136" y="820" font-size="22" fill="#475569" text-anchor="end">배당소득세 15.4%, 증권거래세 0.20%</text>
+  </g>
+</svg>

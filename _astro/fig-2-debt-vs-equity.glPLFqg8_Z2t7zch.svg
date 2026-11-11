@@ -1,0 +1,62 @@
+<!-- 그림 2: 회사가 돈을 마련하는 두 방법(빌리기와 주식 발행) 비교표 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 728" role="img" aria-labelledby="fig2-title fig2-desc">
+  <title id="fig2-title">회사가 돈을 마련하는 두 가지 방법</title>
+  <desc id="fig2-desc">빌리기(대출·채권)는 정해진 날 원금을 갚아야 하고, 이익과 상관없이 약속한 이자를 내며, 돈을 빌려준 사람은 경영에 참여하지 않고, 회사가 문을 닫으면 남은 재산에서 먼저 돌려받는다. 주식 발행은 갚을 의무가 없고, 이익이 나면 배당으로 나누며, 주주가 의결권으로 경영에 참여하고, 회사가 문을 닫으면 빚을 다 갚고 남은 재산만 나눠 받는다.</desc>
+
+  <rect width="1200" height="728" rx="16" fill="#f8fafc" />
+  <rect x="1" y="1" width="1198" height="726" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="40" font-weight="700" fill="#1e293b">회사가 돈을 마련하는 두 가지 방법</text>
+    <text x="64" y="144" font-size="26" fill="#475569">빌린 돈은 갚아야 하고, 주주에게 받은 돈은 회사의 몫을 나눠 줍니다</text>
+
+    <!-- 머리행 -->
+    <rect x="64" y="192" width="1072" height="72" rx="12" fill="#e2e8f0" />
+    <rect x="368" y="192" width="376" height="72" fill="#fef3c7" />
+    <rect x="760" y="192" width="376" height="72" rx="12" fill="#ccfbf1" />
+    <rect x="760" y="192" width="24" height="72" fill="#ccfbf1" />
+    <g font-size="28" font-weight="700">
+      <text x="88" y="238" fill="#334155">구분</text>
+      <text x="392" y="238" fill="#92400e">빌리기 (대출·채권)</text>
+      <text x="784" y="238" fill="#115e59">주식 발행</text>
+    </g>
+
+    <!-- 행 구분선 -->
+    <g stroke="#cbd5e1" stroke-width="2">
+      <path d="M64 360 H1136" />
+      <path d="M64 456 H1136" />
+      <path d="M64 552 H1136" />
+      <path d="M64 648 H1136" />
+    </g>
+    <g stroke="#e2e8f0" stroke-width="2">
+      <path d="M352 264 V648" />
+      <path d="M744 264 V648" />
+    </g>
+
+    <!-- 구분 -->
+    <g font-size="26" font-weight="700" fill="#1e293b">
+      <text x="88" y="321">원금</text>
+      <text x="88" y="417">돈을 낸 사람 몫</text>
+      <text x="88" y="513">경영 참여</text>
+      <text x="88" y="609">회사가 문을 닫으면</text>
+    </g>
+
+    <!-- 빌리기 -->
+    <g font-size="26" fill="#334155">
+      <text x="392" y="321">정해진 날 갚아야 함</text>
+      <text x="392" y="417">약속한 이자 (이익과 무관)</text>
+      <text x="392" y="513">참여하지 않음</text>
+      <text x="392" y="609">남은 재산에서 먼저 받음</text>
+    </g>
+
+    <!-- 주식 발행 -->
+    <g font-size="26" fill="#334155">
+      <text x="784" y="321">갚을 의무 없음</text>
+      <text x="784" y="417">이익이 나면 배당</text>
+      <text x="784" y="513">의결권으로 참여</text>
+      <text x="784" y="609">빚을 갚고 남은 것만 받음</text>
+    </g>
+
+    <text x="64" y="696" font-size="22" fill="#475569">주주의 책임은 낸 돈까지이고(상법 제331조), 남은 재산은 빚을 갚은 뒤에 나눕니다(상법 제538조)</text>
+  </g>
+</svg>

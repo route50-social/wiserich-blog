@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="cover-title cover-desc">
+  <!-- 표지: 회사를 같은 크기로 나눈 조각 하나가 주식이라는 뜻을, 빵집 앞면에서 빠져나온 한 조각으로 표현 -->
+  <title id="cover-title">주식이란 무엇인가 표지</title>
+  <desc id="cover-desc">노을빛 하늘 아래 작은 빵집 건물의 앞면이 같은 크기의 네모 조각으로 나뉘어 있고, 그 가운데 한 조각이 앞으로 빠져나와 손바닥 위에 올려져 있다.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c3e66" />
+      <stop offset="0.55" stop-color="#c8707a" />
+      <stop offset="1" stop-color="#f6c28b" />
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff1d0" stop-opacity="0.95" />
+      <stop offset="0.45" stop-color="#ffd59a" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#ffd59a" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b4636" />
+      <stop offset="1" stop-color="#3a2c22" />
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f3e4cf" />
+      <stop offset="1" stop-color="#e2cbaa" />
+    </linearGradient>
+    <linearGradient id="sideWall" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bfa27e" />
+      <stop offset="1" stop-color="#a6876a" />
+    </linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe2a6" />
+      <stop offset="1" stop-color="#f5b860" />
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8a5c" />
+      <stop offset="1" stop-color="#e2553a" />
+    </linearGradient>
+    <linearGradient id="tileSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8402a" />
+      <stop offset="1" stop-color="#93301f" />
+    </linearGradient>
+    <linearGradient id="hand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2c9a5" />
+      <stop offset="1" stop-color="#d9a37c" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb08a" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#ffb08a" stop-opacity="0" />
+    </radialGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#2a1a12" flood-opacity="0.38" />
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#2a1a12" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- 하늘과 노을 -->
+  <rect width="1600" height="900" fill="url(#sky)" />
+  <circle cx="1220" cy="560" r="360" fill="url(#sun)" />
+  <g fill="#ffffff" opacity="0.18">
+    <ellipse cx="260" cy="180" rx="150" ry="22" />
+    <ellipse cx="380" cy="214" rx="110" ry="16" />
+    <ellipse cx="1320" cy="150" rx="170" ry="20" />
+  </g>
+
+  <!-- 먼 건물 실루엣 -->
+  <g fill="#6d4f5c" opacity="0.55">
+    <rect x="40" y="470" width="150" height="250" />
+    <rect x="200" y="420" width="110" height="300" />
+    <rect x="1330" y="440" width="130" height="280" />
+    <rect x="1470" y="500" width="130" height="220" />
+  </g>
+
+  <!-- 길 -->
+  <rect y="716" width="1600" height="184" fill="url(#ground)" />
+  <rect y="716" width="1600" height="10" fill="#7a5f4a" />
+
+  <!-- 빵집 건물 -->
+  <g filter="url(#shadow)">
+    <!-- 옆면 -->
+    <path d="M1020 300 L1100 340 L1100 716 L1020 716 Z" fill="url(#sideWall)" />
+    <!-- 앞면 -->
+    <rect x="460" y="300" width="560" height="416" fill="url(#wall)" />
+    <!-- 지붕 -->
+    <path d="M436 300 L520 220 L1060 220 L1124 300 Z" fill="#7a3b2e" />
+    <path d="M436 300 L1124 300 L1124 316 L436 316 Z" fill="#5e2b21" />
+  </g>
+
+  <!-- 앞면을 같은 크기로 나눈 조각 (7칸 x 4줄) -->
+  <g stroke="#c9ad88" stroke-width="3" fill="none">
+    <path d="M540 316 V716 M620 316 V716 M700 316 V716 M780 316 V716 M860 316 V716 M940 316 V716" />
+    <path d="M460 416 H1020 M460 516 H1020 M460 616 H1020" />
+  </g>
+
+  <!-- 진열창과 문 -->
+  <rect x="476" y="532" width="208" height="168" rx="6" fill="url(#window)" />
+  <g stroke="#b77d3a" stroke-width="4">
+    <path d="M580 532 V700 M476 616 H684" />
+  </g>
+  <g fill="#c7813b">
+    <ellipse cx="528" cy="596" rx="30" ry="14" />
+    <ellipse cx="632" cy="594" rx="28" ry="15" />
+    <ellipse cx="528" cy="680" rx="26" ry="12" />
+    <ellipse cx="632" cy="680" rx="30" ry="13" />
+  </g>
+  <rect x="872" y="540" width="120" height="176" rx="6" fill="#6b3d2a" />
+  <rect x="888" y="556" width="88" height="80" rx="4" fill="url(#window)" opacity="0.85" />
+  <circle cx="972" cy="640" r="6" fill="#f2c46d" />
+
+  <!-- 차양 -->
+  <g filter="url(#softShadow)">
+    <path d="M468 470 H1012 L1028 520 H452 Z" fill="#f7f0e4" />
+    <g fill="#d1543b">
+      <path d="M468 470 H536 L532 520 H452 Z" />
+      <path d="M604 470 H672 L676 520 H600 Z" />
+      <path d="M740 470 H808 L820 520 H748 Z" />
+      <path d="M876 470 H944 L964 520 H892 Z" />
+    </g>
+  </g>
+
+  <!-- 위층 창 -->
+  <g fill="url(#window)" opacity="0.9">
+    <rect x="556" y="340" width="48" height="60" rx="4" />
+    <rect x="716" y="340" width="48" height="60" rx="4" />
+    <rect x="876" y="340" width="48" height="60" rx="4" />
+  </g>
+
+  <!-- 빠져나온 자리 (빈 칸) -->
+  <rect x="700" y="416" width="80" height="100" fill="#4a2f24" />
+  <path d="M700 416 H780 L770 428 H710 V516 L700 516 Z" fill="#2f1d16" opacity="0.6" />
+
+  <!-- 손바닥 -->
+  <g filter="url(#shadow)">
+    <path d="M610 812 C612 760 650 738 700 736 L860 736 C900 736 924 752 924 776 C924 796 904 806 880 806 L812 806 C850 812 870 832 860 860 C852 884 820 900 760 900 L640 900 C620 880 608 846 610 812 Z" fill="url(#hand)" />
+    <path d="M700 736 C716 716 760 714 790 724" fill="none" stroke="#c98f68" stroke-width="5" stroke-linecap="round" />
+    <path d="M640 790 C680 800 740 800 800 790" fill="none" stroke="#c98f68" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+  </g>
+
+  <!-- 손 위의 조각 하나 -->
+  <circle cx="760" cy="640" r="190" fill="url(#glow)" />
+  <g filter="url(#shadow)" transform="translate(690 576) rotate(-8)">
+    <path d="M0 0 L132 0 L156 -20 L24 -20 Z" fill="#ffab84" />
+    <path d="M132 0 L156 -20 L156 140 L132 160 Z" fill="url(#tileSide)" />
+    <rect width="132" height="160" rx="4" fill="url(#tile)" />
+    <path d="M18 132 H114" stroke="#ffd3bd" stroke-width="5" stroke-linecap="round" opacity="0.8" />
+    <path d="M18 112 H80" stroke="#ffd3bd" stroke-width="5" stroke-linecap="round" opacity="0.6" />
+  </g>
+
+  <!-- 조각이 빠져나온 방향 표시 -->
+  <path d="M740 520 C744 540 748 552 752 566" fill="none" stroke="#ffe7d6" stroke-width="4" stroke-dasharray="8 10" stroke-linecap="round" opacity="0.85" />
+</svg>
