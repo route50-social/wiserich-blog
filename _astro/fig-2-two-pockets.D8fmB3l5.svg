@@ -1,0 +1,63 @@
+<!-- 그림 2: 비상금을 두 칸으로 나눠 두고 쓴 뒤 다시 채우는 순서 (가상 예시) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 776" role="img" aria-labelledby="fig2-title fig2-desc">
+  <title id="fig2-title">비상금을 두 칸으로 나눠 두기</title>
+  <desc id="fig2-desc">가상 예시. 목표 450만 원 가운데 필수 생활비 한 달치 150만 원은 첫째 칸인 주거래 은행 입출금 통장에 두어 당일에 쓸 수 있게 하고, 나머지 300만 원은 둘째 칸인 금리가 조금 더 높은 수시입출금 예금(파킹통장, MMDA 등)에 둔다. 첫째 칸에서 돈을 쓰면 둘째 칸에서 옮겨 채우고, 둘째 칸은 매달 저축으로 다시 채운다. 주식·펀드처럼 값이 변하는 상품과 만기가 긴 적금은 비상금 자리에서 뺀다.</desc>
+  <defs>
+    <marker id="fig2-arrow" viewBox="0 0 14 14" refX="12" refY="7" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M5 2 L12 7 L5 12" fill="none" stroke="#334155" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    </marker>
+  </defs>
+
+  <rect width="1200" height="776" rx="16" fill="#f8fafc" />
+  <rect x="1" y="1" width="1198" height="774" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="40" font-weight="700" fill="#1e293b">비상금을 두 칸으로 나눠 두기</text>
+    <text x="64" y="144" font-size="26" fill="#475569">가상 예시: 목표 450만 원 (필수 생활비 150만 원 × 3개월)</text>
+
+    <!-- 첫째 칸 -->
+    <rect x="64" y="192" width="480" height="304" rx="16" fill="#ecfdf5" stroke="#94a3b8" stroke-width="2" />
+    <circle cx="108" cy="236" r="24" fill="#ffffff" stroke="#64748b" stroke-width="2" />
+    <text x="108" y="245" font-size="26" font-weight="700" fill="#334155" text-anchor="middle">1</text>
+    <text x="148" y="246" font-size="28" font-weight="700" fill="#1e293b">바로 쓰는 칸</text>
+    <text x="88" y="316" font-size="40" font-weight="700" fill="#047857">150만 원</text>
+    <text x="88" y="352" font-size="22" fill="#475569">필수 생활비 한 달치</text>
+    <g font-size="22" fill="#334155">
+      <text x="88" y="408">주거래 은행 입출금 통장</text>
+      <text x="88" y="440">당일 이체·출금 가능</text>
+      <text x="88" y="472">카드는 연결하지 않음</text>
+    </g>
+
+    <!-- 둘째 칸 -->
+    <rect x="656" y="192" width="480" height="304" rx="16" fill="#eff6ff" stroke="#94a3b8" stroke-width="2" />
+    <circle cx="700" cy="236" r="24" fill="#ffffff" stroke="#64748b" stroke-width="2" />
+    <text x="700" y="245" font-size="26" font-weight="700" fill="#334155" text-anchor="middle">2</text>
+    <text x="740" y="246" font-size="28" font-weight="700" fill="#1e293b">받쳐 주는 칸</text>
+    <text x="680" y="316" font-size="40" font-weight="700" fill="#1d4ed8">300만 원</text>
+    <text x="680" y="352" font-size="22" fill="#475569">나머지 두 달치</text>
+    <g font-size="22" fill="#334155">
+      <text x="680" y="408">금리가 조금 더 높은 수시입출금</text>
+      <text x="680" y="440">예금(파킹통장, MMDA 등)</text>
+      <text x="680" y="472">예금자보호 여부 확인</text>
+    </g>
+
+    <!-- 칸 사이 화살표 -->
+    <path d="M648 300 H552" fill="none" stroke="#334155" stroke-width="2.5" marker-end="url(#fig2-arrow)" />
+    <text x="600" y="282" font-size="22" fill="#334155" text-anchor="middle">쓴 만큼</text>
+    <text x="600" y="336" font-size="22" fill="#334155" text-anchor="middle">옮겨 채움</text>
+
+    <!-- 월 저축 -->
+    <rect x="656" y="544" width="480" height="72" rx="12" fill="#ffffff" stroke="#bfdbfe" stroke-width="2" />
+    <text x="896" y="589" font-size="24" fill="#1e293b" text-anchor="middle">매달 저축으로 다시 채움</text>
+    <path d="M896 536 V504" fill="none" stroke="#334155" stroke-width="2.5" marker-end="url(#fig2-arrow)" />
+
+    <!-- 빼는 곳 -->
+    <rect x="64" y="544" width="480" height="168" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="8 6" />
+    <text x="88" y="588" font-size="24" font-weight="700" fill="#475569">비상금 자리에서 빼는 것</text>
+    <g font-size="22" fill="#475569">
+      <text x="88" y="628">주식·펀드: 꺼낼 때 값이 내려가 있을 수 있음</text>
+      <text x="88" y="660">만기 긴 적금: 깨면 약정 이자를 못 받음</text>
+      <text x="88" y="692">보험 해지환급금: 손해 보고 해지하기 쉬움</text>
+    </g>
+  </g>
+</svg>

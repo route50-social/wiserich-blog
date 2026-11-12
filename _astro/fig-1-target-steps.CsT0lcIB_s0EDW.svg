@@ -1,0 +1,86 @@
+<!-- 그림 1: 비상금 목표 금액을 정하는 세 단계 (가상 예시) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="fig1-title fig1-desc">
+  <title id="fig1-title">비상금 목표 금액을 정하는 세 단계</title>
+  <desc id="fig1-desc">가상 예시. 1단계에서 한 달 지출 190만 원 가운데 실직해도 줄이기 어려운 필수 생활비 150만 원을 고른다. 2단계에서 맞벌이이거나 직장이 안정적이고 고용보험에 가입했다면 3개월, 외벌이이거나 부양가족이 있거나 프리랜서·자영업자처럼 소득이 들쭉날쭉하면 6개월 이상을 고른다. 3단계에서 150만 원에 개월 수를 곱해 3개월이면 450만 원, 6개월이면 900만 원을 목표로 정한다.</desc>
+  <defs>
+    <marker id="fig1-arrow" viewBox="0 0 14 14" refX="12" refY="7" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M5 2 L12 7 L5 12" fill="none" stroke="#334155" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    </marker>
+  </defs>
+
+  <rect width="1200" height="800" rx="16" fill="#f8fafc" />
+  <rect x="1" y="1" width="1198" height="798" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="40" font-weight="700" fill="#1e293b">비상금 목표를 정하는 세 단계</text>
+    <text x="64" y="144" font-size="26" fill="#475569">가상 예시: 한 달 지출 190만 원인 1인 가구</text>
+
+    <!-- 단계 상자 -->
+    <g stroke="#94a3b8" stroke-width="2">
+      <rect x="64" y="192" width="320" height="456" rx="16" fill="#ecfdf5" />
+      <rect x="440" y="192" width="320" height="456" rx="16" fill="#eff6ff" />
+      <rect x="816" y="192" width="320" height="456" rx="16" fill="#fff7ed" />
+    </g>
+    <g fill="#ffffff" stroke="#64748b" stroke-width="2">
+      <circle cx="108" cy="236" r="24" />
+      <circle cx="484" cy="236" r="24" />
+      <circle cx="860" cy="236" r="24" />
+    </g>
+    <g font-size="26" font-weight="700" fill="#334155" text-anchor="middle">
+      <text x="108" y="245">1</text>
+      <text x="484" y="245">2</text>
+      <text x="860" y="245">3</text>
+    </g>
+    <g font-size="28" font-weight="700" fill="#1e293b">
+      <text x="148" y="246">필수 생활비</text>
+      <text x="524" y="246">개월 수</text>
+      <text x="900" y="246">목표 금액</text>
+    </g>
+
+    <!-- 1단계: 막대 -->
+    <text x="88" y="304" font-size="22" fill="#334155">한 달 지출</text>
+    <rect x="88" y="320" width="272" height="40" rx="6" fill="#cbd5e1" />
+    <text x="348" y="348" font-size="22" font-weight="700" fill="#1e293b" text-anchor="end">190만 원</text>
+    <text x="88" y="408" font-size="22" fill="#334155">줄이기 어려운 돈</text>
+    <rect x="88" y="424" width="215" height="40" rx="6" fill="#10b981" />
+    <text x="292" y="452" font-size="22" font-weight="700" fill="#ffffff" text-anchor="end">150만 원</text>
+    <g font-size="22" fill="#475569">
+      <text x="88" y="520">월세·관리비, 공과금,</text>
+      <text x="88" y="552">통신비, 보험료,</text>
+      <text x="88" y="584">대출 상환, 최소 식비</text>
+    </g>
+
+    <!-- 2단계: 두 선택지 -->
+    <rect x="464" y="280" width="272" height="160" rx="12" fill="#ffffff" stroke="#bfdbfe" stroke-width="2" />
+    <text x="488" y="322" font-size="26" font-weight="700" fill="#1d4ed8">3개월</text>
+    <g font-size="22" fill="#334155">
+      <text x="488" y="360">맞벌이, 안정적인 직장,</text>
+      <text x="488" y="392">고용보험 가입</text>
+    </g>
+    <rect x="464" y="464" width="272" height="160" rx="12" fill="#ffffff" stroke="#bfdbfe" stroke-width="2" />
+    <text x="488" y="506" font-size="26" font-weight="700" fill="#1d4ed8">6개월 이상</text>
+    <g font-size="22" fill="#334155">
+      <text x="488" y="544">외벌이·부양가족,</text>
+      <text x="488" y="576">프리랜서·자영업,</text>
+      <text x="488" y="608">소득이 들쭉날쭉</text>
+    </g>
+
+    <!-- 3단계: 계산 -->
+    <rect x="840" y="280" width="272" height="160" rx="12" fill="#ffffff" stroke="#fed7aa" stroke-width="2" />
+    <text x="864" y="322" font-size="22" fill="#334155">150만 원 × 3</text>
+    <text x="864" y="380" font-size="34" font-weight="700" fill="#c2410c">450만 원</text>
+    <rect x="840" y="464" width="272" height="160" rx="12" fill="#ffffff" stroke="#fed7aa" stroke-width="2" />
+    <text x="864" y="506" font-size="22" fill="#334155">150만 원 × 6</text>
+    <text x="864" y="564" font-size="34" font-weight="700" fill="#c2410c">900만 원</text>
+
+    <!-- 화살표 -->
+    <g fill="none" stroke="#334155" stroke-width="2.5" marker-end="url(#fig1-arrow)">
+      <path d="M392 420 H432" />
+      <path d="M744 360 H832" />
+      <path d="M744 544 H832" />
+    </g>
+
+    <text x="64" y="704" font-size="22" fill="#475569">금융감독원 금융교육 자료는 월평균 생활비의 3~6배를 전문가 권고로 소개합니다.</text>
+    <text x="64" y="740" font-size="22" fill="#475569">필수 생활비로 계산하는 방법과 개월 수 구분은 필자의 기준입니다.</text>
+  </g>
+</svg>
