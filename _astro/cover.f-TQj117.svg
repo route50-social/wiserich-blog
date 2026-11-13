@@ -1,0 +1,177 @@
+<!-- 표지: 벽에 걸린 줄에 매달린 고정비 꼬리표들 가운데 하나의 끈을 가위가 자르는 장면 (가계부와 고정비 줄이기 글) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">매달 나가는 돈의 꼬리표 하나를 잘라 내는 가위</title>
+  <desc id="cover-desc">따뜻한 베이지색 벽에 걸린 줄에 스마트폰, 재생 버튼 화면, 방패, 음표, 아령 그림이 그려진 종이 꼬리표 다섯 개가 집게로 매달려 있다. 가위가 재생 버튼 꼬리표의 끈을 자르자 그 꼬리표가 아래로 떨어지고 있다. 아래쪽 책상에는 펼친 가계부 노트와 연필이 놓여 있다. 매달 빠져나가는 고정비를 하나씩 찾아 끊어 내는 일을 나타낸다</desc>
+  <defs>
+    <linearGradient id="cv-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6ead8"/>
+      <stop offset="1" stop-color="#e9d3b4"/>
+    </linearGradient>
+    <radialGradient id="cv-light" cx="0.42" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cv-desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a5236"/>
+      <stop offset="1" stop-color="#553621"/>
+    </linearGradient>
+    <linearGradient id="cv-tag" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#f1e7d6"/>
+    </linearGradient>
+    <linearGradient id="cv-tag-cut" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9e0"/>
+      <stop offset="1" stop-color="#f8cdbd"/>
+    </linearGradient>
+    <linearGradient id="cv-blade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="0.5" stop-color="#b8c4cf"/>
+      <stop offset="1" stop-color="#7f8d9a"/>
+    </linearGradient>
+    <linearGradient id="cv-pin" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b98a5c"/>
+      <stop offset="0.5" stop-color="#ddb488"/>
+      <stop offset="1" stop-color="#a77a4f"/>
+    </linearGradient>
+    <filter id="cv-shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="6" dy="14" stdDeviation="10" flood-color="#5b3b1f" flood-opacity="0.28"/>
+    </filter>
+    <filter id="cv-soft" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="2" dy="6" stdDeviation="5" flood-color="#5b3b1f" flood-opacity="0.25"/>
+    </filter>
+    <!-- 꼬리표 모양 (윗변 가운데 x=0, y=0 기준) -->
+    <path id="cv-tag-shape" d="M-30 0 H30 L78 44 V226 Q78 240 64 240 H-64 Q-78 240 -78 226 V44 Z"/>
+  </defs>
+
+  <!-- 배경: 벽, 조명, 책상 -->
+  <rect width="1600" height="900" fill="url(#cv-wall)"/>
+  <rect width="1600" height="900" fill="url(#cv-light)"/>
+  <g stroke="#e2c9a6" stroke-width="2" opacity="0.7">
+    <path d="M0 120 H1600"/>
+  </g>
+  <path d="M0 742 H1600 V900 H0 Z" fill="url(#cv-desk)"/>
+  <path d="M0 742 H1600 V756 H0 Z" fill="#94684a"/>
+
+  <!-- 벽의 고리와 줄 -->
+  <g fill="#8a6a4d">
+    <circle cx="150" cy="200" r="14"/>
+    <circle cx="1450" cy="200" r="14"/>
+  </g>
+  <path d="M150 200 Q800 300 1450 200" fill="none" stroke="#6b4a32" stroke-width="5"/>
+
+  <!-- 꼬리표 1: 스마트폰 (통신비) -->
+  <g transform="translate(330 236) rotate(-3)" filter="url(#cv-shadow)">
+    <path d="M0 0 V40" stroke="#9c7b5c" stroke-width="3"/>
+    <g transform="translate(0 40)">
+      <use href="#cv-tag-shape" fill="url(#cv-tag)" stroke="#d6c2a5" stroke-width="2"/>
+      <circle cx="0" cy="30" r="9" fill="#e9d3b4" stroke="#bfa27e" stroke-width="2"/>
+      <rect x="-30" y="80" width="60" height="110" rx="12" fill="#2c3e57"/>
+      <rect x="-23" y="92" width="46" height="80" rx="4" fill="#9ec5e8"/>
+      <circle cx="0" cy="181" r="4" fill="#9ec5e8"/>
+    </g>
+  </g>
+
+  <!-- 꼬리표 2: 방패 (보험료) -->
+  <g transform="translate(560 268) rotate(2)" filter="url(#cv-shadow)">
+    <path d="M0 0 V40" stroke="#9c7b5c" stroke-width="3"/>
+    <g transform="translate(0 40)">
+      <use href="#cv-tag-shape" fill="url(#cv-tag)" stroke="#d6c2a5" stroke-width="2"/>
+      <circle cx="0" cy="30" r="9" fill="#e9d3b4" stroke="#bfa27e" stroke-width="2"/>
+      <path d="M0 76 L44 92 V136 Q44 176 0 196 Q-44 176 -44 136 V92 Z" fill="#2c3e57"/>
+      <path d="M-7 112 H7 V128 H23 V142 H7 V158 H-7 V142 H-23 V128 H-7 Z" fill="#f6ead8"/>
+    </g>
+  </g>
+
+  <!-- 꼬리표 4: 음표 (음원 구독) -->
+  <g transform="translate(1040 268) rotate(-2)" filter="url(#cv-shadow)">
+    <path d="M0 0 V40" stroke="#9c7b5c" stroke-width="3"/>
+    <g transform="translate(0 40)">
+      <use href="#cv-tag-shape" fill="url(#cv-tag)" stroke="#d6c2a5" stroke-width="2"/>
+      <circle cx="0" cy="30" r="9" fill="#e9d3b4" stroke="#bfa27e" stroke-width="2"/>
+      <path d="M-12 168 V96 L34 84 V156" fill="none" stroke="#2c3e57" stroke-width="10" stroke-linejoin="round"/>
+      <ellipse cx="-24" cy="170" rx="18" ry="13" fill="#2c3e57"/>
+      <ellipse cx="22" cy="158" rx="18" ry="13" fill="#2c3e57"/>
+    </g>
+  </g>
+
+  <!-- 꼬리표 5: 아령 (운동 시설 정기권) -->
+  <g transform="translate(1270 236) rotate(4)" filter="url(#cv-shadow)">
+    <path d="M0 0 V40" stroke="#9c7b5c" stroke-width="3"/>
+    <g transform="translate(0 40)">
+      <use href="#cv-tag-shape" fill="url(#cv-tag)" stroke="#d6c2a5" stroke-width="2"/>
+      <circle cx="0" cy="30" r="9" fill="#e9d3b4" stroke="#bfa27e" stroke-width="2"/>
+      <rect x="-30" y="130" width="60" height="12" rx="4" fill="#2c3e57"/>
+      <rect x="-52" y="106" width="20" height="60" rx="6" fill="#2c3e57"/>
+      <rect x="32" y="106" width="20" height="60" rx="6" fill="#2c3e57"/>
+      <rect x="-64" y="116" width="12" height="40" rx="4" fill="#2c3e57"/>
+      <rect x="52" y="116" width="12" height="40" rx="4" fill="#2c3e57"/>
+    </g>
+  </g>
+
+  <!-- 집게 (꼬리표 1, 2, 4, 5와 잘린 끈의 윗부분) -->
+  <g fill="url(#cv-pin)" stroke="#8a6440" stroke-width="1.5">
+    <rect x="320" y="206" width="20" height="46" rx="4" transform="rotate(-3 330 229)"/>
+    <rect x="550" y="232" width="20" height="46" rx="4" transform="rotate(2 560 255)"/>
+    <rect x="790" y="240" width="20" height="46" rx="4"/>
+    <rect x="1030" y="232" width="20" height="46" rx="4" transform="rotate(-2 1040 255)"/>
+    <rect x="1260" y="206" width="20" height="46" rx="4" transform="rotate(4 1270 229)"/>
+  </g>
+  <!-- 잘린 끈의 위쪽 토막 -->
+  <path d="M800 284 V318" stroke="#9c7b5c" stroke-width="3"/>
+
+  <!-- 꼬리표 3: 재생 버튼 화면 (동영상 구독), 끈이 잘려 떨어지는 중 -->
+  <g transform="translate(830 400) rotate(16)" filter="url(#cv-shadow)">
+    <path d="M0 -8 V30" stroke="#9c7b5c" stroke-width="3"/>
+    <g transform="translate(0 30)">
+      <use href="#cv-tag-shape" fill="url(#cv-tag-cut)" stroke="#e7a58e" stroke-width="2"/>
+      <circle cx="0" cy="30" r="9" fill="#f6ead8" stroke="#d98c72" stroke-width="2"/>
+      <rect x="-54" y="80" width="108" height="78" rx="6" fill="#2c3e57"/>
+      <rect x="-46" y="88" width="92" height="62" rx="2" fill="#f6b8a4"/>
+      <circle cx="0" cy="119" r="20" fill="#e8553f"/>
+      <path d="M-6 109 L10 119 L-6 129 Z" fill="#ffffff"/>
+      <path d="M-14 158 L-22 180 M14 158 L22 180" stroke="#2c3e57" stroke-width="6" stroke-linecap="round"/>
+      <rect x="-32" y="178" width="64" height="7" rx="3.5" fill="#2c3e57"/>
+    </g>
+  </g>
+  <!-- 떨어지는 움직임을 나타내는 선 -->
+  <g stroke="#d98c72" stroke-width="4" stroke-linecap="round" opacity="0.55">
+    <path d="M716 430 V480"/>
+    <path d="M700 500 V570"/>
+    <path d="M708 600 V640"/>
+  </g>
+
+  <!-- 가위: 끈을 막 자른 모습 -->
+  <g transform="translate(880 286) rotate(165) scale(0.85)" filter="url(#cv-soft)">
+    <path d="M-60 -6 L80 -26 L84 -14 Z" fill="url(#cv-blade)" stroke="#6b7785" stroke-width="2"/>
+    <path d="M-60 6 L80 26 L84 14 Z" fill="url(#cv-blade)" stroke="#6b7785" stroke-width="2"/>
+    <circle cx="-60" cy="0" r="7" fill="#475569"/>
+    <path d="M-60 -6 Q-80 -14 -98 -30" fill="none" stroke="#2c3e57" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-60 6 Q-80 14 -98 30" fill="none" stroke="#2c3e57" stroke-width="10" stroke-linecap="round"/>
+    <ellipse cx="-124" cy="-44" rx="30" ry="22" fill="none" stroke="#2c3e57" stroke-width="12"/>
+    <ellipse cx="-124" cy="44" rx="30" ry="22" fill="none" stroke="#2c3e57" stroke-width="12"/>
+  </g>
+
+  <!-- 책상 위 가계부 노트와 연필 -->
+  <g filter="url(#cv-shadow)">
+    <path d="M520 770 L800 760 L1080 770 L1072 880 L800 870 L528 880 Z" fill="#fffdf8" stroke="#d6c2a5" stroke-width="2"/>
+    <path d="M800 760 V870" stroke="#c9b18f" stroke-width="3"/>
+  </g>
+  <g stroke="#c9d6e3" stroke-width="3">
+    <path d="M560 796 H770"/>
+    <path d="M560 822 H770"/>
+    <path d="M560 848 H770"/>
+    <path d="M830 796 H1040"/>
+    <path d="M830 822 H1040"/>
+    <path d="M830 848 H1040"/>
+  </g>
+  <g stroke="#e8553f" stroke-width="4" stroke-linecap="round">
+    <path d="M830 822 H960"/>
+  </g>
+  <g transform="translate(1130 830) rotate(-24)" filter="url(#cv-soft)">
+    <rect x="-110" y="-9" width="190" height="18" rx="3" fill="#2c3e57"/>
+    <rect x="80" y="-9" width="22" height="18" fill="#d9c7aa"/>
+    <path d="M102 -9 L130 0 L102 9 Z" fill="#e7cfa9"/>
+    <path d="M122 -3 L130 0 L122 3 Z" fill="#2c3e57"/>
+    <rect x="-126" y="-9" width="16" height="18" rx="3" fill="#e8553f"/>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<!-- 그림 2: 점검 전후의 월 고정비 비교 (가상 예시) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="fig2-title fig2-desc">
+  <title id="fig2-title">점검 전후의 월 고정비 비교</title>
+  <desc id="fig2-desc">가상 예시. 통신비는 6만 9천 원에서 3만 9천 원으로 3만 원, 구독료는 4만 6,300원에서 3만 2,400원으로 1만 3,900원, 보험료는 7만 8천 원에서 6만 원으로 1만 8천 원 줄었다. 합계는 19만 3,300원에서 13만 1,400원으로, 한 달에 6만 1,900원, 1년에 74만 2,800원을 덜 쓴다.</desc>
+
+  <rect width="1200" height="720" rx="16" fill="#f8fafc"/>
+  <rect x="1" y="1" width="1198" height="718" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="40" font-weight="700" fill="#1e293b">점검 전후의 월 고정비</text>
+    <text x="64" y="140" font-size="24" fill="#475569">가상 예시: 1인 가구, 단위 원</text>
+
+    <!-- 범례 -->
+    <rect x="760" y="116" width="28" height="28" rx="4" fill="#c4ccd6"/>
+    <text x="800" y="138" font-size="22" fill="#334155">점검 전</text>
+    <rect x="920" y="116" width="28" height="28" rx="4" fill="#3182f6"/>
+    <text x="960" y="138" font-size="22" fill="#334155">점검 후</text>
+
+    <!-- 막대 축: x=240에서 시작, 1원 = 0.0084px (8만 원 = 672px) -->
+    <path d="M240 184 V560" stroke="#94a3b8" stroke-width="2"/>
+
+    <!-- 통신비 -->
+    <text x="216" y="240" font-size="24" font-weight="700" fill="#1e293b" text-anchor="end">통신비</text>
+    <rect x="240" y="200" width="580" height="36" rx="4" fill="#c4ccd6"/>
+    <text x="832" y="226" font-size="22" fill="#334155">69,000</text>
+    <rect x="240" y="244" width="328" height="36" rx="4" fill="#3182f6"/>
+    <text x="580" y="270" font-size="22" font-weight="700" fill="#1b64da">39,000</text>
+    <text x="1136" y="252" font-size="22" font-weight="700" fill="#1b64da" text-anchor="end">−30,000</text>
+
+    <!-- 구독료 -->
+    <text x="216" y="360" font-size="24" font-weight="700" fill="#1e293b" text-anchor="end">구독료</text>
+    <rect x="240" y="320" width="389" height="36" rx="4" fill="#c4ccd6"/>
+    <text x="641" y="346" font-size="22" fill="#334155">46,300</text>
+    <rect x="240" y="364" width="272" height="36" rx="4" fill="#3182f6"/>
+    <text x="524" y="390" font-size="22" font-weight="700" fill="#1b64da">32,400</text>
+    <text x="1136" y="372" font-size="22" font-weight="700" fill="#1b64da" text-anchor="end">−13,900</text>
+
+    <!-- 보험료 -->
+    <text x="216" y="480" font-size="24" font-weight="700" fill="#1e293b" text-anchor="end">보험료</text>
+    <rect x="240" y="440" width="655" height="36" rx="4" fill="#c4ccd6"/>
+    <text x="907" y="466" font-size="22" fill="#334155">78,000</text>
+    <rect x="240" y="484" width="504" height="36" rx="4" fill="#3182f6"/>
+    <text x="756" y="510" font-size="22" font-weight="700" fill="#1b64da">60,000</text>
+    <text x="1136" y="492" font-size="22" font-weight="700" fill="#1b64da" text-anchor="end">−18,000</text>
+
+    <!-- 합계 -->
+    <rect x="64" y="592" width="1072" height="72" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+    <text x="96" y="638" font-size="24" fill="#334155">합계 193,300 → 131,400</text>
+    <text x="1104" y="638" font-size="26" font-weight="700" fill="#1b64da" text-anchor="end">매달 61,900원, 1년 742,800원 절감</text>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<!-- 그림 1: 가계부의 세 칸(고정비·변동비·비정기 지출)과 고정비 다이어트의 대상 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="fig1-title fig1-desc">
+  <title id="fig1-title">가계부의 세 칸과 고정비 다이어트의 대상</title>
+  <desc id="fig1-desc">한 달 지출을 고정비, 변동비, 비정기 지출 세 칸으로 나눈다. 고정비는 다시 월세·관리비·대출 상환처럼 바꾸기 어려운 돈과, 통신비·구독료·보험료·렌탈처럼 계약을 다시 볼 수 있는 돈으로 나누며, 뒤쪽이 고정비 다이어트의 대상이다. 변동비는 식비·생활용품·교통·여가로 주 1회 확인하고, 비정기 지출은 자동차세·명절·경조사·연납 보험료로 1년 치를 12로 나눠 매달 떼어 둔다.</desc>
+  <defs>
+    <marker id="fig1-arrow" viewBox="0 0 14 14" refX="12" refY="7" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M5 2 L12 7 L5 12" fill="none" stroke="#475569" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="760" rx="16" fill="#fbf8f3"/>
+  <rect x="1" y="1" width="1198" height="758" rx="16" fill="none" stroke="#e2d6c3" stroke-width="2"/>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="40" font-weight="700" fill="#1e293b">지출을 세 칸으로 나눠 적기</text>
+    <text x="64" y="140" font-size="24" fill="#475569">고정비 가운데 계약으로 정해진 돈이 먼저 점검할 대상입니다</text>
+
+    <!-- 맨 위: 한 달 지출 -->
+    <rect x="440" y="176" width="320" height="64" rx="32" fill="#2c3e57"/>
+    <text x="600" y="217" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">한 달 지출</text>
+
+    <!-- 세 갈래 화살표 -->
+    <g stroke="#475569" stroke-width="2.5" fill="none" marker-end="url(#fig1-arrow)">
+      <path d="M560 240 L248 296"/>
+      <path d="M600 240 V296"/>
+      <path d="M640 240 L952 296"/>
+    </g>
+
+    <!-- 칸 1: 고정비 -->
+    <rect x="64" y="304" width="432" height="392" rx="16" fill="#fff4ec" stroke="#f0b99c" stroke-width="2"/>
+    <text x="96" y="352" font-size="30" font-weight="700" fill="#9a3412">고정비</text>
+    <text x="96" y="388" font-size="22" fill="#475569">매달 같은 날, 비슷한 금액</text>
+
+    <rect x="96" y="412" width="368" height="104" rx="12" fill="#ffffff" stroke="#e2d6c3" stroke-width="2"/>
+    <text x="120" y="452" font-size="22" font-weight="700" fill="#334155">바꾸기 어려운 돈</text>
+    <text x="120" y="488" font-size="22" fill="#475569">월세·관리비, 대출 상환</text>
+
+    <rect x="96" y="532" width="368" height="140" rx="12" fill="#e8553f"/>
+    <text x="120" y="572" font-size="22" font-weight="700" fill="#ffffff">계약을 다시 볼 수 있는 돈</text>
+    <text x="120" y="608" font-size="22" fill="#ffffff">통신비, 구독료, 보험료, 렌탈</text>
+    <rect x="120" y="624" width="236" height="32" rx="16" fill="#ffffff"/>
+    <text x="238" y="647" font-size="22" font-weight="700" fill="#b42318" text-anchor="middle">고정비 다이어트 대상</text>
+
+    <!-- 칸 2: 변동비 -->
+    <rect x="528" y="304" width="288" height="392" rx="16" fill="#eef4fb" stroke="#b7cde6" stroke-width="2"/>
+    <text x="560" y="352" font-size="30" font-weight="700" fill="#1e4f8a">변동비</text>
+    <text x="560" y="388" font-size="22" fill="#475569">쓰는 만큼 달라짐</text>
+    <g font-size="22" fill="#334155">
+      <text x="560" y="452">식비</text>
+      <text x="560" y="488">생활용품</text>
+      <text x="560" y="524">교통비</text>
+      <text x="560" y="560">여가</text>
+    </g>
+    <rect x="560" y="608" width="224" height="48" rx="12" fill="#ffffff" stroke="#b7cde6" stroke-width="2"/>
+    <text x="672" y="640" font-size="22" font-weight="700" fill="#1e4f8a" text-anchor="middle">주 1회 확인</text>
+
+    <!-- 칸 3: 비정기 지출 -->
+    <rect x="848" y="304" width="288" height="392" rx="16" fill="#f1f5ef" stroke="#bccfb5" stroke-width="2"/>
+    <text x="880" y="352" font-size="30" font-weight="700" fill="#3f6212">비정기 지출</text>
+    <text x="880" y="388" font-size="22" fill="#475569">날짜는 알지만 가끔</text>
+    <g font-size="22" fill="#334155">
+      <text x="880" y="452">자동차세</text>
+      <text x="880" y="488">명절 비용, 경조사</text>
+      <text x="880" y="524">연납 보험료</text>
+    </g>
+    <rect x="880" y="584" width="224" height="72" rx="12" fill="#ffffff" stroke="#bccfb5" stroke-width="2"/>
+    <text x="992" y="614" font-size="22" font-weight="700" fill="#3f6212" text-anchor="middle">1년 치 ÷ 12를</text>
+    <text x="992" y="644" font-size="22" font-weight="700" fill="#3f6212" text-anchor="middle">매달 떼어 두기</text>
+  </g>
+</svg>
