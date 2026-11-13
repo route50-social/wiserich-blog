@@ -1,0 +1,66 @@
+<!-- 84㎡ 아파트 한 세대의 면적 구성: 전용면적에 공용면적을 차례로 더해 공급면적과 계약면적이 되는 과정 (막대 길이는 실제 면적 비례) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="fig1-title fig1-desc">
+  <title id="fig1-title">84㎡ 아파트 한 세대의 면적 구성</title>
+  <desc id="fig1-desc">주거전용면적 84.9995제곱미터(25.7평)에 주거공용면적 26.5164제곱미터를 더하면 공급면적 111.5159제곱미터(33.7평), 여기에 지하주차장 등 기타공용면적 55.2652제곱미터를 더하면 계약면적 166.7811제곱미터(50.5평)가 된다. 발코니 서비스면적은 세 면적 어디에도 들어가지 않는다.</desc>
+
+  <rect width="1200" height="760" rx="16" fill="#f8fafc" />
+  <rect x="1" y="1" width="1198" height="758" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#1e293b">84㎡ 아파트 한 세대의 면적은 세 겹으로 쌓입니다</text>
+    <text x="64" y="144" font-size="25" fill="#475569">같은 집이 기준에 따라 25.7평, 33.7평, 50.5평이 됩니다 (막대 길이는 면적에 비례)</text>
+
+    <!-- 행 이름 -->
+    <g font-size="27" font-weight="700" fill="#1e293b">
+      <text x="64" y="262">전용면적</text>
+      <text x="64" y="390">공급면적</text>
+      <text x="64" y="518">계약면적</text>
+    </g>
+    <g font-size="22" fill="#475569">
+      <text x="64" y="294">현관 안쪽</text>
+      <text x="64" y="422">전용 + 주거공용</text>
+      <text x="64" y="550">공급 + 기타공용</text>
+    </g>
+
+    <!-- 1행: 전용면적 -->
+    <rect x="300" y="248" width="416" height="56" rx="8" fill="#99f6e4" />
+    <text x="316" y="285" font-size="24" font-weight="700" fill="#134e4a">주거전용</text>
+    <text x="716" y="232" font-size="24" font-weight="700" fill="#1e293b" text-anchor="end">84.9995㎡ · 25.7평</text>
+
+    <!-- 2행: 공급면적 -->
+    <rect x="300" y="376" width="416" height="56" rx="8" fill="#99f6e4" />
+    <rect x="716" y="376" width="130" height="56" fill="#fde68a" />
+    <line x1="716" y1="376" x2="716" y2="432" stroke="#ffffff" stroke-width="3" />
+    <text x="316" y="413" font-size="24" font-weight="700" fill="#134e4a">주거전용</text>
+    <text x="728" y="413" font-size="24" font-weight="700" fill="#78350f">주거공용</text>
+    <text x="846" y="360" font-size="24" font-weight="700" fill="#1e293b" text-anchor="end">111.5159㎡ · 33.7평 ≈ "34평"</text>
+
+    <!-- 3행: 계약면적 -->
+    <rect x="300" y="504" width="416" height="56" rx="8" fill="#99f6e4" />
+    <rect x="716" y="504" width="130" height="56" fill="#fde68a" />
+    <rect x="846" y="504" width="270" height="56" rx="8" fill="#ddd6fe" />
+    <rect x="846" y="504" width="16" height="56" fill="#ddd6fe" />
+    <g stroke="#ffffff" stroke-width="3">
+      <line x1="716" y1="504" x2="716" y2="560" />
+      <line x1="846" y1="504" x2="846" y2="560" />
+    </g>
+    <text x="316" y="541" font-size="24" font-weight="700" fill="#134e4a">주거전용</text>
+    <text x="728" y="541" font-size="24" font-weight="700" fill="#78350f">주거공용</text>
+    <text x="862" y="541" font-size="24" font-weight="700" fill="#4c1d95">기타공용</text>
+    <text x="1116" y="488" font-size="24" font-weight="700" fill="#1e293b" text-anchor="end">166.7811㎡ · 50.5평</text>
+
+    <!-- 범례 -->
+    <g font-size="22" fill="#334155">
+      <rect x="64" y="600" width="24" height="24" rx="4" fill="#99f6e4" />
+      <text x="100" y="620">주거전용 84.9995㎡</text>
+      <rect x="344" y="600" width="24" height="24" rx="4" fill="#fde68a" />
+      <text x="380" y="620">주거공용 26.5164㎡ (계단·복도·벽체)</text>
+      <rect x="784" y="600" width="24" height="24" rx="4" fill="#ddd6fe" />
+      <text x="820" y="620">기타공용 55.2652㎡ (지하주차장 등)</text>
+    </g>
+
+    <!-- 서비스면적 -->
+    <rect x="64" y="656" width="1072" height="64" rx="12" fill="#ffffff" stroke="#64748b" stroke-width="2" stroke-dasharray="8 6" />
+    <text x="88" y="697" font-size="23" fill="#1e293b"><tspan font-weight="700">발코니 서비스면적</tspan>: 외벽에서 1.5m 폭까지는 바닥면적에 넣지 않아 위 세 면적 어디에도 없음</text>
+  </g>
+</svg>

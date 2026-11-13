@@ -1,0 +1,145 @@
+<!-- 표지: 설계도 위 아파트 평면도와 펼쳐진 줄자, 삼각자, 연필 (면적 읽기 글) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">아파트 평면도와 줄자</title>
+  <desc id="cover-desc">짙은 청색 설계도 위에 방 세 개짜리 아파트 평면도가 흰 선으로 그려져 있고, 거실을 가로질러 노란 줄자가 펼쳐져 있으며 옆에 삼각자와 연필이 놓인 모습</desc>
+  <defs>
+    <linearGradient id="desk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14263d" />
+      <stop offset="1" stop-color="#0b1626" />
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#3b6ea5" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#3b6ea5" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="sheet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6496" />
+      <stop offset="1" stop-color="#22507d" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#9cc3e6" stroke-opacity="0.18" stroke-width="1.5" />
+    </pattern>
+    <linearGradient id="tape" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde047" />
+      <stop offset="1" stop-color="#eab308" />
+    </linearGradient>
+    <radialGradient id="caseFace" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#fef08a" />
+      <stop offset="0.6" stop-color="#facc15" />
+      <stop offset="1" stop-color="#ca8a04" />
+    </radialGradient>
+    <linearGradient id="ruler" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e2f3ff" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#bfe0f7" stop-opacity="0.35" />
+    </linearGradient>
+    <linearGradient id="pencil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7e5e4" />
+      <stop offset="0.5" stop-color="#d6d3d1" />
+      <stop offset="1" stop-color="#a8a29e" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- 책상 배경 -->
+  <rect width="1600" height="900" fill="url(#desk)" />
+  <rect width="1600" height="900" fill="url(#lamp)" />
+
+  <!-- 설계도 종이 -->
+  <g transform="translate(300 110) rotate(-3 500 340)">
+    <g filter="url(#shadow)">
+      <rect width="1000" height="680" rx="6" fill="url(#sheet)" />
+    </g>
+    <rect width="1000" height="680" rx="6" fill="url(#grid)" />
+    <rect x="24" y="24" width="952" height="632" fill="none" stroke="#cfe5f7" stroke-opacity="0.5" stroke-width="2" />
+
+    <!-- 거실 강조(전용 공간) -->
+    <rect x="380" y="300" width="500" height="260" fill="#5eead4" fill-opacity="0.22" />
+
+    <!-- 발코니(서비스면적) 띠 -->
+    <rect x="120" y="560" width="760" height="64" fill="#ffffff" fill-opacity="0.07" />
+    <path d="M120 624 H880" fill="none" stroke="#e0f2fe" stroke-width="4" stroke-dasharray="14 10" />
+    <path d="M120 560 V624 M880 560 V624" fill="none" stroke="#e0f2fe" stroke-width="4" stroke-dasharray="14 10" />
+
+    <!-- 외벽 -->
+    <rect x="120" y="110" width="760" height="450" fill="none" stroke="#f8fafc" stroke-width="10" />
+
+    <!-- 내벽 -->
+    <g stroke="#f8fafc" stroke-width="6" stroke-linecap="square">
+      <path d="M380 110 V250 M380 330 V470" />
+      <path d="M120 330 H300" />
+      <path d="M380 300 H560 M640 300 H880" />
+      <path d="M660 110 V300" />
+      <path d="M660 210 H760 M820 210 H880" />
+      <path d="M760 110 V210" />
+    </g>
+
+    <!-- 문 열림 표시 -->
+    <g fill="none" stroke="#cfe5f7" stroke-width="3">
+      <path d="M380 250 A80 80 0 0 0 300 330" />
+      <path d="M300 330 V330" />
+      <path d="M560 300 A80 80 0 0 1 640 300" stroke-dasharray="6 6" />
+      <path d="M760 210 A60 60 0 0 0 820 270" />
+    </g>
+
+    <!-- 창 표시 -->
+    <g stroke="#bae6fd" stroke-width="4">
+      <path d="M180 560 H330 M450 560 H820" />
+      <path d="M180 552 H330 M450 552 H820" />
+    </g>
+
+    <!-- 주방 조리대 -->
+    <rect x="400" y="130" width="240" height="44" fill="none" stroke="#cfe5f7" stroke-width="3" />
+    <circle cx="460" cy="152" r="12" fill="none" stroke="#cfe5f7" stroke-width="3" />
+    <circle cx="500" cy="152" r="12" fill="none" stroke="#cfe5f7" stroke-width="3" />
+    <!-- 욕실 -->
+    <rect x="680" y="128" width="64" height="40" rx="18" fill="none" stroke="#cfe5f7" stroke-width="3" />
+
+    <!-- 치수선 -->
+    <g stroke="#cfe5f7" stroke-width="2.5">
+      <path d="M120 72 H880" />
+      <path d="M120 60 V84 M880 60 V84 M380 64 V80 M660 64 V80" />
+      <path d="M918 110 V560" />
+      <path d="M906 110 H930 M906 560 H930" />
+    </g>
+  </g>
+
+  <!-- 삼각자 -->
+  <g filter="url(#softShadow)">
+    <path d="M150 820 L150 520 L470 820 Z" fill="url(#ruler)" stroke="#e0f2fe" stroke-opacity="0.8" stroke-width="3" />
+    <path d="M200 770 L200 640 L338 770 Z" fill="#14263d" fill-opacity="0.35" stroke="#e0f2fe" stroke-opacity="0.6" stroke-width="2" />
+    <g stroke="#e0f2fe" stroke-opacity="0.8" stroke-width="2">
+      <path d="M150 560 H168 M150 600 H176 M150 640 H168 M150 680 H176 M150 720 H168 M150 760 H176" />
+    </g>
+  </g>
+
+  <!-- 펼쳐진 줄자: 거실을 가로지름 -->
+  <g filter="url(#softShadow)">
+    <path d="M560 548 L1216 588 L1213 640 L557 600 Z" fill="url(#tape)" />
+    <g stroke="#3f3a1a" stroke-width="3">
+      <path d="M600 552 L599 574 M640 555 L639 568 M680 557 L679 579 M720 560 L719 573 M760 562 L759 584 M800 565 L799 578 M840 567 L839 589 M880 570 L879 583 M920 572 L919 594 M960 575 L959 588 M1000 577 L999 599 M1040 580 L1039 593 M1080 582 L1079 604 M1120 584 L1119 597 M1160 587 L1159 609" />
+    </g>
+    <path d="M552 545 L566 546 L563 604 L549 603 Z" fill="#78716c" />
+  </g>
+
+  <!-- 줄자 몸통 -->
+  <g filter="url(#shadow)">
+    <circle cx="1290" cy="608" r="112" fill="#1f2937" />
+    <circle cx="1290" cy="600" r="106" fill="url(#caseFace)" />
+    <circle cx="1290" cy="600" r="64" fill="#facc15" stroke="#a16207" stroke-width="4" />
+    <circle cx="1290" cy="600" r="18" fill="#1f2937" />
+    <rect x="1180" y="582" width="36" height="66" rx="8" fill="#1f2937" />
+  </g>
+
+  <!-- 연필 -->
+  <g transform="rotate(-28 1330 300)" filter="url(#softShadow)">
+    <rect x="1120" y="282" width="360" height="36" rx="4" fill="url(#pencil)" />
+    <path d="M1120 282 L1060 300 L1120 318 Z" fill="#e7d3b0" />
+    <path d="M1076 295 L1060 300 L1076 305 Z" fill="#334155" />
+    <rect x="1480" y="282" width="40" height="36" rx="4" fill="#94a3b8" />
+    <path d="M1120 294 H1480 M1120 306 H1480" stroke="#78716c" stroke-opacity="0.35" stroke-width="2" />
+  </g>
+</svg>

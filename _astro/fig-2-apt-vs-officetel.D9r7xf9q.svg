@@ -1,0 +1,68 @@
+<!-- 전용면적이 거의 같은 아파트 84A형과 오피스텔 84OA형의 면적 구성 비교 (같은 축척, 막대 길이는 실제 면적 비례) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="fig2-title fig2-desc">
+  <title id="fig2-title">전용 84㎡ 아파트와 오피스텔의 면적 구성 비교</title>
+  <desc id="fig2-desc">아파트 84A형은 전용 84.9995, 주거공용 26.5164, 기타공용 55.2652제곱미터로 계약면적 166.7811제곱미터, 계약면적 기준 전용률 51.0퍼센트다. 오피스텔 84OA형은 전용 84.7775, 공용 43.7773, 기타공용 65.7270제곱미터로 계약면적 194.2818제곱미터, 전용률 43.6퍼센트다.</desc>
+
+  <rect width="1200" height="640" rx="16" fill="#f8fafc" />
+  <rect x="1" y="1" width="1198" height="638" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#1e293b">전용면적은 같아도 공용면적은 다릅니다</text>
+    <text x="64" y="144" font-size="25" fill="#475569">전용 84㎡대 아파트와 오피스텔의 계약면적 구성 (같은 축척)</text>
+
+    <!-- 행 이름 -->
+    <g font-size="27" font-weight="700" fill="#1e293b">
+      <text x="64" y="274">아파트</text>
+      <text x="64" y="434">오피스텔</text>
+    </g>
+    <g font-size="22" fill="#475569">
+      <text x="64" y="306">84A형</text>
+      <text x="64" y="466">84OA형</text>
+    </g>
+
+    <!-- 아파트 막대 -->
+    <rect x="300" y="256" width="357" height="64" rx="8" fill="#99f6e4" />
+    <rect x="650" y="256" width="7" height="64" fill="#99f6e4" />
+    <rect x="657" y="256" width="111" height="64" fill="#fde68a" />
+    <rect x="768" y="256" width="233" height="64" rx="8" fill="#ddd6fe" />
+    <rect x="768" y="256" width="16" height="64" fill="#ddd6fe" />
+    <g stroke="#ffffff" stroke-width="3">
+      <line x1="657" y1="256" x2="657" y2="320" />
+      <line x1="768" y1="256" x2="768" y2="320" />
+    </g>
+    <g font-size="24" font-weight="700">
+      <text x="316" y="297" fill="#134e4a">전용 85.0</text>
+      <text x="669" y="297" fill="#78350f">26.5</text>
+      <text x="784" y="297" fill="#4c1d95">55.3</text>
+    </g>
+    <text x="1001" y="240" font-size="24" font-weight="700" fill="#1e293b" text-anchor="end">계약 166.8㎡ · 전용률 51.0%</text>
+
+    <!-- 오피스텔 막대 -->
+    <rect x="300" y="416" width="356" height="64" rx="8" fill="#99f6e4" />
+    <rect x="649" y="416" width="7" height="64" fill="#99f6e4" />
+    <rect x="656" y="416" width="184" height="64" fill="#fde68a" />
+    <rect x="840" y="416" width="276" height="64" rx="8" fill="#ddd6fe" />
+    <rect x="840" y="416" width="16" height="64" fill="#ddd6fe" />
+    <g stroke="#ffffff" stroke-width="3">
+      <line x1="656" y1="416" x2="656" y2="480" />
+      <line x1="840" y1="416" x2="840" y2="480" />
+    </g>
+    <g font-size="24" font-weight="700">
+      <text x="316" y="457" fill="#134e4a">전용 84.8</text>
+      <text x="668" y="457" fill="#78350f">43.8</text>
+      <text x="856" y="457" fill="#4c1d95">65.7</text>
+    </g>
+    <text x="1116" y="400" font-size="24" font-weight="700" fill="#1e293b" text-anchor="end">계약 194.3㎡ · 전용률 43.6%</text>
+
+    <!-- 범례 -->
+    <g font-size="22" fill="#334155">
+      <rect x="64" y="536" width="24" height="24" rx="4" fill="#99f6e4" />
+      <text x="100" y="556">전용면적</text>
+      <rect x="248" y="536" width="24" height="24" rx="4" fill="#fde68a" />
+      <text x="284" y="556">주거공용·공용면적 (계단·복도 등)</text>
+      <rect x="704" y="536" width="24" height="24" rx="4" fill="#ddd6fe" />
+      <text x="740" y="556">기타공용면적 (지하주차장 등)</text>
+      <text x="64" y="596" fill="#475569">단위: ㎡. 전용률 = 전용면적 ÷ 계약면적. 공급면적 기준으로는 아파트 76.2%, 오피스텔 65.9%</text>
+    </g>
+  </g>
+</svg>
