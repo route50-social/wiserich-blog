@@ -1,0 +1,176 @@
+<!-- 표지: 벽에 걸린 나무 열쇠걸이와 크기가 다른 열쇠 세 개, 선반 위 집 모형과 동전 더미 (주거 형태 선택 글) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">열쇠걸이에 걸린 열쇠 세 개와 집 모형</title>
+  <desc id="cover-desc">따뜻한 베이지색 벽에 나무 열쇠걸이가 걸려 있고 크기가 다른 열쇠 세 개가 각각 색이 다른 꼬리표를 달고 매달려 있으며, 아래 선반에 작은 집 모형과 동전 더미가 놓인 모습</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe2cf" />
+      <stop offset="1" stop-color="#e2d0b6" />
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.3" r="0.65">
+      <stop offset="0" stop-color="#fff8ec" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#fff8ec" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a86a3d" />
+      <stop offset="0.5" stop-color="#8f5530" />
+      <stop offset="1" stop-color="#6f3f22" />
+    </linearGradient>
+    <linearGradient id="shelf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a5f36" />
+      <stop offset="1" stop-color="#5f351c" />
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5d98a" />
+      <stop offset="0.45" stop-color="#d4a73f" />
+      <stop offset="1" stop-color="#9c7322" />
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef1f4" />
+      <stop offset="0.5" stop-color="#b9c1ca" />
+      <stop offset="1" stop-color="#7d8792" />
+    </linearGradient>
+    <linearGradient id="tagTeal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2bb3a3" />
+      <stop offset="1" stop-color="#147a70" />
+    </linearGradient>
+    <linearGradient id="tagAmber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6b24a" />
+      <stop offset="1" stop-color="#c97a16" />
+    </linearGradient>
+    <linearGradient id="tagCream" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf6ec" />
+      <stop offset="1" stop-color="#ddd2bf" />
+    </linearGradient>
+    <linearGradient id="houseWall" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbf7f0" />
+      <stop offset="1" stop-color="#e4dccd" />
+    </linearGradient>
+    <linearGradient id="houseSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cfc4b1" />
+      <stop offset="1" stop-color="#b5a991" />
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a8f85" />
+      <stop offset="1" stop-color="#16655e" />
+    </linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b98a2c" />
+      <stop offset="0.5" stop-color="#e7c26a" />
+      <stop offset="1" stop-color="#a77a22" />
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="6" dy="18" stdDeviation="14" flood-color="#4a3420" flood-opacity="0.35" />
+    </filter>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="190%">
+      <feDropShadow dx="4" dy="10" stdDeviation="8" flood-color="#4a3420" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- 벽과 조명 -->
+  <rect width="1600" height="900" fill="url(#wall)" />
+  <rect width="1600" height="900" fill="url(#light)" />
+  <g stroke="#d7c3a5" stroke-width="2" opacity="0.5">
+    <line x1="0" y1="180" x2="1600" y2="180" />
+    <line x1="0" y1="560" x2="1600" y2="560" />
+  </g>
+
+  <!-- 열쇠걸이 판 -->
+  <g filter="url(#shadow)">
+    <rect x="420" y="170" width="760" height="96" rx="14" fill="url(#wood)" />
+  </g>
+  <g stroke="#5e3419" stroke-opacity="0.35" stroke-width="2" fill="none">
+    <path d="M440 198 C620 190 820 206 1160 196" />
+    <path d="M440 236 C700 244 900 228 1160 240" />
+  </g>
+  <g fill="#3f2414">
+    <circle cx="452" cy="218" r="7" />
+    <circle cx="1148" cy="218" r="7" />
+  </g>
+
+  <!-- 고리 -->
+  <g fill="none" stroke="url(#brass)" stroke-width="9" stroke-linecap="round">
+    <path d="M600 250 V292 Q600 312 620 312" />
+    <path d="M800 250 V292 Q800 312 820 312" />
+    <path d="M1000 250 V292 Q1000 312 1020 312" />
+  </g>
+  <g fill="#b78a2f">
+    <circle cx="600" cy="246" r="11" />
+    <circle cx="800" cy="246" r="11" />
+    <circle cx="1000" cy="246" r="11" />
+  </g>
+
+  <!-- 열쇠 1: 작은 은색 열쇠 + 크림색 꼬리표 -->
+  <g filter="url(#softShadow)">
+    <path d="M578 360 L552 420 L534 488 L572 498 L590 430 Z" fill="url(#tagCream)" stroke="#bfae92" stroke-width="2" />
+    <circle cx="576" cy="378" r="5" fill="#e2d0b6" stroke="#bfae92" stroke-width="2" />
+    <circle cx="612" cy="322" r="16" fill="none" stroke="url(#steel)" stroke-width="6" />
+    <path d="M612 338 L612 368" stroke="#8a929b" stroke-width="4" />
+    <circle cx="612" cy="394" r="30" fill="url(#steel)" />
+    <circle cx="612" cy="390" r="10" fill="#e2d0b6" />
+    <rect x="604" y="420" width="16" height="96" rx="4" fill="url(#steel)" />
+    <path d="M620 470 H636 V482 H628 V494 H636 V506 H620 Z" fill="url(#steel)" />
+  </g>
+
+  <!-- 열쇠 2: 중간 황동 열쇠 + 주황 꼬리표 -->
+  <g filter="url(#softShadow)">
+    <path d="M840 360 L872 428 L892 508 L846 520 L826 440 Z" fill="url(#tagAmber)" />
+    <circle cx="842" cy="380" r="6" fill="#e2d0b6" />
+    <circle cx="812" cy="322" r="16" fill="none" stroke="url(#brass)" stroke-width="6" />
+    <path d="M812 338 L812 372" stroke="#9c7322" stroke-width="4" />
+    <circle cx="812" cy="408" r="40" fill="url(#brass)" />
+    <circle cx="812" cy="402" r="13" fill="#e2d0b6" />
+    <rect x="802" y="446" width="20" height="132" rx="5" fill="url(#brass)" />
+    <path d="M822 520 H842 V536 H832 V550 H846 V566 H822 Z" fill="url(#brass)" />
+  </g>
+
+  <!-- 열쇠 3: 큰 황동 열쇠 + 청록 꼬리표 -->
+  <g filter="url(#softShadow)">
+    <path d="M990 362 L954 436 L934 524 L986 536 L1008 448 Z" fill="url(#tagTeal)" />
+    <circle cx="986" cy="384" r="6" fill="#e2d0b6" />
+    <circle cx="1012" cy="322" r="16" fill="none" stroke="url(#brass)" stroke-width="6" />
+    <path d="M1012 338 L1012 372" stroke="#9c7322" stroke-width="4" />
+    <path d="M1012 370 C1062 370 1072 448 1012 456 C952 448 962 370 1012 370 Z" fill="url(#brass)" />
+    <circle cx="1012" cy="410" r="15" fill="#e2d0b6" />
+    <rect x="1000" y="452" width="24" height="166" rx="6" fill="url(#brass)" />
+    <path d="M1024 548 H1050 V566 H1036 V584 H1054 V604 H1024 Z" fill="url(#brass)" />
+  </g>
+
+  <!-- 선반 -->
+  <g filter="url(#shadow)">
+    <rect x="300" y="720" width="1000" height="36" rx="6" fill="url(#shelf)" />
+  </g>
+  <rect x="300" y="720" width="1000" height="8" rx="4" fill="#b67b4c" />
+  <g fill="#5a3218">
+    <path d="M380 756 L380 800 L420 756 Z" />
+    <path d="M1220 756 L1220 800 L1180 756 Z" />
+  </g>
+
+  <!-- 집 모형 -->
+  <g transform="translate(-140 0)">
+  <g filter="url(#shadow)">
+    <path d="M640 720 V600 L700 552 L760 600 V720 Z" fill="url(#houseSide)" />
+    <path d="M500 720 V598 L600 520 L700 552 L700 598 L640 600 V720 Z" fill="url(#houseWall)" />
+    <path d="M488 604 L600 512 L712 548 L772 604 L760 612 L700 562 L600 530 L500 614 Z" fill="url(#roof)" />
+  </g>
+  <path d="M600 512 L700 552" stroke="#0f4d47" stroke-width="3" />
+  <rect x="534" y="628" width="44" height="44" rx="4" fill="#f6c76c" stroke="#b5a991" stroke-width="3" />
+  <line x1="556" y1="628" x2="556" y2="672" stroke="#b5a991" stroke-width="3" />
+  <line x1="534" y1="650" x2="578" y2="650" stroke="#b5a991" stroke-width="3" />
+  <rect x="598" y="640" width="34" height="80" rx="4" fill="#8f5530" />
+  <circle cx="624" cy="682" r="3" fill="#f5d98a" />
+  <rect x="676" y="630" width="40" height="36" rx="4" fill="#9fb8b2" stroke="#a39780" stroke-width="3" />
+  </g>
+
+  <!-- 동전 더미 -->
+  <g filter="url(#softShadow)">
+    <rect x="900" y="696" width="96" height="24" rx="12" fill="url(#coin)" />
+    <rect x="904" y="676" width="96" height="24" rx="12" fill="url(#coin)" />
+    <rect x="898" y="656" width="96" height="24" rx="12" fill="url(#coin)" />
+    <rect x="904" y="636" width="96" height="24" rx="12" fill="url(#coin)" />
+    <ellipse cx="952" cy="636" rx="48" ry="10" fill="#f2d685" />
+    <rect x="1030" y="696" width="96" height="24" rx="12" fill="url(#coin)" />
+    <rect x="1026" y="676" width="96" height="24" rx="12" fill="url(#coin)" />
+    <ellipse cx="1074" cy="676" rx="48" ry="10" fill="#f2d685" />
+  </g>
+</svg>

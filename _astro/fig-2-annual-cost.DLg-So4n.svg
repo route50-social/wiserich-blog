@@ -1,0 +1,83 @@
+<!-- 5억 원 아파트의 1년 주거비용 비교: 대출 이자, 묶인 돈의 기회비용, 월세, 보유세를 쌓은 가로 막대 (막대 길이는 금액 비례, 가상의 예) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="fig2-title fig2-desc">
+  <title id="fig2-title">네 가지 방식의 1년 주거비용</title>
+  <desc id="fig2-desc">매매는 대출 이자 1,464만 원, 기회비용 678만 원, 보유세 37만 원으로 1년 약 2,179만 원. 전세는 대출 이자 457만 원과 기회비용 678만 원으로 1,135만 원. 반전세는 월세 1,000만 원과 기회비용 339만 원으로 1,339만 원. 월세는 월세 1,400만 원과 기회비용 68만 원으로 약 1,468만 원.</desc>
+
+  <rect width="1200" height="800" rx="16" fill="#fbfaf7" />
+  <rect x="1" y="1" width="1198" height="798" rx="16" fill="none" stroke="#d6d3cc" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#1f2937">1년 동안 실제로 드는 돈은 전세가 가장 적습니다</text>
+    <text x="64" y="144" font-size="25" fill="#4b5563">5억 원 아파트, 가진 돈 2억 원 · 2026년 9월 금리 기준 (집값 변동 제외)</text>
+
+    <!-- 눈금 -->
+    <g stroke="#e5e2db" stroke-width="2">
+      <line x1="280" y1="184" x2="280" y2="640" />
+      <line x1="440" y1="184" x2="440" y2="640" />
+      <line x1="600" y1="184" x2="600" y2="640" />
+      <line x1="760" y1="184" x2="760" y2="640" />
+      <line x1="920" y1="184" x2="920" y2="640" />
+    </g>
+    <g font-size="22" fill="#6b7280" text-anchor="middle">
+      <text x="280" y="668">0</text>
+      <text x="440" y="668">500만</text>
+      <text x="600" y="668">1,000만</text>
+      <text x="760" y="668">1,500만</text>
+      <text x="920" y="668">2,000만 원</text>
+    </g>
+
+    <!-- 행 이름 -->
+    <g font-size="28" font-weight="700" fill="#1f2937">
+      <text x="64" y="252">매매</text>
+      <text x="64" y="364">전세</text>
+      <text x="64" y="476">반전세</text>
+      <text x="64" y="588">월세</text>
+    </g>
+    <g font-size="22" fill="#4b5563">
+      <text x="64" y="284">월 약 182만 원</text>
+      <text x="64" y="396">월 약 95만 원</text>
+      <text x="64" y="508">월 약 112만 원</text>
+      <text x="64" y="620">월 약 122만 원</text>
+    </g>
+
+    <!-- 매매: 이자 1464(468) + 기회 678(217) + 보유세 37(12) -->
+    <rect x="280" y="216" width="468" height="64" fill="#fcd9a8" />
+    <rect x="748" y="216" width="217" height="64" fill="#0f766e" />
+    <rect x="965" y="216" width="12" height="64" fill="#6b7280" />
+    <text x="296" y="257" font-size="23" font-weight="700" fill="#7c3d0a">대출 이자 1,464만</text>
+    <text x="764" y="257" font-size="23" font-weight="700" fill="#ffffff">기회비용 678만</text>
+    <text x="992" y="246" font-size="26" font-weight="700" fill="#1f2937">2,179만</text>
+    <text x="992" y="276" font-size="21" fill="#4b5563">보유세 37만 포함</text>
+
+    <!-- 전세: 이자 457(146) + 기회 678(217) -->
+    <rect x="280" y="328" width="146" height="64" fill="#fcd9a8" />
+    <rect x="426" y="328" width="217" height="64" fill="#0f766e" />
+    <text x="296" y="369" font-size="23" font-weight="700" fill="#7c3d0a">이자 457만</text>
+    <text x="442" y="369" font-size="23" font-weight="700" fill="#ffffff">기회비용 678만</text>
+    <text x="660" y="370" font-size="26" font-weight="700" fill="#1f2937">1,135만</text>
+
+    <!-- 반전세: 월세 1000(320) + 기회 339(108) -->
+    <rect x="280" y="440" width="320" height="64" fill="#c7d2fe" />
+    <rect x="600" y="440" width="108" height="64" fill="#0f766e" />
+    <text x="296" y="481" font-size="23" font-weight="700" fill="#312e81">월세 1,000만</text>
+    <text x="614" y="481" font-size="23" font-weight="700" fill="#ffffff">339만</text>
+    <text x="724" y="482" font-size="26" font-weight="700" fill="#1f2937">1,339만</text>
+
+    <!-- 월세: 월세 1400(448) + 기회 68(22) -->
+    <rect x="280" y="552" width="448" height="64" fill="#c7d2fe" />
+    <rect x="728" y="552" width="22" height="64" fill="#0f766e" />
+    <text x="296" y="593" font-size="23" font-weight="700" fill="#312e81">월세 1,400만</text>
+    <text x="766" y="582" font-size="26" font-weight="700" fill="#1f2937">1,468만</text>
+    <text x="766" y="612" font-size="21" fill="#4b5563">기회비용 68만 포함</text>
+
+    <!-- 범례 -->
+    <rect x="64" y="716" width="32" height="32" rx="6" fill="#fcd9a8" />
+    <text x="108" y="741" font-size="23" fill="#374151">대출 이자</text>
+    <rect x="248" y="716" width="32" height="32" rx="6" fill="#0f766e" />
+    <text x="292" y="741" font-size="23" fill="#374151">묶인 내 돈의 기회비용 (연 3.39%)</text>
+    <rect x="696" y="716" width="32" height="32" rx="6" fill="#c7d2fe" />
+    <text x="740" y="741" font-size="23" fill="#374151">월세</text>
+    <rect x="852" y="716" width="32" height="32" rx="6" fill="#6b7280" />
+    <text x="896" y="741" font-size="23" fill="#374151">보유세</text>
+  </g>
+</svg>

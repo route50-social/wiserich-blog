@@ -1,0 +1,73 @@
+<!-- 5억 원 아파트에 사는 네 가지 방식: 내 돈 2억 원이 어디에 묶이고 무엇을 빌리며 매달 무엇을 내는지 (가상의 예) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" role="img" aria-labelledby="fig1-title fig1-desc">
+  <title id="fig1-title">5억 원 아파트에 사는 네 가지 방식</title>
+  <desc id="fig1-desc">매매는 내 돈 2억 원과 주택담보대출 3억 원으로 집을 산다. 전세는 내 돈 2억 원과 전세자금대출 1억 원으로 보증금 3억 원을 맡긴다. 반전세는 보증금 1억 원을 맡기고 월세 약 83만 원을 내며 내 돈 1억 원이 예금으로 남는다. 월세는 보증금 2천만 원에 월세 약 117만 원을 내며 1억 8천만 원이 예금으로 남는다.</desc>
+
+  <rect width="1200" height="840" rx="16" fill="#fbfaf7" />
+  <rect x="1" y="1" width="1198" height="838" rx="16" fill="none" stroke="#d6d3cc" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#1f2937">가진 돈 2억 원으로 5억 원 아파트에 사는 네 가지 방법</text>
+    <text x="64" y="144" font-size="25" fill="#4b5563">막대 길이는 금액에 비례 (1억 원 = 136px), 가상의 예</text>
+
+    <!-- 눈금 기준선 -->
+    <g stroke="#e5e2db" stroke-width="2">
+      <line x1="320" y1="184" x2="320" y2="704" />
+      <line x1="1000" y1="184" x2="1000" y2="704" />
+    </g>
+    <g font-size="22" fill="#6b7280" text-anchor="middle">
+      <text x="320" y="728">0</text>
+      <text x="1000" y="728">5억 원</text>
+    </g>
+
+    <!-- 행 이름 -->
+    <g font-size="28" font-weight="700" fill="#1f2937">
+      <text x="64" y="240">매매</text>
+      <text x="64" y="370">전세</text>
+      <text x="64" y="500">반전세</text>
+      <text x="64" y="630">월세</text>
+    </g>
+    <g font-size="22" fill="#4b5563">
+      <text x="64" y="274">집을 소유</text>
+      <text x="64" y="404">월세 없음</text>
+      <text x="64" y="534">월 약 83만 원</text>
+      <text x="64" y="664">월 약 117만 원</text>
+    </g>
+
+    <!-- 1행 매매: 내 돈 2억 + 주담대 3억 -->
+    <rect x="320" y="208" width="272" height="64" rx="8" fill="#0f766e" />
+    <rect x="592" y="208" width="408" height="64" rx="8" fill="#fcd9a8" />
+    <rect x="592" y="208" width="16" height="64" fill="#fcd9a8" />
+    <text x="336" y="249" font-size="24" font-weight="700" fill="#ffffff">내 돈 2억</text>
+    <text x="608" y="249" font-size="24" font-weight="700" fill="#7c3d0a">주택담보대출 3억 (연 4.88%)</text>
+
+    <!-- 2행 전세: 내 돈 2억 + 전세대출 1억 -->
+    <rect x="320" y="338" width="272" height="64" rx="8" fill="#0f766e" />
+    <rect x="592" y="338" width="136" height="64" rx="8" fill="#fcd9a8" />
+    <rect x="592" y="338" width="16" height="64" fill="#fcd9a8" />
+    <text x="336" y="379" font-size="24" font-weight="700" fill="#ffffff">내 돈 2억</text>
+    <text x="608" y="379" font-size="24" font-weight="700" fill="#7c3d0a">대출 1억</text>
+    <text x="744" y="379" font-size="23" fill="#374151">보증금 3억 · 전세대출 연 4.57%</text>
+
+    <!-- 3행 반전세: 보증금 1억, 1억 예금 -->
+    <rect x="320" y="468" width="136" height="64" rx="8" fill="#0f766e" />
+    <rect x="456" y="468" width="136" height="64" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="3" stroke-dasharray="8 6" />
+    <text x="336" y="509" font-size="24" font-weight="700" fill="#ffffff">보증금 1억</text>
+    <text x="472" y="509" font-size="24" font-weight="700" fill="#115e59">예금 1억</text>
+    <text x="608" y="509" font-size="23" fill="#374151">2억 원어치를 월세로 (전환율 연 5%)</text>
+
+    <!-- 4행 월세: 보증금 2천만, 1.8억 예금 -->
+    <rect x="320" y="598" width="28" height="64" rx="6" fill="#0f766e" />
+    <rect x="348" y="598" width="244" height="64" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="3" stroke-dasharray="8 6" />
+    <text x="364" y="639" font-size="24" font-weight="700" fill="#115e59">예금 1억 8천만</text>
+    <text x="608" y="639" font-size="23" fill="#374151">보증금 2천만 · 2억 8천만 원어치를 월세로</text>
+
+    <!-- 범례 -->
+    <rect x="64" y="764" width="32" height="32" rx="6" fill="#0f766e" />
+    <text x="108" y="789" font-size="23" fill="#374151">집·보증금에 묶인 내 돈</text>
+    <rect x="404" y="764" width="32" height="32" rx="6" fill="#fcd9a8" />
+    <text x="448" y="789" font-size="23" fill="#374151">빌린 돈</text>
+    <rect x="584" y="764" width="32" height="32" rx="6" fill="#ffffff" stroke="#0f766e" stroke-width="3" stroke-dasharray="6 5" />
+    <text x="628" y="789" font-size="23" fill="#374151">묶이지 않고 예금에 남는 내 돈 (연 3.39%)</text>
+  </g>
+</svg>

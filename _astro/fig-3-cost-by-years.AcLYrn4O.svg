@@ -1,0 +1,83 @@
+<!-- 거주 기간별(2년·4년·10년) 매매·전세·월세의 누적 주거비용과 매매의 손익분기 집값 상승률 (막대 높이는 금액 비례, 가상의 예) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" role="img" aria-labelledby="fig3-title fig3-desc">
+  <title id="fig3-title">거주 기간별 누적 주거비용</title>
+  <desc id="fig3-desc">2년 거주 시 매매 5,308만 원, 전세 2,360만 원, 월세 2,977만 원. 4년은 매매 9,666만 원, 전세 4,720만 원, 월세 5,953만 원. 10년은 매매 2억 2,739만 원, 전세 1억 1,800만 원, 월세 1억 4,883만 원. 매매가 전세와 같아지려면 집값이 2년 5.9%, 4년 9.9%, 10년 21.9% 올라야 한다.</desc>
+
+  <rect width="1200" height="860" rx="16" fill="#fbfaf7" />
+  <rect x="1" y="1" width="1198" height="858" rx="16" fill="none" stroke="#d6d3cc" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="38" font-weight="700" fill="#1f2937">오래 살수록 매매에 필요한 집값 상승률은 낮아집니다</text>
+    <text x="64" y="144" font-size="25" fill="#4b5563">누적 주거비용 (취득세·중개보수 포함, 집값 변동 제외), 가상의 예</text>
+
+    <!-- 축: 0 = y 640, 1억 = 160px -->
+    <g stroke="#e5e2db" stroke-width="2">
+      <line x1="200" y1="640" x2="1136" y2="640" />
+      <line x1="200" y1="480" x2="1136" y2="480" />
+      <line x1="200" y1="320" x2="1136" y2="320" />
+    </g>
+    <g font-size="22" fill="#6b7280" text-anchor="end">
+      <text x="184" y="648">0</text>
+      <text x="184" y="488">1억</text>
+      <text x="184" y="328">2억 원</text>
+    </g>
+
+    <!-- 2년: 매매 5308 (84.9), 전세 2360 (37.8), 월세 2977 (47.6) -->
+    <rect x="224" y="555" width="72" height="85" fill="#fcd9a8" />
+    <rect x="312" y="602" width="72" height="38" fill="#0f766e" />
+    <rect x="400" y="592" width="72" height="48" fill="#c7d2fe" />
+    <g font-size="21" font-weight="700" fill="#1f2937" text-anchor="middle">
+      <text x="260" y="543">5,308만</text>
+      <text x="348" y="590">2,360만</text>
+      <text x="436" y="580">2,977만</text>
+    </g>
+
+    <!-- 4년: 매매 9666 (154.7), 전세 4720 (75.5), 월세 5953 (95.2) -->
+    <rect x="552" y="485" width="72" height="155" fill="#fcd9a8" />
+    <rect x="640" y="564" width="72" height="76" fill="#0f766e" />
+    <rect x="728" y="545" width="72" height="95" fill="#c7d2fe" />
+    <g font-size="21" font-weight="700" fill="#1f2937" text-anchor="middle">
+      <text x="588" y="473">9,666만</text>
+      <text x="676" y="552">4,720만</text>
+      <text x="764" y="533">5,953만</text>
+    </g>
+
+    <!-- 10년: 매매 22739 (363.8), 전세 11800 (188.8), 월세 14883 (238.1) -->
+    <rect x="880" y="276" width="72" height="364" fill="#fcd9a8" />
+    <rect x="968" y="451" width="72" height="189" fill="#0f766e" />
+    <rect x="1056" y="402" width="72" height="238" fill="#c7d2fe" />
+    <g font-size="21" font-weight="700" fill="#1f2937" text-anchor="middle">
+      <text x="916" y="264">2억 2,739만</text>
+      <text x="1004" y="439">1억 1,800만</text>
+      <text x="1092" y="390">1억 4,883만</text>
+    </g>
+
+    <!-- 기간 이름 -->
+    <g font-size="28" font-weight="700" fill="#1f2937" text-anchor="middle">
+      <text x="348" y="684">2년</text>
+      <text x="676" y="684">4년</text>
+      <text x="1004" y="684">10년</text>
+    </g>
+
+    <!-- 손익분기 상승률 -->
+    <g font-size="23" fill="#374151" text-anchor="middle">
+      <text x="348" y="724">집값 5.9% 상승 필요</text>
+      <text x="676" y="724">집값 9.9% 상승 필요</text>
+      <text x="1004" y="724">집값 21.9% 상승 필요</text>
+    </g>
+    <g font-size="21" fill="#6b7280" text-anchor="middle">
+      <text x="348" y="756">(연 약 2.9%)</text>
+      <text x="676" y="756">(연 약 2.5%)</text>
+      <text x="1004" y="756">(연 약 2.2%)</text>
+    </g>
+
+    <!-- 범례 -->
+    <rect x="64" y="788" width="32" height="32" rx="6" fill="#fcd9a8" />
+    <text x="108" y="813" font-size="23" fill="#374151">매매</text>
+    <rect x="200" y="788" width="32" height="32" rx="6" fill="#0f766e" />
+    <text x="244" y="813" font-size="23" fill="#374151">전세</text>
+    <rect x="336" y="788" width="32" height="32" rx="6" fill="#c7d2fe" />
+    <text x="380" y="813" font-size="23" fill="#374151">월세</text>
+    <text x="520" y="813" font-size="22" fill="#4b5563">상승률: 매매 비용이 전세와 같아지는 집값 상승 (단순 계산)</text>
+  </g>
+</svg>
