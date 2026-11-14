@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="cover-title cover-desc">
+  <!-- 표지: 기업이 성장 단계에 따라 코넥스, 코스닥, 유가증권시장으로 옮겨 가는 모습을 계단 선반 위 세 화분으로 표현 -->
+  <title id="cover-title">코스피와 코스닥, 코넥스의 차이 표지</title>
+  <desc id="cover-desc">아침 햇살이 드는 온실 안 나무 계단 선반에 화분 세 개가 낮은 단부터 높은 단까지 놓여 있다. 맨 아래에는 새싹, 가운데에는 어린나무, 맨 위에는 잎이 무성한 나무가 자란다.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3f1ea" />
+      <stop offset="0.7" stop-color="#cfe6da" />
+      <stop offset="1" stop-color="#b9d6c6" />
+    </linearGradient>
+    <radialGradient id="sunlight" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7d6" stop-opacity="0.95" />
+      <stop offset="0.5" stop-color="#fff1b8" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#fff1b8" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffbe6" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#fffbe6" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="woodTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3b98a" />
+      <stop offset="1" stop-color="#cf9f6c" />
+    </linearGradient>
+    <linearGradient id="woodFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9824f" />
+      <stop offset="1" stop-color="#93633a" />
+    </linearGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c8603e" />
+      <stop offset="0.45" stop-color="#e48a62" />
+      <stop offset="1" stop-color="#a94a2d" />
+    </linearGradient>
+    <linearGradient id="potRim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b8553a" />
+      <stop offset="0.45" stop-color="#ef9b74" />
+      <stop offset="1" stop-color="#9c4328" />
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6fc28b" />
+      <stop offset="1" stop-color="#2f8a55" />
+    </linearGradient>
+    <linearGradient id="leafDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4fa872" />
+      <stop offset="1" stop-color="#1f6b40" />
+    </linearGradient>
+    <linearGradient id="trunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a5236" />
+      <stop offset="0.5" stop-color="#9a6b48" />
+      <stop offset="1" stop-color="#5f3f29" />
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2d4a3a" flood-opacity="0.3" />
+    </filter>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#2d4a3a" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- 온실 배경과 햇살 -->
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <circle cx="1320" cy="120" r="420" fill="url(#sunlight)" />
+  <g stroke="#ffffff" stroke-opacity="0.55" stroke-width="6">
+    <path d="M0 220 H1600" />
+    <path d="M0 470 H1600" />
+    <path d="M200 0 V740" />
+    <path d="M520 0 V740" />
+    <path d="M840 0 V740" />
+    <path d="M1160 0 V740" />
+    <path d="M1480 0 V740" />
+  </g>
+  <path d="M1350 0 L1600 0 L900 900 L520 900 Z" fill="url(#beam)" />
+
+  <!-- 바닥 -->
+  <rect y="740" width="1600" height="160" fill="#a9c9b6" />
+  <rect y="740" width="1600" height="6" fill="#ffffff" fill-opacity="0.4" />
+  <ellipse cx="800" cy="776" rx="560" ry="26" fill="#2d4a3a" fill-opacity="0.18" />
+
+  <!-- 선반과 화분 전체를 가운데로 모아 공유 미리보기에서도 잘리지 않게 줄임 -->
+  <g transform="translate(160 150) scale(0.8)">
+  <!-- 계단 선반: 낮은 단, 가운데 단, 높은 단 -->
+  <g filter="url(#shadow)">
+    <rect x="300" y="600" width="1000" height="40" rx="6" fill="url(#woodTop)" />
+    <rect x="300" y="636" width="1000" height="132" fill="url(#woodFront)" />
+    <rect x="640" y="452" width="660" height="40" rx="6" fill="url(#woodTop)" />
+    <rect x="640" y="488" width="660" height="116" fill="url(#woodFront)" />
+    <rect x="980" y="304" width="320" height="40" rx="6" fill="url(#woodTop)" />
+    <rect x="980" y="340" width="320" height="116" fill="url(#woodFront)" />
+  </g>
+  <g stroke="#7d5330" stroke-opacity="0.35" stroke-width="3">
+    <path d="M320 690 H620" />
+    <path d="M660 540 H960" />
+    <path d="M1000 390 H1280" />
+    <path d="M660 700 H1280" />
+  </g>
+
+  <!-- 화분 1: 낮은 단의 새싹 -->
+  <g filter="url(#softShadow)">
+    <path d="M410 528 H590 L574 604 H426 Z" fill="url(#pot)" />
+    <rect x="398" y="508" width="204" height="30" rx="8" fill="url(#potRim)" />
+    <ellipse cx="500" cy="512" rx="90" ry="10" fill="#4a3324" />
+  </g>
+  <path d="M500 512 C500 488 500 470 502 452" fill="none" stroke="#3f8f5c" stroke-width="7" stroke-linecap="round" />
+  <path d="M502 462 C470 452 452 430 458 410 C486 414 504 436 502 462 Z" fill="url(#leaf)" />
+  <path d="M502 456 C530 440 552 438 566 450 C552 470 526 470 502 456 Z" fill="url(#leaf)" />
+
+  <!-- 화분 2: 가운데 단의 어린나무 -->
+  <g filter="url(#softShadow)">
+    <path d="M740 364 H940 L922 456 H758 Z" fill="url(#pot)" />
+    <rect x="726" y="342" width="228" height="32" rx="8" fill="url(#potRim)" />
+    <ellipse cx="840" cy="346" rx="100" ry="11" fill="#4a3324" />
+  </g>
+  <path d="M836 346 C834 300 838 262 842 222" fill="none" stroke="url(#trunk)" stroke-width="14" stroke-linecap="round" />
+  <path d="M838 290 C812 276 798 260 794 240" fill="none" stroke="#7a5236" stroke-width="7" stroke-linecap="round" />
+  <g filter="url(#softShadow)">
+    <circle cx="842" cy="196" r="70" fill="url(#leafDark)" />
+    <circle cx="790" cy="226" r="46" fill="url(#leaf)" />
+    <circle cx="894" cy="222" r="50" fill="url(#leaf)" />
+    <circle cx="852" cy="160" r="44" fill="url(#leaf)" />
+  </g>
+
+  <!-- 화분 3: 높은 단의 큰 나무 -->
+  <g filter="url(#softShadow)">
+    <path d="M1048 210 H1232 L1214 304 H1066 Z" fill="url(#pot)" />
+    <rect x="1034" y="188" width="212" height="32" rx="8" fill="url(#potRim)" />
+    <ellipse cx="1140" cy="192" rx="94" ry="11" fill="#4a3324" />
+  </g>
+  <path d="M1136 192 C1132 150 1138 112 1142 70" fill="none" stroke="url(#trunk)" stroke-width="22" stroke-linecap="round" />
+  <path d="M1138 140 C1100 124 1080 100 1072 76" fill="none" stroke="#7a5236" stroke-width="10" stroke-linecap="round" />
+  <path d="M1140 120 C1176 106 1198 84 1206 60" fill="none" stroke="#7a5236" stroke-width="10" stroke-linecap="round" />
+  <g filter="url(#shadow)">
+    <circle cx="1140" cy="40" r="112" fill="url(#leafDark)" />
+    <circle cx="1046" cy="70" r="76" fill="url(#leaf)" />
+    <circle cx="1236" cy="64" r="80" fill="url(#leaf)" />
+    <circle cx="1100" cy="-6" r="72" fill="url(#leaf)" />
+    <circle cx="1196" cy="-10" r="70" fill="url(#leafDark)" />
+  </g>
+
+  </g>
+
+  <!-- 떠다니는 빛 입자 -->
+  <g fill="#fffbe6" fill-opacity="0.8">
+    <circle cx="640" cy="260" r="6" />
+    <circle cx="700" cy="330" r="4" />
+    <circle cx="980" cy="560" r="5" />
+    <circle cx="420" cy="360" r="4" />
+    <circle cx="1400" cy="420" r="6" />
+  </g>
+</svg>

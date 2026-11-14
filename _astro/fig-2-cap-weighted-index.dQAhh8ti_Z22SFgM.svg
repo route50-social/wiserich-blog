@@ -1,0 +1,44 @@
+<!-- 그림 2: 시가총액 가중 지수에서 큰 회사와 작은 회사가 지수에 미치는 영향 비교 (가상의 예시) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 664" role="img" aria-labelledby="fig2-title fig2-desc">
+  <title id="fig2-title">시가총액 가중 지수의 계산 예시</title>
+  <desc id="fig2-desc">시가총액이 A사 80조 원, B사 15조 원, C사 5조 원인 가상의 시장에서 지수는 200이다. A사 주가가 10% 오르면 시가총액이 8조 원 늘어 지수가 216으로 16포인트 오르고, C사 주가가 10% 오르면 5,000억 원 늘어 지수가 201로 1포인트 오른다.</desc>
+
+  <rect width="1200" height="664" rx="16" fill="#f8fafc" />
+  <rect x="1" y="1" width="1198" height="662" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="40" font-weight="700" fill="#1e293b">같은 10%라도 큰 회사가 지수를 더 움직인다</text>
+    <text x="64" y="144" font-size="26" fill="#475569">지수 = 지금 시가총액 ÷ 기준 시가총액(50조 원) × 100</text>
+
+    <!-- 1. 시장 구성: 100조 원을 1,072px로 그림 (1조 원 = 10.72px) -->
+    <text x="64" y="212" font-size="26" font-weight="700" fill="#1e293b">지금 시장 전체 시가총액 100조 원 → 지수 200</text>
+    <rect x="64" y="236" width="857.6" height="72" fill="#475569" />
+    <rect x="921.6" y="236" width="160.8" height="72" fill="#94a3b8" />
+    <rect x="1082.4" y="236" width="53.6" height="72" fill="#cbd5e1" />
+    <g stroke="#f8fafc" stroke-width="3">
+      <path d="M921.6 236 V308" />
+      <path d="M1082.4 236 V308" />
+    </g>
+    <g font-size="26" font-weight="700">
+      <text x="88" y="281" fill="#ffffff">A사 80조 원</text>
+      <text x="937" y="281" fill="#1e293b">B사 15조</text>
+    </g>
+    <path d="M1109 312 V328" stroke="#64748b" stroke-width="2" />
+    <text x="1136" y="356" font-size="23" fill="#334155" text-anchor="end">C사 5조 원</text>
+
+    <!-- 2. 주가 10% 상승 시 늘어나는 시가총액: 1조 원 = 80px -->
+    <text x="64" y="420" font-size="26" font-weight="700" fill="#1e293b">한 회사의 주가만 10% 오른다면</text>
+
+    <text x="64" y="489" font-size="26" font-weight="700" fill="#334155">A사 +10%</text>
+    <rect x="248" y="452" width="640" height="56" rx="6" fill="#f04452" />
+    <text x="272" y="489" font-size="24" font-weight="700" fill="#ffffff">시가총액 +8조 원</text>
+    <text x="912" y="489" font-size="26" font-weight="700" fill="#d22030">지수 216 (+16)</text>
+
+    <text x="64" y="577" font-size="26" font-weight="700" fill="#334155">C사 +10%</text>
+    <rect x="248" y="540" width="40" height="56" rx="6" fill="#f04452" />
+    <text x="304" y="577" font-size="24" fill="#334155">시가총액 +5,000억 원</text>
+    <text x="912" y="577" font-size="26" font-weight="700" fill="#d22030">지수 201 (+1)</text>
+
+    <text x="64" y="636" font-size="22" fill="#475569">기준 시점 시가총액 50조 원, 기준지수 100으로 가정한 가상의 예시 · 막대 길이는 늘어난 시가총액에 비례</text>
+  </g>
+</svg>

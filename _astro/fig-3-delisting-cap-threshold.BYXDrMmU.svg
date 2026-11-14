@@ -1,0 +1,68 @@
+<!-- 그림 3: 유가증권시장과 코스닥의 상장폐지 시가총액 기준 상향 일정 (금융위원회 2026-02-12 발표 기준) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="fig3-title fig3-desc">
+  <title id="fig3-title">상장폐지 시가총액 기준의 단계적 상향</title>
+  <desc id="fig3-desc">유가증권시장의 상장폐지 시가총액 기준은 2026년 1월 200억 원, 2026년 7월 1일 300억 원, 2027년 1월 1일 500억 원이다. 코스닥은 같은 시점에 150억 원, 200억 원, 300억 원이다.</desc>
+
+  <rect width="1200" height="720" rx="16" fill="#f8fafc" />
+  <rect x="1" y="1" width="1198" height="718" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="40" font-weight="700" fill="#1e293b">상장폐지 시가총액 기준이 반년마다 오른다</text>
+    <text x="64" y="144" font-size="26" fill="#475569">기준에 30거래일 연속 못 미치면 관리종목, 이후 회복 못 하면 상장폐지</text>
+
+    <!-- 범례 -->
+    <rect x="64" y="184" width="28" height="28" rx="4" fill="#0f766e" />
+    <text x="104" y="207" font-size="24" fill="#334155">유가증권시장</text>
+    <rect x="288" y="184" width="28" height="28" rx="4" fill="#84cc16" />
+    <text x="328" y="207" font-size="24" fill="#334155">코스닥</text>
+    <text x="1136" y="207" font-size="22" fill="#475569" text-anchor="end">단위: 억 원</text>
+
+    <!-- 눈금: 기준선 y=600, 100억 원 = 64px -->
+    <g stroke="#e2e8f0" stroke-width="2">
+      <path d="M160 536 H1136" />
+      <path d="M160 472 H1136" />
+      <path d="M160 408 H1136" />
+      <path d="M160 344 H1136" />
+      <path d="M160 280 H1136" />
+    </g>
+    <path d="M160 600 H1136" stroke="#94a3b8" stroke-width="2" />
+    <g font-size="22" fill="#475569" text-anchor="end">
+      <text x="144" y="608">0</text>
+      <text x="144" y="544">100</text>
+      <text x="144" y="480">200</text>
+      <text x="144" y="416">300</text>
+      <text x="144" y="352">400</text>
+      <text x="144" y="288">500</text>
+    </g>
+
+    <!-- 막대: 그룹 중심 x = 324, 648, 972, 막대 너비 104, 간격 16 -->
+    <g fill="#0f766e">
+      <rect x="216" y="472" width="104" height="128" />
+      <rect x="540" y="408" width="104" height="192" />
+      <rect x="864" y="280" width="104" height="320" />
+    </g>
+    <g fill="#84cc16">
+      <rect x="336" y="504" width="104" height="96" />
+      <rect x="660" y="472" width="104" height="128" />
+      <rect x="984" y="408" width="104" height="192" />
+    </g>
+
+    <!-- 값 -->
+    <g font-size="26" font-weight="700" fill="#1e293b" text-anchor="middle">
+      <text x="268" y="460">200</text>
+      <text x="388" y="492">150</text>
+      <text x="592" y="396">300</text>
+      <text x="712" y="460">200</text>
+      <text x="916" y="268">500</text>
+      <text x="1036" y="396">300</text>
+    </g>
+
+    <!-- 시점 -->
+    <g font-size="24" fill="#334155" text-anchor="middle">
+      <text x="328" y="640">2026년 1월</text>
+      <text x="652" y="640">2026년 7월 1일</text>
+      <text x="976" y="640">2027년 1월 1일</text>
+    </g>
+    <text x="976" y="672" font-size="22" fill="#475569" text-anchor="middle">(예정)</text>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+<!-- 그림 1: 세 시장의 대표 진입 요건과 이전상장 경로 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 776" role="img" aria-labelledby="fig1-title fig1-desc">
+  <title id="fig1-title">세 시장의 진입 요건과 이전상장 경로</title>
+  <desc id="fig1-desc">비상장 회사는 재무 요건 없이 지정자문인과 계약해 코넥스에 상장할 수 있다. 코스닥은 세전이익 20억 원과 시가총액 90억 원 등의 요건이나 기술특례로, 유가증권시장은 자기자본 300억 원과 매출 1,000억 원 등의 요건으로 상장한다. 코넥스에서 코스닥으로, 코스닥에서 유가증권시장으로 이전상장할 수 있고, 조건을 갖추면 처음부터 어느 시장에나 상장할 수 있다.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 14 14" refX="12" refY="7" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M5 2 L12 7 L5 12" fill="none" stroke="#334155" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    </marker>
+    <marker id="arrow-sub" viewBox="0 0 14 14" refX="12" refY="7" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M5 2 L12 7 L5 12" fill="none" stroke="#64748b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+    </marker>
+  </defs>
+
+  <rect width="1200" height="776" rx="16" fill="#f7faf8" />
+  <rect x="1" y="1" width="1198" height="774" rx="16" fill="none" stroke="#cbd5e1" stroke-width="2" />
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <text x="64" y="96" font-size="40" font-weight="700" fill="#1e293b">회사가 커 가며 옮겨 가는 세 시장</text>
+    <text x="64" y="144" font-size="26" fill="#475569">위 시장일수록 상장할 때 더 큰 규모와 실적을 요구합니다</text>
+
+    <!-- 시장 상자: 같은 너비, 바닥선을 맞추고 높이로 문턱 차이를 표현 -->
+    <g stroke-width="2">
+      <rect x="64" y="460" width="168" height="160" rx="16" fill="#f1f5f9" stroke="#94a3b8" stroke-dasharray="8 6" />
+      <rect x="272" y="420" width="256" height="200" rx="16" fill="#ecfccb" stroke="#84cc16" />
+      <rect x="568" y="340" width="256" height="280" rx="16" fill="#dcfce7" stroke="#22c55e" />
+      <rect x="864" y="260" width="256" height="360" rx="16" fill="#ccfbf1" stroke="#14b8a6" />
+    </g>
+
+    <!-- 상자 제목 -->
+    <g font-size="30" font-weight="700" fill="#1e293b">
+      <text x="148" y="530" text-anchor="middle">비상장</text>
+      <text x="148" y="570" text-anchor="middle">회사</text>
+      <text x="296" y="468">코넥스</text>
+      <text x="592" y="388">코스닥</text>
+      <text x="888" y="308">유가증권시장</text>
+    </g>
+
+    <!-- 상자 설명 -->
+    <g font-size="23" fill="#334155">
+      <text x="296" y="508" fill="#3f6212" font-weight="700">창업 초기 중소기업</text>
+      <text x="296" y="550">재무 요건 없음</text>
+      <text x="296" y="588">지정자문인 계약</text>
+
+      <text x="592" y="428" fill="#166534" font-weight="700">중소형 성장기업</text>
+      <text x="592" y="470">세전이익 20억 원</text>
+      <text x="592" y="506">+ 시가총액 90억 원</text>
+      <text x="592" y="542">등 4가지 중 하나</text>
+      <text x="592" y="588">또는 기술특례상장</text>
+
+      <text x="888" y="348" fill="#115e59" font-weight="700">중대형 우량기업</text>
+      <text x="888" y="390">자기자본 300억 원</text>
+      <text x="888" y="426">일반주주 500명</text>
+      <text x="888" y="462">설립 3년 이상</text>
+      <text x="888" y="508">+ 매출 1,000억 원</text>
+      <text x="888" y="544">또는 시가총액 요건</text>
+      <text x="888" y="580">등 경영성과 요건</text>
+    </g>
+
+    <!-- 상장 화살표: 비상장 회사에서 코넥스로 -->
+    <path d="M236 540 H264" fill="none" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)" />
+
+    <!-- 이전상장 화살표 -->
+    <g fill="none" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M400 412 C400 364 470 356 560 356" />
+      <path d="M696 332 C696 284 766 276 856 276" />
+    </g>
+    <g font-size="23" font-weight="700" fill="#334155" text-anchor="middle">
+      <text x="400" y="340">이전상장</text>
+      <text x="696" y="260">이전상장</text>
+    </g>
+
+    <!-- 직접 상장 경로: 요건을 갖추면 처음부터 코스닥·유가증권시장에도 상장 가능 -->
+    <g fill="none" stroke="#64748b" stroke-width="2.5" stroke-dasharray="6 6">
+      <path d="M148 624 V664 H992" />
+      <path d="M696 664 V628" marker-end="url(#arrow-sub)" />
+      <path d="M992 664 V628" marker-end="url(#arrow-sub)" />
+    </g>
+    <text x="148" y="712" font-size="23" fill="#475569">요건을 갖추면 처음부터 코스닥이나 유가증권시장에 바로 상장할 수도 있습니다</text>
+  </g>
+</svg>
